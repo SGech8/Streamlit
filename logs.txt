@@ -1,0 +1,2516 @@
+2021-10-20 20:28:57.312 Initialized tornado logs
+2021-10-20 20:28:57.315 Setting up signal handler
+2021-10-20 20:28:57.316 Using selector: SelectSelector
+2021-10-20 20:28:57.321 Starting server...
+2021-10-20 20:28:57.321 Serving static content from C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\static
+2021-10-20 20:28:57.323 Server started on port 8501
+2021-10-20 20:28:57.324 No singleton. Registering one.
+2021-10-20 20:28:57.326 Watcher created for C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:28:57.326 ReportSession initialized (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:28:57.326 Created new session for ws 140722786053336. Session ID: 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:28:57.327 Beginning script thread
+2021-10-20 20:28:57.327 Running script RerunData(query_string='', widget_states=None)
+2021-10-20 20:28:57.327 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:28:57.327 Sessions still active: dict_keys([])
+2021-10-20 20:28:57.327 Files: 0; Sessions with files: 0
+2021-10-20 20:28:57.328 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:28:57.328 Server state: State.INITIAL -> State.WAITING_FOR_FIRST_BROWSER
+2021-10-20 20:28:57.332 warning
+2021-10-20 20:28:57.332 debug
+2021-10-20 20:28:57.457 Popen(['git', 'version'], cwd=C:\Users\jan-niklas\Desktop\Test, universal_newlines=False, shell=None, istream=None)
+2021-10-20 20:28:57.472 Skipping PyPI version check
+2021-10-20 20:28:57.499 Reused preheated session for ws 1980942036560. Session ID: 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:28:57.500 Server state: State.WAITING_FOR_FIRST_BROWSER -> State.ONE_OR_MORE_BROWSERS_CONNECTED
+2021-10-20 20:28:57.531 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+      }
+    }
+  }
+}
+
+2021-10-20 20:28:57.717 Watcher created for C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:28:57.718 ReportSession initialized (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:28:57.718 Created new session for ws 1980942300160. Session ID: 5898c4b2-f0a0-4ed2-923d-8f51d0b950c2
+2021-10-20 20:28:57.718 Server state: State.ONE_OR_MORE_BROWSERS_CONNECTED -> State.ONE_OR_MORE_BROWSERS_CONNECTED
+2021-10-20 20:28:57.736 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+      }
+    }
+  }
+}
+
+2021-10-20 20:28:57.737 Beginning script thread
+2021-10-20 20:28:57.737 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+  }
+}
+)
+2021-10-20 20:28:57.737 Disconnecting files for session with ID 5898c4b2-f0a0-4ed2-923d-8f51d0b950c2
+2021-10-20 20:28:57.737 Sessions still active: dict_keys([])
+2021-10-20 20:28:57.737 Files: 0; Sessions with files: 0
+2021-10-20 20:28:57.738 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:28:57.740 warning
+2021-10-20 20:28:57.741 debug
+2021-10-20 20:28:57.742 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:28:57.743 Deleting expired files...
+2021-10-20 20:28:57.785 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 20:28:58.415 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 20:28:58.457 Received ScriptRequest: ScriptRequest.RERUN
+2021-10-20 20:28:58.457 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:28:58.458 Deleting expired files...
+2021-10-20 20:28:58.493 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+  }
+}
+)
+2021-10-20 20:28:58.494 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:28:58.494 Sessions still active: dict_keys([])
+2021-10-20 20:28:58.494 Files: 0; Sessions with files: 0
+2021-10-20 20:28:58.494 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:28:58.496 warning
+2021-10-20 20:28:58.496 debug
+2021-10-20 20:28:58.498 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:28:58.499 Deleting expired files...
+2021-10-20 20:28:58.532 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 20:28:59.509 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 20:28:59.586 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:00.653 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:00.662 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:02.686 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:05.735 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:05.739 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:05.784 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:05.792 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:05.810 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:05.828 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:05.843 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:05.894 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:05.908 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:05.930 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:05.955 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:05.970 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:05.988 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:06.001 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:29:06.018 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:32:59.246 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:32:59.260 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:33:00.306 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:33:00.317 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:33:00.808 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:33:09.106 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:33:10.178 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:33:23.961 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:33:25.023 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:33:44.274 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:33:44.274 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:33:44.275 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='cdabde717a2d04bc574ef897b85b2e8d', modification_time=1634754365.8044531, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:33:44.280 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:33:44.280 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:33:44.280 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:33:44.280 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:34:14.632 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='3435230d95b6cffd73f46615031fa807', modification_time=1634754824.2788823, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:36:26.677 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='3435230d95b6cffd73f46615031fa807', modification_time=1634754824.2788823, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:36:26.677 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='3435230d95b6cffd73f46615031fa807', modification_time=1634754824.2788823, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:36:26.678 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='3435230d95b6cffd73f46615031fa807', modification_time=1634754824.2788823, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:36:26.683 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:36:26.683 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:36:26.683 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:36:26.683 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:36:28.256 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='41e8c2b53631c3e24a46e323268dc6de', modification_time=1634754986.682234, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:36:28.267 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='41e8c2b53631c3e24a46e323268dc6de', modification_time=1634754986.682234, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:36:29.036 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+      }
+    }
+  }
+}
+
+2021-10-20 20:36:29.037 Beginning script thread
+2021-10-20 20:36:29.038 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+  }
+}
+)
+2021-10-20 20:36:29.038 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:36:29.038 Sessions still active: dict_keys([])
+2021-10-20 20:36:29.039 Files: 0; Sessions with files: 0
+2021-10-20 20:36:29.039 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:36:29.042 warning
+2021-10-20 20:36:29.042 debug
+2021-10-20 20:36:29.045 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 29, in <module>
+    root = myf.getroot()
+NameError: name 'myf' is not defined
+
+2021-10-20 20:36:29.046 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:36:29.046 Deleting expired files...
+2021-10-20 20:36:29.088 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 20:36:29.549 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 20:36:41.340 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='41e8c2b53631c3e24a46e323268dc6de', modification_time=1634754986.682234, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:37:18.292 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='41e8c2b53631c3e24a46e323268dc6de', modification_time=1634754986.682234, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:37:18.293 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='41e8c2b53631c3e24a46e323268dc6de', modification_time=1634754986.682234, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:37:18.294 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='41e8c2b53631c3e24a46e323268dc6de', modification_time=1634754986.682234, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:37:18.299 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:37:18.299 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:37:18.299 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:37:18.300 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:37:19.383 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='1b415cfcab93aece9b3def70a49fc7b8', modification_time=1634755038.2976103, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:37:20.458 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+      }
+    }
+  }
+}
+
+2021-10-20 20:37:20.459 Beginning script thread
+2021-10-20 20:37:20.460 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+  }
+}
+)
+2021-10-20 20:37:20.460 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:37:20.460 Sessions still active: dict_keys([])
+2021-10-20 20:37:20.461 Files: 0; Sessions with files: 0
+2021-10-20 20:37:20.461 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:37:20.464 warning
+2021-10-20 20:37:20.464 debug
+2021-10-20 20:37:20.466 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:37:20.467 Deleting expired files...
+2021-10-20 20:37:20.506 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 20:37:20.967 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 20:37:38.806 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='1b415cfcab93aece9b3def70a49fc7b8', modification_time=1634755038.2976103, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:38:53.941 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='1b415cfcab93aece9b3def70a49fc7b8', modification_time=1634755038.2976103, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:38:55.030 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='1b415cfcab93aece9b3def70a49fc7b8', modification_time=1634755038.2976103, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:38:55.040 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='1b415cfcab93aece9b3def70a49fc7b8', modification_time=1634755038.2976103, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:38:55.529 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='1b415cfcab93aece9b3def70a49fc7b8', modification_time=1634755038.2976103, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:41:37.221 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:42:22.309 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='1b415cfcab93aece9b3def70a49fc7b8', modification_time=1634755038.2976103, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:42:22.310 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='1b415cfcab93aece9b3def70a49fc7b8', modification_time=1634755038.2976103, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:42:22.310 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='1b415cfcab93aece9b3def70a49fc7b8', modification_time=1634755038.2976103, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:42:22.316 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:42:22.316 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:42:22.316 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:42:22.316 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:42:23.411 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+      }
+    }
+  }
+}
+
+2021-10-20 20:42:23.413 Beginning script thread
+2021-10-20 20:42:23.413 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+  }
+}
+)
+2021-10-20 20:42:23.414 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:42:23.414 Sessions still active: dict_keys([])
+2021-10-20 20:42:23.414 Files: 0; Sessions with files: 0
+2021-10-20 20:42:23.415 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:42:23.427 warning
+2021-10-20 20:42:23.427 debug
+2021-10-20 20:42:23.430 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 40, in <module>
+    for child in root:
+NameError: name 'root' is not defined
+
+2021-10-20 20:42:23.431 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:42:23.431 Deleting expired files...
+2021-10-20 20:42:23.473 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 20:42:23.901 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='31bcfc0c749131c146f1eafc3873e7be', modification_time=1634755342.3144047, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:42:23.915 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='31bcfc0c749131c146f1eafc3873e7be', modification_time=1634755342.3144047, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:42:24.063 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 20:42:24.432 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='31bcfc0c749131c146f1eafc3873e7be', modification_time=1634755342.3144047, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:42:24.928 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='31bcfc0c749131c146f1eafc3873e7be', modification_time=1634755342.3144047, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:42:28.502 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='31bcfc0c749131c146f1eafc3873e7be', modification_time=1634755342.3144047, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:42:51.142 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='31bcfc0c749131c146f1eafc3873e7be', modification_time=1634755342.3144047, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:42:51.143 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='31bcfc0c749131c146f1eafc3873e7be', modification_time=1634755342.3144047, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:42:51.143 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='31bcfc0c749131c146f1eafc3873e7be', modification_time=1634755342.3144047, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:42:51.148 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:42:51.148 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:42:51.149 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:42:51.149 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:42:52.065 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+      }
+    }
+  }
+}
+
+2021-10-20 20:42:52.066 Beginning script thread
+2021-10-20 20:42:52.066 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+  }
+}
+)
+2021-10-20 20:42:52.066 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:42:52.066 Sessions still active: dict_keys([])
+2021-10-20 20:42:52.067 Files: 0; Sessions with files: 0
+2021-10-20 20:42:52.067 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:42:52.074 warning
+2021-10-20 20:42:52.074 debug
+2021-10-20 20:42:52.076 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:42:52.076 Deleting expired files...
+2021-10-20 20:42:52.114 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 20:42:52.575 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 20:42:56.330 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d9dcbd9811b007ced0c13d716262b99c', modification_time=1634755371.1469805, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:47:42.389 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d9dcbd9811b007ced0c13d716262b99c', modification_time=1634755371.1469805, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:47:42.390 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d9dcbd9811b007ced0c13d716262b99c', modification_time=1634755371.1469805, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:47:42.390 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d9dcbd9811b007ced0c13d716262b99c', modification_time=1634755371.1469805, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:47:42.394 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:47:42.394 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:47:42.395 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:47:42.395 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:47:43.751 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+      }
+    }
+  }
+}
+
+2021-10-20 20:47:43.752 Beginning script thread
+2021-10-20 20:47:43.753 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+  }
+}
+)
+2021-10-20 20:47:43.753 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:47:43.753 Sessions still active: dict_keys([])
+2021-10-20 20:47:43.754 Files: 0; Sessions with files: 0
+2021-10-20 20:47:43.754 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:47:43.763 warning
+2021-10-20 20:47:43.763 debug
+2021-10-20 20:47:43.765 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:47:43.766 Deleting expired files...
+2021-10-20 20:47:43.803 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 20:47:44.019 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='723f4f6121cea14a58ccd4981546c8dc', modification_time=1634755662.3932815, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:47:44.033 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='723f4f6121cea14a58ccd4981546c8dc', modification_time=1634755662.3932815, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:47:44.368 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 20:47:44.515 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='723f4f6121cea14a58ccd4981546c8dc', modification_time=1634755662.3932815, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:47:51.579 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='723f4f6121cea14a58ccd4981546c8dc', modification_time=1634755662.3932815, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:47:52.650 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='723f4f6121cea14a58ccd4981546c8dc', modification_time=1634755662.3932815, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:47:52.660 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='723f4f6121cea14a58ccd4981546c8dc', modification_time=1634755662.3932815, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:48:22.129 1 file(s) received for session 24a4a262-c570-4454-8d28-a4463d6b7de3 widget $$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None
+2021-10-20 20:48:22.146 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 1
+        uploaded_file_info {
+          id: 1
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+  }
+}
+
+2021-10-20 20:48:22.148 Beginning script thread
+2021-10-20 20:48:22.149 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 1
+    uploaded_file_info {
+      id: 1
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+)
+2021-10-20 20:48:22.149 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:48:22.149 Sessions still active: dict_keys([])
+2021-10-20 20:48:22.149 Files: 0; Sessions with files: 0
+2021-10-20 20:48:22.150 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:48:22.158 warning
+2021-10-20 20:48:22.158 debug
+2021-10-20 20:48:22.179 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 49, in <module>
+    idArray.append(int(child.attrib.get('id')))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+2021-10-20 20:48:22.180 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:48:22.181 Deleting expired files...
+2021-10-20 20:48:22.226 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 20:48:22.714 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 20:48:37.597 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='723f4f6121cea14a58ccd4981546c8dc', modification_time=1634755662.3932815, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:50:04.269 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='723f4f6121cea14a58ccd4981546c8dc', modification_time=1634755662.3932815, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:50:04.270 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='723f4f6121cea14a58ccd4981546c8dc', modification_time=1634755662.3932815, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:50:04.271 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='723f4f6121cea14a58ccd4981546c8dc', modification_time=1634755662.3932815, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:50:04.275 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:50:04.275 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:50:04.276 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:50:04.276 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:50:05.432 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 1
+        uploaded_file_info {
+          id: 1
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+  }
+}
+
+2021-10-20 20:50:05.433 Beginning script thread
+2021-10-20 20:50:05.434 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 1
+    uploaded_file_info {
+      id: 1
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+)
+2021-10-20 20:50:05.434 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:50:05.434 Sessions still active: dict_keys([])
+2021-10-20 20:50:05.435 Files: 0; Sessions with files: 0
+2021-10-20 20:50:05.435 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:50:05.451 warning
+2021-10-20 20:50:05.452 debug
+2021-10-20 20:50:05.473 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 49, in <module>
+    idArray.append(int(child.attrib.get('id')))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+2021-10-20 20:50:05.475 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:50:05.476 Deleting expired files...
+2021-10-20 20:50:05.517 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 20:50:06.038 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 20:50:34.754 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ce45191ec74194570c1ab447bff32bb9', modification_time=1634755804.2739916, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:51:45.129 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ce45191ec74194570c1ab447bff32bb9', modification_time=1634755804.2739916, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:51:45.130 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ce45191ec74194570c1ab447bff32bb9', modification_time=1634755804.2739916, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:51:45.130 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ce45191ec74194570c1ab447bff32bb9', modification_time=1634755804.2739916, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:51:45.136 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:51:45.136 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:51:45.136 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:51:45.137 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:51:58.845 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='1973707d0e389af438ed28735072d3c3', modification_time=1634755905.1352713, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:53:48.387 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='1973707d0e389af438ed28735072d3c3', modification_time=1634755905.1352713, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:53:48.388 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='1973707d0e389af438ed28735072d3c3', modification_time=1634755905.1352713, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:53:48.389 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='1973707d0e389af438ed28735072d3c3', modification_time=1634755905.1352713, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:53:48.395 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:53:48.395 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:53:48.395 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:53:48.399 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:53:51.215 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 1
+        uploaded_file_info {
+          id: 1
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+  }
+}
+
+2021-10-20 20:53:51.216 Beginning script thread
+2021-10-20 20:53:51.216 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 1
+    uploaded_file_info {
+      id: 1
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+)
+2021-10-20 20:53:51.217 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:53:51.217 Sessions still active: dict_keys([])
+2021-10-20 20:53:51.218 Files: 0; Sessions with files: 0
+2021-10-20 20:53:51.218 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:53:51.233 warning
+2021-10-20 20:53:51.233 debug
+2021-10-20 20:53:51.250 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 49, in <module>
+    idArray.append(int(child.attrib.get('id')))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+2021-10-20 20:53:51.251 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:53:51.251 Deleting expired files...
+2021-10-20 20:53:51.294 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 20:53:51.775 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 20:53:55.332 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 1
+      }
+    }
+  }
+}
+
+2021-10-20 20:53:55.333 Beginning script thread
+2021-10-20 20:53:55.333 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 1
+  }
+}
+)
+2021-10-20 20:53:55.334 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:53:55.334 Sessions still active: dict_keys([])
+2021-10-20 20:53:55.334 Files: 0; Sessions with files: 0
+2021-10-20 20:53:55.334 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:53:55.352 warning
+2021-10-20 20:53:55.352 debug
+2021-10-20 20:53:55.355 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:53:55.355 Deleting expired files...
+2021-10-20 20:53:55.396 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 20:53:55.878 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 20:54:07.383 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ef2bf1bd114a7ee070cd5f336f09d0b4', modification_time=1634756028.3932135, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:55:34.464 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ef2bf1bd114a7ee070cd5f336f09d0b4', modification_time=1634756028.3932135, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:55:34.465 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ef2bf1bd114a7ee070cd5f336f09d0b4', modification_time=1634756028.3932135, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:55:34.465 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ef2bf1bd114a7ee070cd5f336f09d0b4', modification_time=1634756028.3932135, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:55:34.470 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:55:34.471 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:55:34.471 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:55:34.471 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:55:35.707 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 1
+      }
+    }
+  }
+}
+
+2021-10-20 20:55:35.708 Beginning script thread
+2021-10-20 20:55:35.709 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 1
+  }
+}
+)
+2021-10-20 20:55:35.709 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:55:35.710 Sessions still active: dict_keys([])
+2021-10-20 20:55:35.710 Files: 0; Sessions with files: 0
+2021-10-20 20:55:35.710 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:55:35.736 warning
+2021-10-20 20:55:35.736 debug
+2021-10-20 20:55:35.740 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:55:35.741 Deleting expired files...
+2021-10-20 20:55:35.780 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 20:55:36.294 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 20:55:49.171 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756134.4696312, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:55:51.847 1 file(s) received for session 24a4a262-c570-4454-8d28-a4463d6b7de3 widget $$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None
+2021-10-20 20:55:51.857 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 2
+        uploaded_file_info {
+          id: 2
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+  }
+}
+
+2021-10-20 20:55:51.859 Beginning script thread
+2021-10-20 20:55:51.859 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 2
+    uploaded_file_info {
+      id: 2
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+)
+2021-10-20 20:55:51.859 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 20:55:51.860 Sessions still active: dict_keys([])
+2021-10-20 20:55:51.860 Files: 0; Sessions with files: 0
+2021-10-20 20:55:51.860 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 20:55:51.877 warning
+2021-10-20 20:55:51.877 debug
+2021-10-20 20:55:51.878 Removed 1 orphaned files
+2021-10-20 20:55:51.892 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 48, in <module>
+    idArray.append(int(child.attrib.get('id')))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+2021-10-20 20:55:51.893 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 20:55:51.894 Deleting expired files...
+2021-10-20 20:55:51.933 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 20:55:52.433 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 20:56:25.400 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756134.4696312, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:27.255 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756134.4696312, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:39.000 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756134.4696312, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:39.001 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756134.4696312, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:39.001 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756134.4696312, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:39.139 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:57:39.139 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:57:39.139 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:57:39.140 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:57:42.747 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='0905534fdf69eaf49f76a84c64d696af', modification_time=1634756259.1371453, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:51.677 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='0905534fdf69eaf49f76a84c64d696af', modification_time=1634756259.1371453, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:51.678 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='0905534fdf69eaf49f76a84c64d696af', modification_time=1634756259.1371453, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:51.678 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='0905534fdf69eaf49f76a84c64d696af', modification_time=1634756259.1371453, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:51.684 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:57:51.684 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:57:51.684 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:57:51.685 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:57:52.763 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9c68bc7d337e3dde3a2e17db4eb47b4a', modification_time=1634756271.6825702, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:55.174 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9c68bc7d337e3dde3a2e17db4eb47b4a', modification_time=1634756271.6825702, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:59.030 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9c68bc7d337e3dde3a2e17db4eb47b4a', modification_time=1634756271.6825702, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:59.031 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9c68bc7d337e3dde3a2e17db4eb47b4a', modification_time=1634756271.6825702, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:59.031 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9c68bc7d337e3dde3a2e17db4eb47b4a', modification_time=1634756271.6825702, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:57:59.036 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:57:59.037 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:57:59.037 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:57:59.037 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:58:53.333 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='08050013eafaf183497c0c37ee1ffae4', modification_time=1634756279.0353746, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:59:18.641 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='08050013eafaf183497c0c37ee1ffae4', modification_time=1634756279.0353746, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:59:18.642 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='08050013eafaf183497c0c37ee1ffae4', modification_time=1634756279.0353746, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:59:18.642 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='08050013eafaf183497c0c37ee1ffae4', modification_time=1634756279.0353746, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:59:18.645 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:59:18.645 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 20:59:18.646 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 20:59:18.646 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 20:59:19.207 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756358.643978, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 20:59:52.627 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756358.643978, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:00:04.883 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756358.643978, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:00:10.991 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756358.643978, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:00:10.992 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756358.643978, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:00:10.994 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756358.643978, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:00:10.999 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:00:11.000 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 21:00:11.000 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:00:11.000 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:00:11.041 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 2
+        uploaded_file_info {
+          id: 2
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+  }
+}
+
+2021-10-20 21:00:11.045 Beginning script thread
+2021-10-20 21:00:11.046 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 2
+    uploaded_file_info {
+      id: 2
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+)
+2021-10-20 21:00:11.046 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 21:00:11.047 Sessions still active: dict_keys([])
+2021-10-20 21:00:11.047 Files: 0; Sessions with files: 0
+2021-10-20 21:00:11.047 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:00:11.067 warning
+2021-10-20 21:00:11.068 debug
+2021-10-20 21:00:11.087 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 48, in <module>
+    idArray.append(int(child.attrib.get('id')))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+2021-10-20 21:00:11.088 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:00:11.090 Deleting expired files...
+2021-10-20 21:00:11.135 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:00:11.617 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:00:17.252 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='340cfc54e2a825491105c35fccb1b317', modification_time=1634756410.997736, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:00:21.611 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='340cfc54e2a825491105c35fccb1b317', modification_time=1634756410.997736, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:00:21.613 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='340cfc54e2a825491105c35fccb1b317', modification_time=1634756410.997736, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:00:21.613 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='340cfc54e2a825491105c35fccb1b317', modification_time=1634756410.997736, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:00:21.619 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:00:21.620 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 21:00:21.620 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:00:21.620 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:00:21.693 Received the following back message:
+load_git_info: true
+
+2021-10-20 21:00:21.697 Popen(['git', 'version'], cwd=C:\Users\jan-niklas\Desktop\Test, universal_newlines=False, shell=None, istream=None)
+2021-10-20 21:00:23.049 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 2
+        uploaded_file_info {
+          id: 2
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+  }
+}
+
+2021-10-20 21:00:23.049 Beginning script thread
+2021-10-20 21:00:23.050 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 2
+    uploaded_file_info {
+      id: 2
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+)
+2021-10-20 21:00:23.050 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 21:00:23.050 Sessions still active: dict_keys([])
+2021-10-20 21:00:23.050 Files: 0; Sessions with files: 0
+2021-10-20 21:00:23.051 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:00:23.067 warning
+2021-10-20 21:00:23.067 debug
+2021-10-20 21:00:23.086 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 48, in <module>
+    idArray.append(int(child.attrib.get('id')))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+2021-10-20 21:00:23.087 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:00:23.088 Deleting expired files...
+2021-10-20 21:00:23.127 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:00:23.610 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:00:49.326 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756421.6174335, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:06:53.983 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756421.6174335, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:06:53.985 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756421.6174335, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:06:53.985 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='9961c94551ed5bc92aed41b0d69869c8', modification_time=1634756421.6174335, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:06:53.989 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:06:53.990 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 21:06:53.990 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:06:53.991 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:06:55.570 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 2
+        uploaded_file_info {
+          id: 2
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+  }
+}
+
+2021-10-20 21:06:55.571 Beginning script thread
+2021-10-20 21:06:55.572 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 2
+    uploaded_file_info {
+      id: 2
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+)
+2021-10-20 21:06:55.572 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 21:06:55.573 Sessions still active: dict_keys([])
+2021-10-20 21:06:55.573 Files: 0; Sessions with files: 0
+2021-10-20 21:06:55.573 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:06:55.616 warning
+2021-10-20 21:06:55.617 debug
+2021-10-20 21:06:55.643 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 48, in <module>
+    idArray.append(int(child.attrib.get('id')))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+2021-10-20 21:06:55.644 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:06:55.645 Deleting expired files...
+2021-10-20 21:06:55.687 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:06:56.148 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:08:04.660 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='951223ba989a7ca75d0673eed9339cf7', modification_time=1634756813.9884706, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:08:04.664 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='951223ba989a7ca75d0673eed9339cf7', modification_time=1634756813.9884706, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:08:05.671 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='951223ba989a7ca75d0673eed9339cf7', modification_time=1634756813.9884706, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:08:05.672 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='951223ba989a7ca75d0673eed9339cf7', modification_time=1634756813.9884706, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:08:17.680 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='951223ba989a7ca75d0673eed9339cf7', modification_time=1634756813.9884706, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:08:17.682 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='951223ba989a7ca75d0673eed9339cf7', modification_time=1634756813.9884706, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:08:47.697 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='951223ba989a7ca75d0673eed9339cf7', modification_time=1634756813.9884706, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:08:47.699 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='951223ba989a7ca75d0673eed9339cf7', modification_time=1634756813.9884706, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:09:58.408 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='951223ba989a7ca75d0673eed9339cf7', modification_time=1634756813.9884706, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:10:19.061 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='951223ba989a7ca75d0673eed9339cf7', modification_time=1634756813.9884706, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:10:19.062 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='951223ba989a7ca75d0673eed9339cf7', modification_time=1634756813.9884706, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:10:19.062 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='951223ba989a7ca75d0673eed9339cf7', modification_time=1634756813.9884706, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:10:19.067 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:10:19.067 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 21:10:19.067 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:10:19.068 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:10:22.069 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 2
+        uploaded_file_info {
+          id: 2
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+  }
+}
+
+2021-10-20 21:10:22.070 Beginning script thread
+2021-10-20 21:10:22.071 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 2
+    uploaded_file_info {
+      id: 2
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+)
+2021-10-20 21:10:22.071 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 21:10:22.072 Sessions still active: dict_keys([])
+2021-10-20 21:10:22.072 Files: 0; Sessions with files: 0
+2021-10-20 21:10:22.072 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:10:22.110 warning
+2021-10-20 21:10:22.110 debug
+2021-10-20 21:10:22.125 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 48, in <module>
+    idArray.append(int(child.attrib.get('id')))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+2021-10-20 21:10:22.126 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:10:22.127 Deleting expired files...
+2021-10-20 21:10:22.167 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:10:22.645 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:10:33.160 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='6c0f6d08ca011fe5df1f6dc5cf53b517', modification_time=1634757019.066255, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:10:48.148 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='6c0f6d08ca011fe5df1f6dc5cf53b517', modification_time=1634757019.066255, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:10:48.199 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='6c0f6d08ca011fe5df1f6dc5cf53b517', modification_time=1634757019.066255, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:10:52.295 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='6c0f6d08ca011fe5df1f6dc5cf53b517', modification_time=1634757019.066255, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:10:52.295 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='6c0f6d08ca011fe5df1f6dc5cf53b517', modification_time=1634757019.066255, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:10:52.296 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='6c0f6d08ca011fe5df1f6dc5cf53b517', modification_time=1634757019.066255, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:10:52.299 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:10:52.299 Enqueuing report_changed message (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 21:10:52.299 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:10:52.299 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:10:53.398 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 2
+        uploaded_file_info {
+          id: 2
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+  }
+}
+
+2021-10-20 21:10:53.399 Beginning script thread
+2021-10-20 21:10:53.400 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 2
+    uploaded_file_info {
+      id: 2
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+)
+2021-10-20 21:10:53.400 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 21:10:53.400 Sessions still active: dict_keys([])
+2021-10-20 21:10:53.400 Files: 0; Sessions with files: 0
+2021-10-20 21:10:53.400 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:10:53.420 warning
+2021-10-20 21:10:53.420 debug
+2021-10-20 21:10:54.177 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:10:54.179 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:10:54.180 Deleting expired files...
+2021-10-20 21:10:54.229 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:10:55.912 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:11:25.720 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 2
+        uploaded_file_info {
+          id: 2
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+      int_array_value {
+        data: 4
+      }
+    }
+  }
+}
+
+2021-10-20 21:11:25.722 Beginning script thread
+2021-10-20 21:11:25.722 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 2
+    uploaded_file_info {
+      id: 2
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+  int_array_value {
+    data: 4
+  }
+}
+)
+2021-10-20 21:11:25.722 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 21:11:25.723 Sessions still active: dict_keys([])
+2021-10-20 21:11:25.723 Files: 0; Sessions with files: 0
+2021-10-20 21:11:25.723 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:11:25.772 warning
+2021-10-20 21:11:25.772 debug
+2021-10-20 21:11:26.647 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:11:26.649 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:11:26.650 Deleting expired files...
+2021-10-20 21:11:26.687 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:11:28.391 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:11:52.820 Shutting down (id=24a4a262-c570-4454-8d28-a4463d6b7de3)
+2021-10-20 21:11:52.821 Disconnecting files for session with ID 24a4a262-c570-4454-8d28-a4463d6b7de3
+2021-10-20 21:11:52.821 Sessions still active: dict_keys([])
+2021-10-20 21:11:52.821 Files: 0; Sessions with files: 0
+2021-10-20 21:11:52.821 Deleting expired files...
+2021-10-20 21:11:56.973 Watcher created for C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:11:56.973 ReportSession initialized (id=3d59ced7-68f3-4134-b665-8f181f75e68e)
+2021-10-20 21:11:56.974 Created new session for ws 1980940061280. Session ID: 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:11:56.974 Server state: State.ONE_OR_MORE_BROWSERS_CONNECTED -> State.ONE_OR_MORE_BROWSERS_CONNECTED
+2021-10-20 21:11:57.037 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+}
+
+2021-10-20 21:11:57.038 Beginning script thread
+2021-10-20 21:11:57.039 Running script RerunData(query_string='', widget_states=)
+2021-10-20 21:11:57.039 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:11:57.039 Sessions still active: dict_keys([])
+2021-10-20 21:11:57.040 Files: 0; Sessions with files: 0
+2021-10-20 21:11:57.040 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:11:57.059 warning
+2021-10-20 21:11:57.059 debug
+2021-10-20 21:11:57.061 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:11:57.062 Deleting expired files...
+2021-10-20 21:11:57.099 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:11:57.597 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:12:04.224 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d6c20dc3ca02685dde5f7179f05d73b5', modification_time=1634757052.2985702, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:13:21.551 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d6c20dc3ca02685dde5f7179f05d73b5', modification_time=1634757052.2985702, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:13:21.552 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d6c20dc3ca02685dde5f7179f05d73b5', modification_time=1634757052.2985702, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:13:21.553 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d6c20dc3ca02685dde5f7179f05d73b5', modification_time=1634757052.2985702, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:13:21.557 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:13:21.558 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:13:21.558 Enqueuing report_changed message (id=3d59ced7-68f3-4134-b665-8f181f75e68e)
+2021-10-20 21:13:21.558 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:13:23.168 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+  }
+}
+
+2021-10-20 21:13:23.169 Beginning script thread
+2021-10-20 21:13:23.169 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+)
+2021-10-20 21:13:23.170 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:13:23.170 Sessions still active: dict_keys([])
+2021-10-20 21:13:23.171 Files: 0; Sessions with files: 0
+2021-10-20 21:13:23.171 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:13:23.192 warning
+2021-10-20 21:13:23.192 debug
+2021-10-20 21:13:23.195 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:13:23.196 Deleting expired files...
+2021-10-20 21:13:23.233 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:13:23.691 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:13:29.067 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='68c908a4b599d3fa68e8b87bd237bcbc', modification_time=1634757201.556468, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:13:32.123 1 file(s) received for session 3d59ced7-68f3-4134-b665-8f181f75e68e widget $$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None
+2021-10-20 21:13:32.154 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+  }
+}
+
+2021-10-20 21:13:32.155 Beginning script thread
+2021-10-20 21:13:32.156 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+)
+2021-10-20 21:13:32.156 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:13:32.156 Sessions still active: dict_keys([])
+2021-10-20 21:13:32.156 Files: 0; Sessions with files: 0
+2021-10-20 21:13:32.156 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:13:32.182 warning
+2021-10-20 21:13:32.183 debug
+2021-10-20 21:13:32.309 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:13:32.311 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:13:32.314 Deleting expired files...
+2021-10-20 21:13:32.371 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:13:33.199 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:14:52.181 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:14:52.216 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='68c908a4b599d3fa68e8b87bd237bcbc', modification_time=1634757201.556468, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:15:14.816 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='68c908a4b599d3fa68e8b87bd237bcbc', modification_time=1634757201.556468, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:15:14.821 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='68c908a4b599d3fa68e8b87bd237bcbc', modification_time=1634757201.556468, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:15:15.990 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='68c908a4b599d3fa68e8b87bd237bcbc', modification_time=1634757201.556468, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:15:15.992 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='68c908a4b599d3fa68e8b87bd237bcbc', modification_time=1634757201.556468, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:15:28.008 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='68c908a4b599d3fa68e8b87bd237bcbc', modification_time=1634757201.556468, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:15:28.012 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='68c908a4b599d3fa68e8b87bd237bcbc', modification_time=1634757201.556468, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:15:39.073 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='68c908a4b599d3fa68e8b87bd237bcbc', modification_time=1634757201.556468, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:15:39.074 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='68c908a4b599d3fa68e8b87bd237bcbc', modification_time=1634757201.556468, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:15:39.074 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='68c908a4b599d3fa68e8b87bd237bcbc', modification_time=1634757201.556468, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:15:39.076 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:15:39.077 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:15:39.077 Enqueuing report_changed message (id=3d59ced7-68f3-4134-b665-8f181f75e68e)
+2021-10-20 21:15:39.077 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:15:40.198 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+      int_array_value {
+      }
+    }
+  }
+}
+
+2021-10-20 21:15:40.201 Beginning script thread
+2021-10-20 21:15:40.201 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+  int_array_value {
+  }
+}
+)
+2021-10-20 21:15:40.201 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:15:40.201 Sessions still active: dict_keys([])
+2021-10-20 21:15:40.201 Files: 0; Sessions with files: 0
+2021-10-20 21:15:40.202 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:15:40.230 warning
+2021-10-20 21:15:40.230 debug
+2021-10-20 21:15:40.250 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:15:40.251 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:15:40.251 Deleting expired files...
+2021-10-20 21:15:40.296 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:15:40.909 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:15:58.182 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d7898d94d8c75fdf7b46850d4d4a4320', modification_time=1634757339.0756612, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:15:58.249 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d7898d94d8c75fdf7b46850d4d4a4320', modification_time=1634757339.0756612, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:15:59.770 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d7898d94d8c75fdf7b46850d4d4a4320', modification_time=1634757339.0756612, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:16:21.937 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d7898d94d8c75fdf7b46850d4d4a4320', modification_time=1634757339.0756612, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:16:21.937 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d7898d94d8c75fdf7b46850d4d4a4320', modification_time=1634757339.0756612, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:16:21.938 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='d7898d94d8c75fdf7b46850d4d4a4320', modification_time=1634757339.0756612, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:16:21.942 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:16:21.942 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:16:21.943 Enqueuing report_changed message (id=3d59ced7-68f3-4134-b665-8f181f75e68e)
+2021-10-20 21:16:21.943 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:16:22.993 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+      int_array_value {
+      }
+    }
+  }
+}
+
+2021-10-20 21:16:22.994 Beginning script thread
+2021-10-20 21:16:22.994 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+  int_array_value {
+  }
+}
+)
+2021-10-20 21:16:22.995 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:16:22.995 Sessions still active: dict_keys([])
+2021-10-20 21:16:22.995 Files: 0; Sessions with files: 0
+2021-10-20 21:16:22.995 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:16:23.015 warning
+2021-10-20 21:16:23.015 debug
+2021-10-20 21:16:23.023 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:16:23.024 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:16:23.025 Deleting expired files...
+2021-10-20 21:16:23.052 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:16:23.317 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:16:29.902 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='f9795823680523d6e4195a14f291b40d', modification_time=1634757381.941992, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:16:42.689 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='f9795823680523d6e4195a14f291b40d', modification_time=1634757381.941992, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:17:13.964 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='f9795823680523d6e4195a14f291b40d', modification_time=1634757381.941992, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:17:13.965 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='f9795823680523d6e4195a14f291b40d', modification_time=1634757381.941992, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:17:13.965 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='f9795823680523d6e4195a14f291b40d', modification_time=1634757381.941992, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:17:13.968 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:17:13.968 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:17:13.969 Enqueuing report_changed message (id=3d59ced7-68f3-4134-b665-8f181f75e68e)
+2021-10-20 21:17:13.969 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:17:14.998 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+      int_array_value {
+      }
+    }
+  }
+}
+
+2021-10-20 21:17:14.999 Beginning script thread
+2021-10-20 21:17:14.999 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+  int_array_value {
+  }
+}
+)
+2021-10-20 21:17:15.000 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:17:15.000 Sessions still active: dict_keys([])
+2021-10-20 21:17:15.000 Files: 0; Sessions with files: 0
+2021-10-20 21:17:15.000 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:17:15.013 warning
+2021-10-20 21:17:15.013 debug
+2021-10-20 21:17:15.027 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:17:15.028 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:17:15.028 Deleting expired files...
+2021-10-20 21:17:15.058 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:17:15.304 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:17:52.473 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='5b180210d34533a432a2d15e5dcbce65', modification_time=1634757433.9680018, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:18:53.207 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='5b180210d34533a432a2d15e5dcbce65', modification_time=1634757433.9680018, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:18:53.208 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='5b180210d34533a432a2d15e5dcbce65', modification_time=1634757433.9680018, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:18:53.208 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='5b180210d34533a432a2d15e5dcbce65', modification_time=1634757433.9680018, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:18:53.214 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:18:53.214 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:18:53.214 Enqueuing report_changed message (id=3d59ced7-68f3-4134-b665-8f181f75e68e)
+2021-10-20 21:18:53.215 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:18:54.278 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:18:54.310 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.149 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.241 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.295 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.316 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.319 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.325 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.335 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.352 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.362 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.396 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.403 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.410 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.419 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.426 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.452 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.484 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.493 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:19:01.504 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:20:20.793 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:20:21.840 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:20:21.845 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:20:22.347 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:21:44.320 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:21:44.326 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:21:45.374 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:21:45.379 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:21:46.066 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:21:54.636 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:21:55.719 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:22:18.158 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:22:18.160 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:22:18.160 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='fe4a471bb48e4266e607762f839fcfdc', modification_time=1634757533.2126648, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:22:18.165 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:22:18.165 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:22:18.166 Enqueuing report_changed message (id=3d59ced7-68f3-4134-b665-8f181f75e68e)
+2021-10-20 21:22:18.166 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:22:19.198 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='39d37b719809ab0b9fbcc82f258b5b90', modification_time=1634757738.1644845, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:22:19.229 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='39d37b719809ab0b9fbcc82f258b5b90', modification_time=1634757738.1644845, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:22:20.652 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+      int_array_value {
+      }
+    }
+  }
+}
+
+2021-10-20 21:22:20.653 Beginning script thread
+2021-10-20 21:22:20.653 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+  int_array_value {
+  }
+}
+)
+2021-10-20 21:22:20.653 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:22:20.653 Sessions still active: dict_keys([])
+2021-10-20 21:22:20.653 Files: 0; Sessions with files: 0
+2021-10-20 21:22:20.654 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:22:20.663 warning
+2021-10-20 21:22:20.663 debug
+2021-10-20 21:22:20.674 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:22:20.674 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:22:20.675 Deleting expired files...
+2021-10-20 21:22:20.704 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:22:20.933 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:22:55.418 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='39d37b719809ab0b9fbcc82f258b5b90', modification_time=1634757738.1644845, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:22:56.486 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='39d37b719809ab0b9fbcc82f258b5b90', modification_time=1634757738.1644845, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:23:15.058 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='39d37b719809ab0b9fbcc82f258b5b90', modification_time=1634757738.1644845, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:23:18.167 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='39d37b719809ab0b9fbcc82f258b5b90', modification_time=1634757738.1644845, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:23:54.624 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='39d37b719809ab0b9fbcc82f258b5b90', modification_time=1634757738.1644845, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:23:54.624 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='39d37b719809ab0b9fbcc82f258b5b90', modification_time=1634757738.1644845, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:23:54.624 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='39d37b719809ab0b9fbcc82f258b5b90', modification_time=1634757738.1644845, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:23:54.632 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:23:54.632 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:23:54.632 Enqueuing report_changed message (id=3d59ced7-68f3-4134-b665-8f181f75e68e)
+2021-10-20 21:23:54.633 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:23:56.771 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+      int_array_value {
+      }
+    }
+  }
+}
+
+2021-10-20 21:23:56.772 Beginning script thread
+2021-10-20 21:23:56.772 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+  int_array_value {
+  }
+}
+)
+2021-10-20 21:23:56.772 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:23:56.773 Sessions still active: dict_keys([])
+2021-10-20 21:23:56.773 Files: 0; Sessions with files: 0
+2021-10-20 21:23:56.774 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:23:56.790 warning
+2021-10-20 21:23:56.791 debug
+2021-10-20 21:23:56.802 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:23:56.803 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:23:56.803 Deleting expired files...
+2021-10-20 21:23:56.831 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:23:57.073 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:23:59.926 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='3f7dfd6a8da1d76da9d49dcf14a3f36c', modification_time=1634757834.6304138, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:24:30.863 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='3f7dfd6a8da1d76da9d49dcf14a3f36c', modification_time=1634757834.6304138, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:24:30.864 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='3f7dfd6a8da1d76da9d49dcf14a3f36c', modification_time=1634757834.6304138, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:24:30.864 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='3f7dfd6a8da1d76da9d49dcf14a3f36c', modification_time=1634757834.6304138, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:24:30.869 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:24:30.870 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:24:30.870 Enqueuing report_changed message (id=3d59ced7-68f3-4134-b665-8f181f75e68e)
+2021-10-20 21:24:30.870 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:24:31.846 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+      int_array_value {
+      }
+    }
+  }
+}
+
+2021-10-20 21:24:31.847 Beginning script thread
+2021-10-20 21:24:31.848 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+  int_array_value {
+  }
+}
+)
+2021-10-20 21:24:31.848 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:24:31.848 Sessions still active: dict_keys([])
+2021-10-20 21:24:31.848 Files: 0; Sessions with files: 0
+2021-10-20 21:24:31.849 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:24:31.868 warning
+2021-10-20 21:24:31.868 debug
+2021-10-20 21:24:31.884 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:24:31.885 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:24:31.886 Deleting expired files...
+2021-10-20 21:24:31.919 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:24:32.171 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:24:36.941 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ad5d78bd9d35aa29cd1ba525c1d9127e', modification_time=1634757870.8682656, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:25:54.741 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ad5d78bd9d35aa29cd1ba525c1d9127e', modification_time=1634757870.8682656, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:25:55.828 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ad5d78bd9d35aa29cd1ba525c1d9127e', modification_time=1634757870.8682656, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:25:55.833 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ad5d78bd9d35aa29cd1ba525c1d9127e', modification_time=1634757870.8682656, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:25:56.319 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ad5d78bd9d35aa29cd1ba525c1d9127e', modification_time=1634757870.8682656, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:25:58.002 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+      int_array_value {
+        data: 4
+      }
+    }
+  }
+}
+
+2021-10-20 21:25:58.003 Beginning script thread
+2021-10-20 21:25:58.003 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+  int_array_value {
+    data: 4
+  }
+}
+)
+2021-10-20 21:25:58.003 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:25:58.003 Sessions still active: dict_keys([])
+2021-10-20 21:25:58.003 Files: 0; Sessions with files: 0
+2021-10-20 21:25:58.003 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:25:58.014 warning
+2021-10-20 21:25:58.014 debug
+2021-10-20 21:25:58.022 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:25:58.023 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:25:58.023 Deleting expired files...
+2021-10-20 21:25:58.048 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:25:58.268 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:26:01.903 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+      int_array_value {
+        data: 4
+        data: 7
+      }
+    }
+  }
+}
+
+2021-10-20 21:26:01.905 Beginning script thread
+2021-10-20 21:26:01.905 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+  int_array_value {
+    data: 4
+    data: 7
+  }
+}
+)
+2021-10-20 21:26:01.905 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:26:01.905 Sessions still active: dict_keys([])
+2021-10-20 21:26:01.905 Files: 0; Sessions with files: 0
+2021-10-20 21:26:01.916 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:26:01.927 warning
+2021-10-20 21:26:01.927 debug
+2021-10-20 21:26:01.935 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:26:01.935 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:26:01.936 Deleting expired files...
+2021-10-20 21:26:01.967 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:26:02.214 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:26:16.828 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ad5d78bd9d35aa29cd1ba525c1d9127e', modification_time=1634757870.8682656, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:27:36.196 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ad5d78bd9d35aa29cd1ba525c1d9127e', modification_time=1634757870.8682656, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:27:36.197 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ad5d78bd9d35aa29cd1ba525c1d9127e', modification_time=1634757870.8682656, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:27:36.199 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='ad5d78bd9d35aa29cd1ba525c1d9127e', modification_time=1634757870.8682656, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:27:36.202 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:27:36.202 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:27:36.202 Enqueuing report_changed message (id=3d59ced7-68f3-4134-b665-8f181f75e68e)
+2021-10-20 21:27:36.202 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:27:37.721 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='19641e90f4f802453c9626f2085c1c3c', modification_time=1634758056.2005875, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:27:37.728 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='19641e90f4f802453c9626f2085c1c3c', modification_time=1634758056.2005875, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:27:38.138 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+      int_array_value {
+        data: 4
+        data: 7
+      }
+    }
+  }
+}
+
+2021-10-20 21:27:38.139 Beginning script thread
+2021-10-20 21:27:38.139 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+  int_array_value {
+    data: 4
+    data: 7
+  }
+}
+)
+2021-10-20 21:27:38.140 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:27:38.140 Sessions still active: dict_keys([])
+2021-10-20 21:27:38.140 Files: 0; Sessions with files: 0
+2021-10-20 21:27:38.140 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:27:38.154 warning
+2021-10-20 21:27:38.154 debug
+2021-10-20 21:27:38.164 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:27:38.165 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:27:38.165 Deleting expired files...
+2021-10-20 21:27:38.194 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:27:38.250 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='19641e90f4f802453c9626f2085c1c3c', modification_time=1634758056.2005875, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:27:38.255 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='19641e90f4f802453c9626f2085c1c3c', modification_time=1634758056.2005875, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:27:38.456 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:27:51.525 Received the following back message:
+load_git_info: true
+
+2021-10-20 21:27:51.527 Popen(['git', 'version'], cwd=C:\Users\jan-niklas\Desktop\Test, universal_newlines=False, shell=None, istream=None)
+2021-10-20 21:27:52.442 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+      int_array_value {
+        data: 4
+        data: 7
+      }
+    }
+  }
+}
+
+2021-10-20 21:27:52.443 Beginning script thread
+2021-10-20 21:27:52.444 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+  int_array_value {
+    data: 4
+    data: 7
+  }
+}
+)
+2021-10-20 21:27:52.444 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:27:52.444 Sessions still active: dict_keys([])
+2021-10-20 21:27:52.444 Files: 0; Sessions with files: 0
+2021-10-20 21:27:52.444 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:27:52.456 warning
+2021-10-20 21:27:52.456 debug
+2021-10-20 21:27:52.466 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:27:52.467 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:27:52.468 Deleting expired files...
+2021-10-20 21:27:52.500 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:27:52.747 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:27:54.699 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+      int_array_value {
+        data: 4
+        data: 7
+      }
+    }
+  }
+}
+
+2021-10-20 21:27:54.700 Beginning script thread
+2021-10-20 21:27:54.700 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+  int_array_value {
+    data: 4
+    data: 7
+  }
+}
+)
+2021-10-20 21:27:54.700 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:27:54.700 Sessions still active: dict_keys([])
+2021-10-20 21:27:54.701 Files: 0; Sessions with files: 0
+2021-10-20 21:27:54.701 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:27:54.712 warning
+2021-10-20 21:27:54.712 debug
+2021-10-20 21:27:54.719 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 82, in <module>
+    finalXmiListRep.append(str(couple[0], "noType"))
+TypeError: decoding str is not supported
+
+2021-10-20 21:27:54.720 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:27:54.720 Deleting expired files...
+2021-10-20 21:27:54.748 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:27:54.983 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:27:56.938 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='19641e90f4f802453c9626f2085c1c3c', modification_time=1634758056.2005875, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:27:58.012 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='19641e90f4f802453c9626f2085c1c3c', modification_time=1634758056.2005875, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:28:38.798 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='19641e90f4f802453c9626f2085c1c3c', modification_time=1634758056.2005875, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:28:38.799 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='19641e90f4f802453c9626f2085c1c3c', modification_time=1634758056.2005875, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:28:38.799 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='19641e90f4f802453c9626f2085c1c3c', modification_time=1634758056.2005875, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:28:38.802 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:28:38.802 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:28:38.803 Enqueuing report_changed message (id=3d59ced7-68f3-4134-b665-8f181f75e68e)
+2021-10-20 21:28:38.803 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:28:39.758 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+      int_array_value {
+        data: 4
+        data: 7
+      }
+    }
+  }
+}
+
+2021-10-20 21:28:39.759 Beginning script thread
+2021-10-20 21:28:39.759 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a404a4e4ac42ed22ff039277d119b624-None"
+  int_array_value {
+    data: 4
+    data: 7
+  }
+}
+)
+2021-10-20 21:28:39.760 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:28:39.760 Sessions still active: dict_keys([])
+2021-10-20 21:28:39.760 Files: 0; Sessions with files: 0
+2021-10-20 21:28:39.760 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:28:39.775 warning
+2021-10-20 21:28:39.775 debug
+2021-10-20 21:28:39.783 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 48, in <module>
+    idArray.append(int(child.attrib.get('id')))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+2021-10-20 21:28:39.784 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:28:39.784 Deleting expired files...
+2021-10-20 21:28:39.813 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:28:40.069 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:28:48.531 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='80373b6af0fa0fe2e534e35e0719918c', modification_time=1634758118.801355, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:29:52.834 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='80373b6af0fa0fe2e534e35e0719918c', modification_time=1634758118.801355, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:29:52.835 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='80373b6af0fa0fe2e534e35e0719918c', modification_time=1634758118.801355, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:29:52.835 Ignoring file C:\Users\jan-niklas\Desktop\Test\main.py~.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='80373b6af0fa0fe2e534e35e0719918c', modification_time=1634758118.801355, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:29:52.840 File MD5 changed: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:29:52.841 Enqueuing report_changed message (id=5898c4b2-f0a0-4ed2-923d-8f51d0b950c2)
+2021-10-20 21:29:52.841 Enqueuing report_changed message (id=3d59ced7-68f3-4134-b665-8f181f75e68e)
+2021-10-20 21:29:52.842 File timestamp did not change: C:\Users\jan-niklas\Desktop\Test\main.py
+2021-10-20 21:29:53.892 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+        uploaded_file_info {
+          id: 3
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+  }
+}
+
+2021-10-20 21:29:53.892 Beginning script thread
+2021-10-20 21:29:53.893 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+    uploaded_file_info {
+      id: 3
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+)
+2021-10-20 21:29:53.894 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:29:53.894 Sessions still active: dict_keys([])
+2021-10-20 21:29:53.894 Files: 0; Sessions with files: 0
+2021-10-20 21:29:53.894 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:29:53.918 warning
+2021-10-20 21:29:53.919 debug
+2021-10-20 21:29:53.919 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='7a945de76ce4fcb37437a8760f1fcbf3', modification_time=1634758192.8381224, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:29:53.925 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 48, in <module>
+    idArray.append(int(child.attrib.get('id')))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+2021-10-20 21:29:53.926 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:29:53.927 Deleting expired files...
+2021-10-20 21:29:53.958 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:29:54.184 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:29:54.446 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='7a945de76ce4fcb37437a8760f1fcbf3', modification_time=1634758192.8381224, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:29:56.617 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='7a945de76ce4fcb37437a8760f1fcbf3', modification_time=1634758192.8381224, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:29:56.914 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='7a945de76ce4fcb37437a8760f1fcbf3', modification_time=1634758192.8381224, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:31:39.234 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 3
+      }
+    }
+  }
+}
+
+2021-10-20 21:31:39.235 Beginning script thread
+2021-10-20 21:31:39.235 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 3
+  }
+}
+)
+2021-10-20 21:31:39.235 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:31:39.236 Sessions still active: dict_keys([])
+2021-10-20 21:31:39.236 Files: 0; Sessions with files: 0
+2021-10-20 21:31:39.236 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:31:39.253 warning
+2021-10-20 21:31:39.253 debug
+2021-10-20 21:31:39.254 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:31:39.255 Deleting expired files...
+2021-10-20 21:31:39.283 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:31:39.525 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:31:48.262 1 file(s) received for session 3d59ced7-68f3-4134-b665-8f181f75e68e widget $$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None
+2021-10-20 21:31:48.268 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+      file_uploader_state_value {
+        max_file_id: 4
+        uploaded_file_info {
+          id: 4
+          name: "XMI_Beispiele (2).xmi"
+          size: 171223
+        }
+      }
+    }
+    widgets {
+      id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+      double_array_value {
+        data: 1.0
+      }
+    }
+  }
+}
+
+2021-10-20 21:31:48.268 Beginning script thread
+2021-10-20 21:31:48.268 Running script RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-0d3a2d4e0d3f9c31165dd033c6801639-None"
+  file_uploader_state_value {
+    max_file_id: 4
+    uploaded_file_info {
+      id: 4
+      name: "XMI_Beispiele (2).xmi"
+      size: 171223
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-a7a59d83cf0bac24c2dd48bda69957e0-None"
+  double_array_value {
+    data: 1.0
+  }
+}
+)
+2021-10-20 21:31:48.269 Disconnecting files for session with ID 3d59ced7-68f3-4134-b665-8f181f75e68e
+2021-10-20 21:31:48.269 Sessions still active: dict_keys([])
+2021-10-20 21:31:48.269 Files: 0; Sessions with files: 0
+2021-10-20 21:31:48.269 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STARTED
+2021-10-20 21:31:48.279 warning
+2021-10-20 21:31:48.279 debug
+2021-10-20 21:31:48.280 Removed 1 orphaned files
+2021-10-20 21:31:48.284 Traceback (most recent call last):
+  File "C:\Users\jan-niklas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\streamlit\script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\jan-niklas\Desktop\Test\main.py", line 48, in <module>
+    idArray.append(int(child.attrib.get('id')))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+2021-10-20 21:31:48.284 OnScriptRunnerEvent: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2021-10-20 21:31:48.285 Deleting expired files...
+2021-10-20 21:31:48.311 OnScriptRunnerEvent: ScriptRunnerEvent.SHUTDOWN
+2021-10-20 21:31:48.542 Report finished successfully; removing expired entries from MessageCache (max_age=2)
+2021-10-20 21:31:54.198 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='7a945de76ce4fcb37437a8760f1fcbf3', modification_time=1634758192.8381224, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:31:55.258 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='7a945de76ce4fcb37437a8760f1fcbf3', modification_time=1634758192.8381224, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:31:55.263 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='7a945de76ce4fcb37437a8760f1fcbf3', modification_time=1634758192.8381224, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+2021-10-20 21:31:55.766 Ignoring file C:\Users\jan-niklas\Desktop\Test\logs.txt.
+Watched_files: {'C:\\Users\\jan-niklas\\Desktop\\Test\\main.py': WatchedFile(md5='7a945de76ce4fcb37437a8760f1fcbf3', modification_time=1634758192.8381224, on_file_changed=<blinker.base.Signal object at 0x000001CD39385970>)}
+^C
