@@ -17,9 +17,7 @@ with col2:
     st.write("""
         # Hello
         Ich habs endlich rausgefunden""")
-    name = ""
-    type = ""
-    content = ""
+
     if file is not None:
         myf = ET.parse(file)
         root = myf.getroot()
@@ -29,27 +27,40 @@ with col2:
         content = ''
 
         typeArray = []
+        posArray = []
         beginArray = []
         endArray = []
         idArray = []
         sofaString = ''
 
         for child in root:
-            # st.write(child)
+            #st.write(child.attrib.get('coarseValue'))
             # st.write(child.attrib.get('pos'))
             if child.attrib.get('sofaString') is not None:
                 sofaString = child.attrib.get('sofaString')
+                #st.write(sofaString)
             if child.attrib.get('pos') is not None:
-                typeArray.append(str(child.attrib.get('pos')))
+                posArray.append(str(child.attrib.get('pos')))
                 beginArray.append(int(child.attrib.get('begin')))
                 endArray.append(int(child.attrib.get('end')))
                 if child.attrib.get('id') is not None:
                     idArray.append(int(child.attrib.get('id')))
+            if child.attrib.get('name') is not None and child.attrib.get('begin') is not None:
+                typeArray.append([str(child.attrib.get('name')), int(child.attrib.get('begin'))])
+        st.write(typeArray)
+        #pos und tatsächlicher typ sind da drin, mit pos kann man bessser mit den worten matchen, so mein gedanke
+        finalTypeArray = []
+        for i in typeArray:
+            if int(i[1]) in beginArray:
+                indexNow = beginArray.index(i[1])
+                posNow = posArray[indexNow]
+                finalTypeArray.append([str(i[0]), posNow])
+        st.write(finalTypeArray)
 
         alreadySeen = []
-        for pos in typeArray:
-            if pos not in alreadySeen:
-                alreadySeen.append(pos)
+        for x in typeArray:
+            if x[0] not in alreadySeen:
+                alreadySeen.append(x[0])
             # st.button(pos)
 
         # hier führe ich meine xmi in ein repräsentatives array/liste um
@@ -67,23 +78,23 @@ with col2:
             wordIndexList.append([word, index])
             actualIndex = index
 
-        # st.write(wordIndexList)
+        st.write(wordIndexList)
 
         # finalXmiRep ist meine liste mit allen gefundenen typen und benötigten infos drin
         finalXmiListRep = []
         for couple in wordIndexList:
-            # st.write(couple[1])
+            #st.write(couple[1])
             if int(couple[1]) in beginArray:
                 indexNow = beginArray.index(couple[1])
-                posNow = typeArray[indexNow]
+                posNow = posArray[indexNow]
                 finalXmiListRep.append([str(couple[0]), posNow])
             else:
                 finalXmiListRep.append(str(couple[0], ))
-        # st.write(finalXmiListRep)
+        st.write(finalXmiListRep)
 
 
             # in currentType speichere ich alle ausgewählten typen
-            # currentPoss = st.radio("Select Type: ", alreadySeen)
+        #currentPoss = st.radio("Select Type: ", alreadySeen)
         currentType = st.multiselect("Select Type: ", alreadySeen)
 
 
@@ -107,11 +118,11 @@ with col2:
             else:
                 finalText = ""
                 for wordTypePair in finalXmiListRep:
-                    if wordTypePair[0] != "" and wordTypePair[1] in chosenTypes:
+                    if wordTypePair[0] is not None and wordTypePair[1] in chosenTypes:
                         typePosition = chosenTypes.index(str(wordTypePair[0]))
                     # st.write(typePosition)
-                    # wordTypePair[0] = "<span style=\"background-color: " + availableColors[typePosition] + "\">" + wordTypePair[0] + "</span>"
-                    st.write(wordTypePair[0])
+                    #wordTypePair[0] = "<span style=\"background-color: " + availableColors[typePosition] + "\">" + wordTypePair[0] + "</span>"
+                    #st.write(wordTypePair[0])
 
             for finalWord in finalXmiListRep:
                 stringWithColors = stringWithColors + finalWord[0] + " "
@@ -119,5 +130,5 @@ with col2:
             # und hier die wichtigste Zeile
             st.write(stringWithColors, unsafe_allow_html=True)
 
-    grade = st.slider("Wähle eine Note", 1, 6)
+    grade = st.slider("Wähle eine Note", 0, 6)
 
