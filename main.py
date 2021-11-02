@@ -1,10 +1,8 @@
-import logging
 import streamlit as st
+import pandas as pd
+import numpy as np
 from xml.etree import ElementTree as ET
 
-
-logging.warning('warning')
-logging.debug('debug')
 
 st.title('Bachelorarbeit')
 st.write("""*TODO: find better title*""")
@@ -25,7 +23,6 @@ with col2:
         type = file.type
 
         content = ''
-
         typeArray = []
         posArray = []
         beginArray = []
@@ -63,9 +60,23 @@ with col2:
                 alreadySeen.append(x[0])
             # st.button(pos)
 
+        counter = []
+        for i in range(len(alreadySeen)):
+            count = 0
+            for x in range(len(finalTypeArray)):
+                if finalTypeArray[x][0] in alreadySeen[i]:
+                    count += 1
+            counter.append(str(count))
+        st.write("Counter: ", counter)
+
+        #Wortarten und ihre Anzahl im Essay... ich hasse streamlit
+        typeCount = pd.DataFrame(counter, index=['ptb', 'determiner', 'verb', 'noun', 'preposition', 'none',
+                                                 'adjective', 'pronoun', 'adverb', 'NUM'], columns=['Count'])
+        st.write(typeCount)
+        st.bar_chart(typeCount)
+
         # hier führe ich meine xmi in ein repräsentatives array/liste um
         # achte darauf dass ich nicht alle arrays benutzt habe die hier drunter stehen
-        xmiArray = []
         alreadyAddedId = []
         alreadyAddedPosition = []
         splitSofaString = sofaString.split()
@@ -90,10 +101,10 @@ with col2:
                 finalXmiListRep.append([str(couple[0]), posNow])
             else:
                 finalXmiListRep.append(str(couple[0], ))
-        st.write(finalXmiListRep)
+        st.write("Final Xmi: ", finalXmiListRep)
+        #st.write(finalXmiListRep[0][1])
 
-
-            # in currentType speichere ich alle ausgewählten typen
+        # in currentType speichere ich alle ausgewählten typen
         #currentPoss = st.radio("Select Type: ", alreadySeen)
         currentType = st.multiselect("Select Type: ", alreadySeen)
 
