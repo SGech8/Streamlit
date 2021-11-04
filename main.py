@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 from xml.etree import ElementTree as ET
 
 
@@ -45,7 +44,9 @@ with col2:
             if child.attrib.get('name') is not None and child.attrib.get('begin') is not None:
                 typeArray.append([str(child.attrib.get('name')), int(child.attrib.get('begin'))])
         st.write(typeArray)
+
         #pos und tatsächlicher typ sind da drin, mit pos kann man bessser mit den worten matchen, so mein gedanke
+        #ToDo: die unsinnigen Arten rausstreichen
         finalTypeArray = []
         for i in typeArray:
             if int(i[1]) in beginArray:
@@ -60,16 +61,17 @@ with col2:
                 alreadySeen.append(x[0])
             # st.button(pos)
 
+        #Anzahl jedes Types bestimmen
         counter = []
         for i in range(len(alreadySeen)):
             count = 0
             for x in range(len(finalTypeArray)):
                 if finalTypeArray[x][0] in alreadySeen[i]:
                     count += 1
-            counter.append(str(count))
+            counter.append(count)
         st.write("Counter: ", counter)
 
-        #Wortarten und ihre Anzahl im Essay... ich hasse streamlit
+        #Wortarten und ihre Anzahl im Essay... ich hasse mich
         typeCount = pd.DataFrame(counter, index=['ptb', 'determiner', 'verb', 'noun', 'preposition', 'none',
                                                  'adjective', 'pronoun', 'adverb', 'NUM'], columns=['Count'])
         st.write(typeCount)
