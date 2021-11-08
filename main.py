@@ -108,7 +108,7 @@ with col2:
 
         # in currentType speichere ich alle ausgewählten typen
         #currentPoss = st.radio("Select Type: ", alreadySeen)
-        currentType = st.multiselect("Select Type: ", alreadySeen)
+        currentType = st.multiselect("Wähle aus welche Worte du markiert haben willst: ", alreadySeen)
 
 
         # hier fängt der html kram an
@@ -144,4 +144,5 @@ with col2:
             st.write(stringWithColors, unsafe_allow_html=True)
 
     grade = st.slider("Wähle eine Note", 0, 6)
+    st.button("Weiter")
 
