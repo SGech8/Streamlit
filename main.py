@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import plotly.graph_objects as go
 from xml.etree import ElementTree as ET
 
 
@@ -7,7 +8,7 @@ st.title('Bachelorarbeit')
 st.write("""*TODO: find better title*""")
 
 
-col1, col2 = st.columns([2,6])
+col1, col2 = st.columns([2, 6])
 with col1:
     file = st.file_uploader("Essays")
 with col2:
@@ -28,10 +29,9 @@ with col2:
         endArray = []
         idArray = []
         sofaString = ''
+        level = []
 
         for child in root:
-            #st.write(child.attrib.get('coarseValue'))
-            # st.write(child.attrib.get('pos'))
             if child.attrib.get('sofaString') is not None:
                 sofaString = child.attrib.get('sofaString')
                 #st.write(sofaString)
@@ -43,39 +43,84 @@ with col2:
                     idArray.append(int(child.attrib.get('id')))
             if child.attrib.get('name') is not None and child.attrib.get('begin') is not None:
                 typeArray.append([str(child.attrib.get('name')), int(child.attrib.get('begin'))])
+                level.append([str(child.attrib.get('level')), int(child.attrib.get('begin'))])
         st.write(typeArray)
 
         #pos und tatsächlicher typ sind da drin, mit pos kann man bessser mit den worten matchen, so mein gedanke
-        #ToDo: die unsinnigen Arten rausstreichen
-        finalTypeArray = []
-        for i in typeArray:
-            if int(i[1]) in beginArray:
-                indexNow = beginArray.index(i[1])
-                posNow = posArray[indexNow]
-                finalTypeArray.append([str(i[0]), posNow])
+        #ToDo: die unsinnigen Arten rausstreichen DONE
+        def infoPos(array):
+            finalArray = []
+            for i in array:
+                if int(i[1]) in beginArray:
+                    indexNow = beginArray.index(i[1])
+                    posNow = posArray[indexNow]
+                    finalArray.append([str(i[0]), posNow])
+                else:
+                    finalArray.append(str(i[0]), )
+            return finalArray
+
+        # Erstellt eine Liste, welche Typen vorkommen (jeder Typ nur 1 mal drin)
+        def noRep(array):
+            finalArray = []
+            for x in array:
+                if x[0].lower() not in finalArray:
+                    finalArray.append(x[0].lower())
+            finalArray.remove(finalArray[0])
+            return finalArray
+
+        # Anzahl jedes Types bestimmen
+        # TODO Methode draus machen DONE
+        def counting(seen, array):
+            countArray = []
+            for i in range(len(seen)):
+                count = 0
+                for x in range(len(array)):
+                    if array[x][0].lower() in seen[i]:
+                        count += 1
+                if seen[i] == "num":
+                    seen[i] = "numbers"
+                elif seen[i] == "none":
+                    seen[i] = "conjunctions"
+                countArray.append(count)
+            return countArray
+
+        finalTypeArray = infoPos(typeArray)
+        finalLevel = infoPos(level)
         st.write(finalTypeArray)
 
-        alreadySeen = []
-        for x in typeArray:
-            if x[0] not in alreadySeen:
-                alreadySeen.append(x[0])
-            # st.button(pos)
+        alreadySeenLevel = noRep(level)
+        st.write("AlreadySeenLevel: ", alreadySeenLevel)
+        alreadySeen = noRep(typeArray)
+        st.write("AlreadySeen: ", alreadySeen)
 
-        #Anzahl jedes Types bestimmen
-        counter = []
-        for i in range(len(alreadySeen)):
-            count = 0
-            for x in range(len(finalTypeArray)):
-                if finalTypeArray[x][0] in alreadySeen[i]:
-                    count += 1
-            counter.append(count)
+        counter = counting(alreadySeen, finalTypeArray)
         st.write("Counter: ", counter)
+        counterLevel = counting(alreadySeenLevel, finalLevel)
+        st.write("Final level-counter: ", counterLevel)
 
-        #Wortarten und ihre Anzahl im Essay... ich hasse mich
-        typeCount = pd.DataFrame(counter, index=['ptb', 'determiner', 'verb', 'noun', 'preposition', 'none',
-                                                 'adjective', 'pronoun', 'adverb', 'NUM'], columns=['Count'])
+        #TODO Wortarten und ihre Anzahl im Essay... nicht schön aber funktioniert
+        if len(alreadySeen) == 9:
+            typeCount = pd.DataFrame(counter, index=[str(alreadySeen[0]), str(alreadySeen[1]), str(alreadySeen[2]),
+                                                     str(alreadySeen[3]), str(alreadySeen[4]), str(alreadySeen[5]),
+                                                     str(alreadySeen[6]), str(alreadySeen[7]), str(alreadySeen[8])],
+                                     columns=['Count'])
+        else:
+            typeCount = pd.DataFrame(counter, index=[str(alreadySeen[0]), str(alreadySeen[1]), str(alreadySeen[2]),
+                                                     str(alreadySeen[3]), str(alreadySeen[4]), str(alreadySeen[5]),
+                                                     str(alreadySeen[6]), str(alreadySeen[7])],
+                                     columns=['Count'])
         st.write(typeCount)
         st.bar_chart(typeCount)
+
+        fig = go.Figure(
+            go.Pie(
+                labels=alreadySeenLevel,
+                values=counterLevel,
+                hoverinfo="label+percent",
+                textinfo="value"
+            ))
+        st.header("Pie chart")
+        st.plotly_chart(fig)
 
         # hier führe ich meine xmi in ein repräsentatives array/liste um
         # achte darauf dass ich nicht alle arrays benutzt habe die hier drunter stehen
@@ -94,17 +139,8 @@ with col2:
         st.write(wordIndexList)
 
         # finalXmiRep ist meine liste mit allen gefundenen typen und benötigten infos drin
-        finalXmiListRep = []
-        for couple in wordIndexList:
-            #st.write(couple[1])
-            if int(couple[1]) in beginArray:
-                indexNow = beginArray.index(couple[1])
-                posNow = posArray[indexNow]
-                finalXmiListRep.append([str(couple[0]), posNow])
-            else:
-                finalXmiListRep.append(str(couple[0], ))
+        finalXmiListRep = infoPos(wordIndexList)
         st.write("Final Xmi: ", finalXmiListRep)
-        #st.write(finalXmiListRep[0][1])
 
         # in currentType speichere ich alle ausgewählten typen
         #currentPoss = st.radio("Select Type: ", alreadySeen)
@@ -144,5 +180,6 @@ with col2:
             st.write(stringWithColors, unsafe_allow_html=True)
 
     grade = st.slider("Wähle eine Note", 0, 6)
+    score = st.slider("Wie gut ist der Wortschatz?", 0, 6)
     st.button("Weiter")
 
