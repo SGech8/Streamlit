@@ -115,7 +115,7 @@ if currentType is not None:
             if wordTypePair[0] != "" and wordTypePair[1] in chosenTypes:
                 typePosition = chosenTypes.index(str(wordTypePair[0]))
             #st.write(typePosition)
-            #wordTypePair[0] = "<span style=\"background-color: " + availableColors[typePosition] + "\">" + wordTypePair[0] + "</span>"
+            wordTypePair[0] = "<span style=\"background-color: " + availableColors[typePosition] + "\">" + wordTypePair[0] + "</span>"
             st.write(wordTypePair[0])
 
     for finalWord in finalXmiListRep:
@@ -127,27 +127,26 @@ if currentType is not None:
 
 
 
-        # getPositionInArray = [i for i, x in enumerate(typeArray) if x in chosenTypes]
-        # st.write(getPositionInArray)
-        # # coloredArray = []
-        # # todo multi color and each word in array representation
-        # coloredString = ""
-        # if len(getPositionInArray) == 1:
-        #     st.write("i do work too")
-        #     if beginArray[getPositionInArray[0]] != 0:
-        #         beginning = (sofaString[0:int(beginArray[getPositionInArray[0]])])
-        #         innerPart = sofaString[int(beginArray[getPositionInArray[0]]):int(endArray[getPositionInArray[0]])]
-        #         annoInnerPart = "<span style=\"background-color: darkseagreen\">" + str(innerPart) + "<sup>" + str(
-        #             currentType) + "</sup></span>"
-        #         middle = (str(annoInnerPart))
-        #         ending = (sofaString[int(endArray[getPositionInArray[0]]):len(sofaString)])
-        #     coloredString = beginning + middle + ending
-        # if len(getPositionInArray) > 1:
-        #     # TODO
-        #     for j in getPositionInArray:
-        #         st.write("More than one occurence!")
-else:
-    st.write("Nothing was selected!")
+    getPositionInArray = [i for i, x in enumerate(typeArray) if x in chosenTypes]
+    st.write(getPositionInArray)
+    coloredArray = []
+    #todo multi color and each word in array representation
+    coloredString = ""
+    if len(getPositionInArray) == 1:
+        st.write("i do work too")
+        if beginArray[getPositionInArray[0]] != 0:
+            beginning = (sofaString[0:int(beginArray[getPositionInArray[0]])])
+            innerPart = sofaString[int(beginArray[getPositionInArray[0]]):int(endArray[getPositionInArray[0]])]
+            annoInnerPart = "<span style=\"background-color: darkseagreen\">" + str(innerPart) + "<sup>" + str(
+                                currentType) + "</sup></span>"
+            middle = (str(annoInnerPart))
+            ending = (sofaString[int(endArray[getPositionInArray[0]]):len(sofaString)])
+            coloredString = beginning + middle + ending
+    #if len(getPositionInArray) > 1:
+        #for j in getPositionInArray:
+            #st.write("More than one occurence!")
+    else:
+        st.write("Nothing was selected!")
 
     # das hier brauchst du nicht
     #for child in root:
