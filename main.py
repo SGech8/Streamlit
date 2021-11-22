@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+import time
 from xml.etree import ElementTree as ET
 
 
@@ -8,11 +9,13 @@ st.title('Bachelorarbeit')
 st.write("""*TODO: find better title*""")
 
 col1, col2 = st.columns([2, 6])
-with col1:
-    file = st.file_uploader("Essays", accept_multiple_files=True)
-    st.write(file[0])
 
-with col2:
+file = st.sidebar.file_uploader("Essays", accept_multiple_files=True)
+startZeit = 0
+if 'start' not in st.session_state:
+    st.session_state.start = 0
+
+if st.session_state.start == 1:
     st.write("""
         # Hello
         Ich habs endlich rausgefunden""")
@@ -229,9 +232,13 @@ with col2:
     next = st.button("Weiter")
     if next:
         st.session_state.currentFile += 1
+        endZeit = time.time()
+        zeit = endZeit - startZeit
+        startZeit = time.time()
+        st.write(zeit)
         st.experimental_rerun()
         #st.write("weiter")
-        st.write(st.session_state.currentFile)
+        #st.write(st.session_state.currentFile)
 
     #def back():
 
@@ -240,6 +247,12 @@ with col2:
         st.session_state.currentFile -= 1
         st.experimental_rerun()
         #st.write("zurück")
-        st.write(st.session_state.currentFile)
+        #st.write(st.session_state.currentFile)
 
-
+else:
+    st.write("Hinweise, Hinweise, HINWEISE")
+    begin = st.button("Start")
+    if begin:
+        st.session_state.start = 1
+        startZeit = time.time()
+        st.experimental_rerun()
