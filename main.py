@@ -9,7 +9,7 @@ from xml.etree import ElementTree as ET
 
 
 st.title('Bachelorarbeit')
-st.write("""*TODO: find better title*""")
+#st.write("""*TODO: find better title*""")
 
 #file = st.sidebar.file_uploader("Essays", accept_multiple_files=True)
 
@@ -37,47 +37,46 @@ def openFile(fileName, inhalt):
 
 
 if st.session_state.start == 1:
-    st.write("""
-        # Hello
-        Ich habs endlich rausgefunden""")
-
     #Klauseln zur Einlesung des richtigen Essaysets
-    if st.session_state.essay is "a":
-        files = os.listdir(r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele")
-        file = open(
+    def einlesen():
+        if st.session_state.essay == "a":
+            files = os.listdir(r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele")
+            f = open(
             r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele"+"/"+files[st.session_state.currentFile])
-    elif st.session_state.essay is "b":
-        files = os.listdir(
-            r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\Testgruppe2")
-        file = open(
-            r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\Testgruppe2" + "/" +
-            files[st.session_state.currentFile])
-    elif st.session_state.essay is "c":
-        files = os.listdir(
-            r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\Testgruppe3")
-        file = open(
-            r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\Testgruppe3" + "/" +
-            files[st.session_state.currentFile])
-    #elif st.session_state.essay is "d":
-        #files = os.listdir(
-            #r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele")
-        #file = open(
-            #r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele" + "/" +
-            #files[st.session_state.currentFile])
-    #elif st.session_state.essay is "e":
-        #files = os.listdir(
-            #r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele")
-        #file = open(
-           # r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele" + "/" +
-            #files[st.session_state.currentFile])
-    else:
-        st.write("Sorry, das wars.")
+        elif st.session_state.essay == "b":
+            files = os.listdir(
+                r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\Testgruppe2")
+            f = open(
+                r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\Testgruppe2" + "/" +
+                files[st.session_state.currentFile])
+        elif st.session_state.essay == "c":
+            files = os.listdir(
+                r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\Testgruppe3")
+            f = open(
+                r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\Testgruppe3" + "/" +
+                files[st.session_state.currentFile])
+        #elif st.session_state.essay == "d":
+            #files = os.listdir(
+                #r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele")
+            #f = open(
+                #r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele" + "/" +
+                #files[st.session_state.currentFile])
+        #elif st.session_state.essay == "e":
+            #files = os.listdir(
+                #r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele")
+            #f = open(
+                #r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele" + "/" +
+                #files[st.session_state.currentFile])
+        return f
+
+
+    # TODO: hier noch anpasen wegen Anzahl der Dateien!
+    numberOfFiles = 2  # len(files)
     #st.write(file)
     if st.session_state.group == "G1":
-        numberOfFiles = len(files)
         if numberOfFiles > st.session_state.currentFile:
-            st.write(st.session_state.currentFile)
-
+            #st.write(st.session_state.currentFile)
+            file = einlesen()
             myf = ET.parse(file)
             root = myf.getroot()
             name = file.name
@@ -200,7 +199,7 @@ if st.session_state.start == 1:
 
             counter = counting(alreadySeen, finalTypeArray)
             #st.write("Counter: ", counter)
-            counterLevel = counting(alreadySeenLevel, finalLevel)
+            counterLevel = counting(alreadySeenLevel, wordIndexListLevel)
             #st.write("Final level-counter: ", counterLevel)
 
             #TODO Wortarten und ihre Anzahl im Essay... nicht schön aber funktioniert
@@ -214,7 +213,7 @@ if st.session_state.start == 1:
                                                          str(alreadySeen[3]), str(alreadySeen[4]), str(alreadySeen[5]),
                                                          str(alreadySeen[6]), str(alreadySeen[7])],
                                          columns=['Count'])
-            #st.write(typeCount)
+            st.header("Anzahl verschiedener Wortarten im Text")
             st.bar_chart(typeCount)
 
             fig = go.Figure(
@@ -224,20 +223,9 @@ if st.session_state.start == 1:
                     hoverinfo="label+percent",
                     textinfo="value"
                 ))
-            st.header("Pie chart")
+            st.header("Anzahl der Verwendeten Wörter nach ihrem Sprachniveau")
             st.plotly_chart(fig)
 
-            # hier führe ich meine xmi in ein repräsentatives array/liste um
-            # achte darauf dass ich nicht alle arrays benutzt habe die hier drunter stehen
-
-
-
-
-            # finalXmiRep ist meine liste mit allen gefundenen typen und benötigten infos drin
-
-
-            # in currentType speichere ich alle ausgewählten typen
-            #currentPoss = st.radio("Select Type: ", alreadySeen)
             currentType = st.multiselect("Wähle aus welche Worte du markiert haben willst: ", alreadySeenLevel,
                                         default=None)
             chosenTypes = []
@@ -272,15 +260,17 @@ if st.session_state.start == 1:
                     # und hier die wichtigste Zeile
                     st.write(stringWithColors, unsafe_allow_html=True)
 
-        grade = st.slider("Wähle eine Note", 0, 6)
-        if grade:
-            openFile(st.session_state.random, "Grade: " + str(grade))
-        score = st.slider("Wie gut ist der Wortschatz?", 0, 6)
-        if score:
-            openFile(st.session_state.random, "Score: " + str(score))
-        #openFile(st.session_state.random, str(score))
-
+            grade = st.slider("Wähle eine Note", 0, 6)
+            if grade:
+                openFile(st.session_state.random, "Grade: " + str(grade))
+            score = st.slider("Wie gut ist der Wortschatz?", 0, 6)
+            if score:
+                openFile(st.session_state.random, "Score: " + str(score))
+            #openFile(st.session_state.random, str(score))
+        else:
+            st.write("Danke fürs mitmachen. Du kannst das Fenster nun schließen.")
     else:
+        file = einlesen()
         myf = ET.parse(file)
         root = myf.getroot()
         name = file.name
@@ -291,28 +281,33 @@ if st.session_state.start == 1:
                 sofaString = child.attrib.get('sofaString')
         st.write(sofaString)
 
-    grade = st.slider("Wähle eine Note", 0, 6)
-    if grade:
-        openFile(st.session_state.random, "Grade: " + str(grade))
-    score = st.slider("Wie gut ist der Wortschatz?", 0, 6)
-    if score:
-        openFile(st.session_state.random, "Score: " + str(score))
+        grade2 = st.slider("Wähle eine Note", 0, 6)
+        if grade2:
+            openFile(st.session_state.random, "Grade: " + str(grade2))
+        score2 = st.slider("Wie gut ist der Wortschatz?", 0, 6)
+        if score2:
+            openFile(st.session_state.random, "Score: " + str(score2))
 
     next = st.button("Weiter")
-    if next:
-        st.session_state.currentFile += 1
-        st.session_state.endZeit = time.time()
-        zeit = st.session_state.endZeit - st.session_state.startZeit
-        openFile(st.session_state.random, "Zeit: " + str(zeit))
-        st.session_state.startZeit = time.time()
-        openFile(st.session_state.random, "Essay: " + str(st.session_state.currentFile + 1))
-        #st.write(zeit)
-        st.experimental_rerun()
-        #st.write("weiter")
-        #st.write(st.session_state.currentFile)
+    if numberOfFiles > st.session_state.currentFile:
+        if next:
+            st.session_state.currentFile += 1
+            st.session_state.endZeit = time.time()
+            zeit = st.session_state.endZeit - st.session_state.startZeit
+            openFile(st.session_state.random, "Zeit: " + str(zeit))
+            st.session_state.startZeit = time.time()
+            openFile(st.session_state.random, "Essay: " + str(st.session_state.currentFile + 1))
+            #st.write(zeit)
+            st.experimental_rerun()
+            #st.write("weiter")
+            #st.write(st.session_state.currentFile)
 
 else:
-    st.write("Hinweise, Hinweise, HINWEISE")
+    st.write("Sehr geehrte Proband*innen, im folgenden werden Sie 8 Essays auf Englisch bekommen. Diese unterscheiden sich sowohl in ihrem Sprachniveau, als auch in ihrer Thematik.\n"+"\n"+
+             "Abhängig von einer zufälligen Zuteilung erhalten Sie zudem Zusatzinformationen über den Wortschatz des jeweiligen Essays. Diese können in Form von Diagrammen, Tabellen und farblichen Markierungen gegeben sein. Ob und wie Sie diese Informationen nutzen, ist Ihnen überlassen.\n"+"\n"+
+             "Bitte bewerten Sie alle Essays, so wie Sie es gewohnt sind und geben Sie am Ende eine Note ab, die Sie dem Verfasser geben würden. Für diese Bewertung benutzen Sie bitte die am Ende der Webseite gekennzeichnete Skala von 1-6 (1: sehr gut, 6: ungenügend). Anschließend finden Sie noch eine weitere Skala zur spezifischen Bewertung des Wortschatzes.\n"+"\n"+
+             "Wenn Sie die Bewertung für das erste Essay abgeschlossen haben, drücken Sie auf den Button „Weiter“, welcher unten auf der Webseite zu finden ist, um zum nächsten Essay zu gelangen und dieses auf die gleiche Weise zu bearbeiten."
+            )
     st.session_state.random = ''.join([random.choice(string.ascii_letters
                                     + string.digits) for n in range(16)])
 
@@ -338,8 +333,6 @@ else:
         groupSelect.write(str(number + 1))
         groupSelect.close()
 
-        openFile(st.session_state.random, "Essay: " + str(st.session_state.currentFile + 1))
-
         groupSelect = open(
             r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit" + "/" +
             st.session_state.group + "/" + "Varianten.txt")
@@ -357,4 +350,6 @@ else:
         groupSelect.write(variante)
         groupSelect.close()
 
+        openFile(st.session_state.random, "Set: " + st.session_state.essay)
+        openFile(st.session_state.random, "Essay: " + str(st.session_state.currentFile + 1))
         st.experimental_rerun()
