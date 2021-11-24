@@ -4,3 +4,4 @@ Die Ornder G1 und G2 stellen Kontrollgruppe, bzw. die Versuchsgruppe dar. Dort w
 "Gruppen.txt" dient als Zuteilungshilfe der Nutzer in die Versuchsgruppen (gerade=G1, ungerade=G2)
 "Varianten.txt" dienen als Zuteilungshilfe der Essaysets.
 Die Ordner "Testgruppe1" und 2 dienen als Beispiel Essaysets.
+Momentan rechne ich mit 20 Teilnehmern, weniger ist in Ordnung, bei mehr funktioniert das Programm nicht (Zahl ist im Code, bzw. in "Varianten.txt" aber anpassbar).
