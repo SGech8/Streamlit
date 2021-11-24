@@ -2,38 +2,86 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 import time
+import random
+import string
+import os
 from xml.etree import ElementTree as ET
 
 
 st.title('Bachelorarbeit')
 st.write("""*TODO: find better title*""")
 
-col1, col2 = st.columns([2, 6])
+#file = st.sidebar.file_uploader("Essays", accept_multiple_files=True)
 
-file = st.sidebar.file_uploader("Essays", accept_multiple_files=True)
-startZeit = 0
+if 'currentFile' not in st.session_state:
+    st.session_state.currentFile = 0
 if 'start' not in st.session_state:
     st.session_state.start = 0
+if 'startZeit' not in st.session_state:
+    st.session_state.startZeit = 0
+if 'endZeit' not in st.session_state:
+    st.session_state.endZeit = 0
+if 'random' not in st.session_state:
+    st.session_state.random = ""
+if 'essay' not in st.session_state:
+    st.session_state.essay = ""
+if 'group' not in st.session_state:
+    st.session_state.group = ""
+
+
+def openFile(fileName, inhalt):
+    infos = open(r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit"+"/"+
+                 st.session_state.group+"/"+fileName+".txt", "a")
+    infos.write(inhalt+"\n")
+    infos.close()
+
 
 if st.session_state.start == 1:
     st.write("""
         # Hello
         Ich habs endlich rausgefunden""")
 
-
-    if file is not None:
-        if 'currentFile' not in st.session_state:
-            st.session_state.currentFile = 0
-            st.write(st.session_state.currentFile)
-
-        numberOfFiles = len(file)
-        st.write("Länge ",numberOfFiles)
+    #Klauseln zur Einlesung des richtigen Essaysets
+    if st.session_state.essay is "a":
+        files = os.listdir(r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele")
+        file = open(
+            r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele"+"/"+files[st.session_state.currentFile])
+    elif st.session_state.essay is "b":
+        files = os.listdir(
+            r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\Testgruppe2")
+        file = open(
+            r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\Testgruppe2" + "/" +
+            files[st.session_state.currentFile])
+    elif st.session_state.essay is "c":
+        files = os.listdir(
+            r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\Testgruppe3")
+        file = open(
+            r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\Testgruppe3" + "/" +
+            files[st.session_state.currentFile])
+    #elif st.session_state.essay is "d":
+        #files = os.listdir(
+            #r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele")
+        #file = open(
+            #r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele" + "/" +
+            #files[st.session_state.currentFile])
+    #elif st.session_state.essay is "e":
+        #files = os.listdir(
+            #r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele")
+        #file = open(
+           # r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit\XMI_Beispiele" + "/" +
+            #files[st.session_state.currentFile])
+    else:
+        st.write("Sorry, das wars.")
+    #st.write(file)
+    if st.session_state.group == "G1":
+        numberOfFiles = len(files)
         if numberOfFiles > st.session_state.currentFile:
             st.write(st.session_state.currentFile)
-            myf = ET.parse(file[st.session_state.currentFile])
+
+            myf = ET.parse(file)
             root = myf.getroot()
-            name = file[st.session_state.currentFile].name
-            type = file[st.session_state.currentFile].type
+            name = file.name
+            #type = file.type
 
             content = ''
             typeArray = []
@@ -225,34 +273,88 @@ if st.session_state.start == 1:
                     st.write(stringWithColors, unsafe_allow_html=True)
 
         grade = st.slider("Wähle eine Note", 0, 6)
+        if grade:
+            openFile(st.session_state.random, "Grade: " + str(grade))
         score = st.slider("Wie gut ist der Wortschatz?", 0, 6)
+        if score:
+            openFile(st.session_state.random, "Score: " + str(score))
+        #openFile(st.session_state.random, str(score))
 
-    #def next():
+    else:
+        myf = ET.parse(file)
+        root = myf.getroot()
+        name = file.name
+        #type = file.type
+
+        for child in root:
+            if child.attrib.get('sofaString') is not None:
+                sofaString = child.attrib.get('sofaString')
+        st.write(sofaString)
+
+    grade = st.slider("Wähle eine Note", 0, 6)
+    if grade:
+        openFile(st.session_state.random, "Grade: " + str(grade))
+    score = st.slider("Wie gut ist der Wortschatz?", 0, 6)
+    if score:
+        openFile(st.session_state.random, "Score: " + str(score))
 
     next = st.button("Weiter")
     if next:
         st.session_state.currentFile += 1
-        endZeit = time.time()
-        zeit = endZeit - startZeit
-        startZeit = time.time()
-        st.write(zeit)
+        st.session_state.endZeit = time.time()
+        zeit = st.session_state.endZeit - st.session_state.startZeit
+        openFile(st.session_state.random, "Zeit: " + str(zeit))
+        st.session_state.startZeit = time.time()
+        openFile(st.session_state.random, "Essay: " + str(st.session_state.currentFile + 1))
+        #st.write(zeit)
         st.experimental_rerun()
         #st.write("weiter")
         #st.write(st.session_state.currentFile)
 
-    #def back():
-
-    back = st.button("Zurück")
-    if back:
-        st.session_state.currentFile -= 1
-        st.experimental_rerun()
-        #st.write("zurück")
-        #st.write(st.session_state.currentFile)
-
 else:
     st.write("Hinweise, Hinweise, HINWEISE")
+    st.session_state.random = ''.join([random.choice(string.ascii_letters
+                                    + string.digits) for n in range(16)])
+
     begin = st.button("Start")
     if begin:
         st.session_state.start = 1
-        startZeit = time.time()
+        st.session_state.startZeit = time.time()
+
+        groupSelect = open(
+            r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit" + "/" + "Gruppe.txt",
+            "r+")
+        # st.write("Group: ", groupSelect.read(1))
+        number = int(groupSelect.read(1))
+        groupSelect.close()
+
+        groupSelect = open(
+            r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit" + "/" + "Gruppe.txt",
+            "w")
+        if number % 2 == 0:
+            st.session_state.group = "G2"
+        else:
+            st.session_state.group = "G1"
+        groupSelect.write(str(number + 1))
+        groupSelect.close()
+
+        openFile(st.session_state.random, "Essay: " + str(st.session_state.currentFile + 1))
+
+        groupSelect = open(
+            r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit" + "/" +
+            st.session_state.group + "/" + "Varianten.txt")
+        # st.write("Group: ", groupSelect.read(1))
+        variante = groupSelect.readline()
+        st.write(groupSelect.readline())
+        st.write("varianten: ", variante)
+        groupSelect.close()
+        st.session_state.essay = variante[0]
+        variante = variante[1:len(variante)]
+
+        groupSelect = open(
+            r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit" + "/" +
+            st.session_state.group + "/" + "Varianten.txt", "w")
+        groupSelect.write(variante)
+        groupSelect.close()
+
         st.experimental_rerun()
