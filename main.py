@@ -22,6 +22,7 @@ if 'essay' not in st.session_state:
     st.session_state.essay = ""
 if 'group' not in st.session_state:
     st.session_state.group = ""
+
 #Hier den richtigen Pfad einfügen
 pfad = r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit"
 
@@ -158,7 +159,7 @@ if st.session_state.start == 1:
             finalLevel.remove(finalLevel[0])
 
             #st.write(finalTypeArray)
-            st.write("final Level: ", finalLevel)
+            #st.write("final Level: ", finalLevel)
 
             #TODO brauch Array mit Level und Wort DONE
             actualIndexLevel = 0
@@ -178,19 +179,19 @@ if st.session_state.start == 1:
                 else:
                     wordIndexListLevel.append(["KEIN LEVEL", str(finalXmiListRep[actualIndexLevel][0])])
                     actualIndexLevel += 1
-            st.write("LevelWort: ", wordIndexListLevel)
+            #st.write("LevelWort: ", wordIndexListLevel)
 
             alreadySeenLevel = noRep(level)
             if "KEIN LEVEL" not in alreadySeenLevel:
                 alreadySeenLevel.append("KEIN LEVEL")
-            st.write("AlreadySeenLevel: ", alreadySeenLevel)
+            #st.write("AlreadySeenLevel: ", alreadySeenLevel)
             alreadySeen = noRep(typeArray)
             #st.write("AlreadySeen: ", alreadySeen)
 
             counter = counting(alreadySeen, finalTypeArray)
             #st.write("Counter: ", counter)
             counterLevel = counting(alreadySeenLevel, wordIndexListLevel)
-            st.write("Final level-counter: ", counterLevel)
+            #st.write("Final level-counter: ", counterLevel)
 
             col1, col2 = st.columns([1,1.3])
             availableColors = ["coral", "chartreuse", "orchid", "gold", "cornflowerblue", "lightseagreen",
