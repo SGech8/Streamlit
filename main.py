@@ -55,7 +55,7 @@ if st.session_state.start == 1:
 
 
     # TODO: hier noch anpasen wegen Anzahl der Dateien!
-    numberOfFiles = 2  # len(files)
+    numberOfFiles = 2
     #st.write(file)
     if st.session_state.group == "G1":
         if numberOfFiles > st.session_state.currentFile:
@@ -261,6 +261,7 @@ if st.session_state.start == 1:
         else:
             st.header("Danke fürs Mitmachen.\n"+"\n"+"Falls Sie noch Anmerkungen haben, nutzen Sie bitte das Textfeld unten.\n"+"\n"+"Ansonsten können Sie die Seite jetzt schließen.")
             text = st.text_area("Anmerkungen")
+            st.error("Zum Speichern der Anmerkungen drücken Sie bitte nach der Eingabe 'STRG + ENTER'.")
             openFile(st.session_state.random, text)
 
     else:
@@ -303,6 +304,7 @@ if st.session_state.start == 1:
         else:
             st.header("Danke fürs Mitmachen.\n"+"\n"+"Falls Sie noch Anmerkungen haben, nutzen Sie bitte das Textfeld unten.\n"+"\n"+"Ansonsten können Sie die Seite jetzt schließen.")
             text = st.text_area("Anmerkungen")
+            st.error("Zum Speichern der Anmerkungen drücken Sie bitte nach der Eingabe 'STRG + ENTER'.")
             openFile(st.session_state.random, text)
 
 else:
@@ -313,13 +315,14 @@ else:
              "Nach Beendigung des letzten Essays haben Sie noch die Möglichkeit Anmerkungen zu hinterlassen. Falls Sie solche haben, können Sie diese eintragen, ich freue mich auf Ihr Feedback.\n"+"\n"+
              "Um mit der Bewertung zu beginnen, geben Sie bitte Ihr Alter und Ihr Geschlecht ein und drücken Sie danach auf den Button 'Start'.\n"+"\n"+
              "Bitte sehen Sie davon ab, die Webseite zu aktualisieren, da dadurch Ihre Daten nur unvollständig gespeichert werden und Sie wieder von vorne anfangen müssten.\n"+"\n"+
-             "Ich danke Ihnen für Ihre Teilnahme und wünsche Ihnen viel Spaß."
+             "Ich danke Ihnen für Ihre Teilnahme und wünsche Ihnen viel Spaß.\n"+"\n"+
+             "Kontakt: Jan-Niklas Zutt (jnz@arcor.de)"
             )
     st.session_state.random = ''.join([random.choice(string.ascii_letters
                                     + string.digits) for n in range(16)])
 
     alter = st.text_input("Alter")
-    geschlecht = st.text_input("Geschlecht")
+    geschlecht = st.selectbox("Geschlecht", ('Männlich', 'Weiblich', 'Divers', 'Keine Angabe'))
 
 
     begin = st.button("Start")

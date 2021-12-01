@@ -1,0 +1,22 @@
+Set: a
+Gruppe: G1
+Alter: 333
+Geschlecht: Keine Angabe
+Essay: 1
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Zeit: 21.598232746124268
+Essay: 2
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Zeit: 2.73665452003479
+Essay: 3
+

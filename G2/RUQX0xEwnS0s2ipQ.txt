@@ -1,0 +1,17 @@
+Set: b
+Gruppe: G2
+Alter: 33
+Geschlecht: Divers
+Essay: 1
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Zeit: 2.7886128425598145
+Essay: 2
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Zeit: 2.154975414276123
+Essay: 3

@@ -1,0 +1,19 @@
+Set: a
+Gruppe: G2
+Alter: 22
+Geschlecht: Divers
+Essay: 1
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Zeit: 9.523612260818481
+Essay: 2
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Grade: Sehr Hohe
+Score: Sehr Hohe
+Zeit: 2.8983421325683594
+Essay: 3
+
+sdawdawd
