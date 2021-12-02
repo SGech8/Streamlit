@@ -7,6 +7,7 @@ import os
 from xml.etree import ElementTree as ET
 
 
+
 if 'currentFile' not in st.session_state:
     st.session_state.currentFile = 0
 if 'start' not in st.session_state:
@@ -33,6 +34,10 @@ promtTE ="**Do you agree or disagree with the following statement?**\n\n**A teac
          "more important than excellent knowledge of the subject being taught.**\n\n**Use specific reasons and examples to " \
          "support your answer.**"
 
+theme = open(pfad+"/"+".streamlit"+"/"+"config.toml", "w")
+theme.write('[theme]\n'+
+            'base="light"')
+theme.close()
 
 def openFile(fileName, inhalt):
     infos = open(pfad+"/"+st.session_state.group+"/"+fileName+".txt", "a")
@@ -220,6 +225,18 @@ if st.session_state.start == 1:
             availableColors = ["coral", "chartreuse", "orchid", "gold", "cornflowerblue", "lightseagreen",
                                "mediumpurple"]
 
+            allLevels = ["A1", "A2", "B1", "B2", "C1", "C2", "KEIN LEVEL"]
+            colorAndLevel = []
+            i = 0
+            for element in availableColors:
+                colorAndLevel.append([allLevels[i], element])
+                i += 1
+
+            pieColors = []
+            for element in alreadySeenLevel:
+                for x in colorAndLevel:
+                    if x[0] == element:
+                        pieColors.append(x[1])
             fig = go.Figure(
                 go.Pie(
                     labels=alreadySeenLevel,
@@ -227,16 +244,17 @@ if st.session_state.start == 1:
                     hoverinfo="label+percent",
                     textinfo="value+label",
                 ))
-            fig.update_traces(marker=dict(colors=availableColors))
+            fig.update_traces(marker=dict(colors=pieColors))
             st.subheader("Anzahl der Verwendeten Wörter nach ihrem Sprachniveau")
             st.plotly_chart(fig)
 
-            st.subheader("Aufgabenstellung:")
+            color = st.radio("Sprachlevel farbig markiert sehen?", ('Ja', 'Nein'), index=1)
+
+            st.subheader("Essay Prompt:")
             if "AD" in files[st.session_state.currentFile]:
                 st.write(promtAD)
             if "TE" in files[st.session_state.currentFile]:
                 st.write(promtTE)
-            color = st.radio("Sprachlevel farbig markiert sehen?", ('Ja', 'Nein'), index=1)
 
             if color == 'Nein':
                 st.write(sofaString)
@@ -244,7 +262,9 @@ if st.session_state.start == 1:
             else:
                 chosenTypes = []
                 for element in alreadySeenLevel:
-                    element = "<span style=\"background-color: " + availableColors[alreadySeenLevel.index(element)] + "\">" + element + "</span>"
+                    for x in colorAndLevel:
+                        if x[0] == element:
+                            element = "<span style=\"background-color: " + x[1] + "\">" + element + "</span>"
                     st.write(element, unsafe_allow_html=True)
 
                 # stringwithcolors ist der finale string zum anzeigen
@@ -303,7 +323,7 @@ if st.session_state.start == 1:
             name = file.name
             #type = file.type
 
-            st.subheader("Aufgabenstellung:")
+            st.subheader("Essay Prompt:")
             if "AD" in files[st.session_state.currentFile]:
                 st.markdown(promtAD)
             if "TE" in files[st.session_state.currentFile]:
@@ -351,7 +371,7 @@ else:
              "Um mit der Bewertung zu beginnen, geben Sie bitte Ihr Alter und Ihr Geschlecht ein und drücken Sie danach auf den Button 'Start'.\n"+"\n"+
              "Bitte sehen Sie davon ab, die Webseite zu aktualisieren, da dadurch Ihre Daten nur unvollständig gespeichert werden und Sie wieder von vorne anfangen müssten.\n"+"\n"+
              "Ich danke Ihnen für Ihre Teilnahme und wünsche Ihnen viel Spaß.\n"+"\n"+
-             "Kontakt: Jan-Niklas Zutt (jnz@arcor.de)"
+             "Kontakt: Jan-Niklas Zutt (jan-niklas.zutt@stud.uni-due.de)"
             )
     st.session_state.random = ''.join([random.choice(string.ascii_letters
                                     + string.digits) for n in range(16)])
@@ -367,7 +387,7 @@ else:
 
         groupSelect = open(pfad+"/"+"Gruppe.txt", "r")
         # st.write("Group: ", groupSelect.read(1))
-        number = int(groupSelect.read(1))
+        number = int(groupSelect.readline())
         groupSelect.close()
 
         groupSelect = open(pfad+"/"+"Gruppe.txt", "w")
