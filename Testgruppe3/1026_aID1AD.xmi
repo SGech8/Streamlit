@@ -1,0 +1,1578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:type9="http:///org/dkpro/similarity/uima/api/type.ecore" xmlns:type11="http:///org/dkpro/tc/api/type.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///org/dkpro/similarity/uima/entailment/type.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:types="http:///de/unidue/ltl/escrito/core/types.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <type4:DocumentMetaData xmi:id="13" sofa="6" begin="0" end="2078" language="en" documentTitle="On the one hand, television advertising directed toward young children should not be allowed because its unhealthy for them to whatch television too often since that could cause that they dont move enough. Its important that children go outside and move instead of sitting in front of the TV the whole time. Moreover, they could get used to technic too much when they already whatch TV in that young age too often. They want to use computers, smartphones and tablets etc. in their future way too often because they think its just normal and everybody does it because television advertising directed toward young children was allowed. So they stay in their room all the time and dont go outside because they can have contact with their friends by using their smartphones which is very unhealthy. On the other hand, television advertising directed toward young children should be allowed because its very interesting for them because they can learn something. For instance, there are many shows on the TV that are especially for very young children and that try to teach them something by having fun which can be very effective.  In my opinion, television advertising directed toward young children should be allowed but the parents shouldnt let their children whatch TV too often because its very important for their health and social life that they also do other things, for example play with their friends. I think that the parents should make a rule that says how long their children are allowed to whatch TV and what they are allowed to whatch, for instance half an hour a day and just the programm thats especially for childrem so that it cant happen that the parents sit their children in front of the TV so that they dont have to care about them. Its very important that they undertake something with their children, for example they could go to the playgroung. In the end, Id like to say that young children should be allowed to whatch TV because it can be interesting for them and they can learn something. But their parents have to whatch that they dont do it too long." documentId="1026_aID1AD" documentUri="file:/D:/BA/Mews_New/Prompts/ALL/" collectionId="1026_aID1AD" isLastSegment="false"/>
+    <types:LearnerAnswer xmi:id="24" sofa="6" begin="0" end="2078" promptId="-1"/>
+    <type11:TextClassificationTarget xmi:id="29" sofa="6" begin="0" end="2078" suffix="1026_aID1AD" id="0"/>
+    <type11:TextClassificationOutcome xmi:id="35" sofa="6" begin="0" end="2078" outcome="3.0" weight="0.0" confidence="0.0"/>
+    <type6:Token xmi:id="43" sofa="6" begin="0" end="2" lemma="7147" pos="4849"/>
+    <type6:Token xmi:id="55" sofa="6" begin="3" end="6" lemma="7152" pos="4855"/>
+    <type6:Token xmi:id="67" sofa="6" begin="7" end="10" lemma="7157" pos="4861"/>
+    <type6:Token xmi:id="79" sofa="6" begin="11" end="15" lemma="7162" pos="4867"/>
+    <type6:Token xmi:id="91" sofa="6" begin="15" end="16" lemma="7167" pos="4873"/>
+    <type6:Token xmi:id="103" sofa="6" begin="17" end="27" lemma="7172" pos="4879"/>
+    <type6:Token xmi:id="115" sofa="6" begin="28" end="39" lemma="7177" pos="4885"/>
+    <type6:Token xmi:id="127" sofa="6" begin="40" end="48" lemma="7182" pos="4891"/>
+    <type6:Token xmi:id="139" sofa="6" begin="49" end="55" lemma="7187" pos="4897"/>
+    <type6:Token xmi:id="151" sofa="6" begin="56" end="61" lemma="7192" pos="4903"/>
+    <type6:Token xmi:id="163" sofa="6" begin="62" end="70" lemma="7197" pos="4909"/>
+    <type6:Token xmi:id="175" sofa="6" begin="71" end="77" lemma="7202" pos="4915"/>
+    <type6:Token xmi:id="187" sofa="6" begin="78" end="81" lemma="7207" pos="4921"/>
+    <type6:Token xmi:id="199" sofa="6" begin="82" end="84" lemma="7212" pos="4927"/>
+    <type6:Token xmi:id="211" sofa="6" begin="85" end="92" lemma="7217" pos="4933"/>
+    <type6:Token xmi:id="223" sofa="6" begin="93" end="100" lemma="7222" pos="4939"/>
+    <type6:Token xmi:id="235" sofa="6" begin="101" end="104" lemma="7227" pos="4945"/>
+    <type6:Token xmi:id="247" sofa="6" begin="105" end="114" lemma="7232" pos="4951"/>
+    <type6:Token xmi:id="259" sofa="6" begin="115" end="118" lemma="7237" pos="4957"/>
+    <type6:Token xmi:id="271" sofa="6" begin="119" end="123" lemma="7242" pos="4963"/>
+    <type6:Token xmi:id="283" sofa="6" begin="124" end="126" lemma="7247" pos="4969"/>
+    <type6:Token xmi:id="295" sofa="6" begin="127" end="133" lemma="7252" pos="4975"/>
+    <type6:Token xmi:id="307" sofa="6" begin="134" end="144" lemma="7257" pos="4981"/>
+    <type6:Token xmi:id="319" sofa="6" begin="145" end="148" lemma="7262" pos="4987"/>
+    <type6:Token xmi:id="331" sofa="6" begin="149" end="154" lemma="7267" pos="4993"/>
+    <type6:Token xmi:id="343" sofa="6" begin="155" end="160" lemma="7272" pos="4999"/>
+    <type6:Token xmi:id="355" sofa="6" begin="161" end="165" lemma="7277" pos="5005"/>
+    <type6:Token xmi:id="367" sofa="6" begin="166" end="171" lemma="7282" pos="5011"/>
+    <type6:Token xmi:id="379" sofa="6" begin="172" end="177" lemma="7287" pos="5017"/>
+    <type6:Token xmi:id="391" sofa="6" begin="178" end="182" lemma="7292" pos="5023"/>
+    <type6:Token xmi:id="403" sofa="6" begin="183" end="187" lemma="7297" pos="5029"/>
+    <type6:Token xmi:id="415" sofa="6" begin="188" end="192" lemma="7302" pos="5035"/>
+    <type6:Token xmi:id="427" sofa="6" begin="193" end="197" lemma="7307" pos="5041"/>
+    <type6:Token xmi:id="439" sofa="6" begin="198" end="204" lemma="7312" pos="5047"/>
+    <type6:Token xmi:id="451" sofa="6" begin="204" end="205" lemma="7317" pos="5053"/>
+    <type6:Token xmi:id="463" sofa="6" begin="206" end="209" lemma="7322" pos="5059"/>
+    <type6:Token xmi:id="475" sofa="6" begin="210" end="219" lemma="7327" pos="5065"/>
+    <type6:Token xmi:id="487" sofa="6" begin="220" end="224" lemma="7332" pos="5071"/>
+    <type6:Token xmi:id="499" sofa="6" begin="225" end="233" lemma="7337" pos="5077"/>
+    <type6:Token xmi:id="511" sofa="6" begin="234" end="236" lemma="7342" pos="5083"/>
+    <type6:Token xmi:id="523" sofa="6" begin="237" end="244" lemma="7347" pos="5089"/>
+    <type6:Token xmi:id="535" sofa="6" begin="245" end="248" lemma="7352" pos="5095"/>
+    <type6:Token xmi:id="547" sofa="6" begin="249" end="253" lemma="7357" pos="5101"/>
+    <type6:Token xmi:id="559" sofa="6" begin="254" end="261" lemma="7362" pos="5107"/>
+    <type6:Token xmi:id="571" sofa="6" begin="262" end="264" lemma="7367" pos="5113"/>
+    <type6:Token xmi:id="583" sofa="6" begin="265" end="272" lemma="7372" pos="5119"/>
+    <type6:Token xmi:id="595" sofa="6" begin="273" end="275" lemma="7377" pos="5125"/>
+    <type6:Token xmi:id="607" sofa="6" begin="276" end="281" lemma="7382" pos="5131"/>
+    <type6:Token xmi:id="619" sofa="6" begin="282" end="284" lemma="7387" pos="5137"/>
+    <type6:Token xmi:id="631" sofa="6" begin="285" end="288" lemma="7392" pos="5143"/>
+    <type6:Token xmi:id="643" sofa="6" begin="289" end="291" lemma="7397" pos="5149"/>
+    <type6:Token xmi:id="655" sofa="6" begin="292" end="295" lemma="7402" pos="5155"/>
+    <type6:Token xmi:id="667" sofa="6" begin="296" end="301" lemma="7407" pos="5161"/>
+    <type6:Token xmi:id="679" sofa="6" begin="302" end="306" lemma="7412" pos="5167"/>
+    <type6:Token xmi:id="691" sofa="6" begin="306" end="307" lemma="7417" pos="5173"/>
+    <type6:Token xmi:id="703" sofa="6" begin="308" end="316" lemma="7422" pos="5179"/>
+    <type6:Token xmi:id="715" sofa="6" begin="316" end="317" lemma="7427" pos="5185"/>
+    <type6:Token xmi:id="727" sofa="6" begin="318" end="322" lemma="7432" pos="5191"/>
+    <type6:Token xmi:id="739" sofa="6" begin="323" end="328" lemma="7437" pos="5197"/>
+    <type6:Token xmi:id="751" sofa="6" begin="329" end="332" lemma="7442" pos="5203"/>
+    <type6:Token xmi:id="763" sofa="6" begin="333" end="337" lemma="7447" pos="5209"/>
+    <type6:Token xmi:id="775" sofa="6" begin="338" end="340" lemma="7452" pos="5215"/>
+    <type6:Token xmi:id="787" sofa="6" begin="341" end="348" lemma="7457" pos="5221"/>
+    <type6:Token xmi:id="799" sofa="6" begin="349" end="352" lemma="7462" pos="5227"/>
+    <type6:Token xmi:id="811" sofa="6" begin="353" end="357" lemma="7467" pos="5233"/>
+    <type6:Token xmi:id="823" sofa="6" begin="358" end="362" lemma="7472" pos="5239"/>
+    <type6:Token xmi:id="835" sofa="6" begin="363" end="367" lemma="7477" pos="5245"/>
+    <type6:Token xmi:id="847" sofa="6" begin="368" end="375" lemma="7482" pos="5251"/>
+    <type6:Token xmi:id="859" sofa="6" begin="376" end="382" lemma="7487" pos="5257"/>
+    <type6:Token xmi:id="871" sofa="6" begin="383" end="385" lemma="7492" pos="5263"/>
+    <type6:Token xmi:id="883" sofa="6" begin="386" end="388" lemma="7497" pos="5269"/>
+    <type6:Token xmi:id="895" sofa="6" begin="389" end="393" lemma="7502" pos="5275"/>
+    <type6:Token xmi:id="907" sofa="6" begin="394" end="399" lemma="7507" pos="5281"/>
+    <type6:Token xmi:id="919" sofa="6" begin="400" end="403" lemma="7512" pos="5287"/>
+    <type6:Token xmi:id="931" sofa="6" begin="404" end="407" lemma="7517" pos="5293"/>
+    <type6:Token xmi:id="943" sofa="6" begin="408" end="413" lemma="7522" pos="5299"/>
+    <type6:Token xmi:id="955" sofa="6" begin="413" end="414" lemma="7527" pos="5305"/>
+    <type6:Token xmi:id="967" sofa="6" begin="415" end="419" lemma="7532" pos="5311"/>
+    <type6:Token xmi:id="979" sofa="6" begin="420" end="424" lemma="7537" pos="5317"/>
+    <type6:Token xmi:id="991" sofa="6" begin="425" end="427" lemma="7542" pos="5323"/>
+    <type6:Token xmi:id="1003" sofa="6" begin="428" end="431" lemma="7547" pos="5329"/>
+    <type6:Token xmi:id="1015" sofa="6" begin="432" end="441" lemma="7552" pos="5335"/>
+    <type6:Token xmi:id="1027" sofa="6" begin="441" end="442" lemma="7557" pos="5341"/>
+    <type6:Token xmi:id="1039" sofa="6" begin="443" end="454" lemma="7562" pos="5347"/>
+    <type6:Token xmi:id="1051" sofa="6" begin="455" end="458" lemma="7567" pos="5353"/>
+    <type6:Token xmi:id="1063" sofa="6" begin="459" end="466" lemma="7572" pos="5359"/>
+    <type6:Token xmi:id="1075" sofa="6" begin="467" end="471" lemma="7577" pos="5365"/>
+    <type6:Token xmi:id="1087" sofa="6" begin="472" end="474" lemma="7582" pos="5371"/>
+    <type6:Token xmi:id="1099" sofa="6" begin="475" end="480" lemma="7587" pos="5377"/>
+    <type6:Token xmi:id="1111" sofa="6" begin="481" end="487" lemma="7592" pos="5383"/>
+    <type6:Token xmi:id="1123" sofa="6" begin="488" end="491" lemma="7597" pos="5389"/>
+    <type6:Token xmi:id="1135" sofa="6" begin="492" end="495" lemma="7602" pos="5395"/>
+    <type6:Token xmi:id="1147" sofa="6" begin="496" end="501" lemma="7607" pos="5401"/>
+    <type6:Token xmi:id="1159" sofa="6" begin="502" end="509" lemma="7612" pos="5407"/>
+    <type6:Token xmi:id="1171" sofa="6" begin="510" end="514" lemma="7617" pos="5413"/>
+    <type6:Token xmi:id="1183" sofa="6" begin="515" end="520" lemma="7622" pos="5419"/>
+    <type6:Token xmi:id="1195" sofa="6" begin="521" end="524" lemma="7627" pos="5425"/>
+    <type6:Token xmi:id="1207" sofa="6" begin="525" end="529" lemma="7632" pos="5431"/>
+    <type6:Token xmi:id="1219" sofa="6" begin="530" end="536" lemma="7637" pos="5437"/>
+    <type6:Token xmi:id="1231" sofa="6" begin="537" end="540" lemma="7642" pos="5443"/>
+    <type6:Token xmi:id="1243" sofa="6" begin="541" end="550" lemma="7647" pos="5449"/>
+    <type6:Token xmi:id="1255" sofa="6" begin="551" end="555" lemma="7652" pos="5455"/>
+    <type6:Token xmi:id="1267" sofa="6" begin="556" end="558" lemma="7657" pos="5461"/>
+    <type6:Token xmi:id="1279" sofa="6" begin="559" end="566" lemma="7662" pos="5467"/>
+    <type6:Token xmi:id="1291" sofa="6" begin="567" end="577" lemma="7667" pos="5473"/>
+    <type6:Token xmi:id="1303" sofa="6" begin="578" end="589" lemma="7672" pos="5479"/>
+    <type6:Token xmi:id="1315" sofa="6" begin="590" end="598" lemma="7677" pos="5485"/>
+    <type6:Token xmi:id="1327" sofa="6" begin="599" end="605" lemma="7682" pos="5491"/>
+    <type6:Token xmi:id="1339" sofa="6" begin="606" end="611" lemma="7687" pos="5497"/>
+    <type6:Token xmi:id="1351" sofa="6" begin="612" end="620" lemma="7692" pos="5503"/>
+    <type6:Token xmi:id="1363" sofa="6" begin="621" end="624" lemma="7697" pos="5509"/>
+    <type6:Token xmi:id="1375" sofa="6" begin="625" end="632" lemma="7702" pos="5515"/>
+    <type6:Token xmi:id="1387" sofa="6" begin="632" end="633" lemma="7707" pos="5521"/>
+    <type6:Token xmi:id="1399" sofa="6" begin="634" end="636" lemma="7712" pos="5527"/>
+    <type6:Token xmi:id="1411" sofa="6" begin="637" end="641" lemma="7717" pos="5533"/>
+    <type6:Token xmi:id="1423" sofa="6" begin="642" end="646" lemma="7722" pos="5539"/>
+    <type6:Token xmi:id="1435" sofa="6" begin="647" end="649" lemma="7727" pos="5545"/>
+    <type6:Token xmi:id="1447" sofa="6" begin="650" end="655" lemma="7732" pos="5551"/>
+    <type6:Token xmi:id="1459" sofa="6" begin="656" end="660" lemma="7737" pos="5557"/>
+    <type6:Token xmi:id="1471" sofa="6" begin="661" end="664" lemma="7742" pos="5563"/>
+    <type6:Token xmi:id="1483" sofa="6" begin="665" end="668" lemma="7747" pos="5569"/>
+    <type6:Token xmi:id="1495" sofa="6" begin="669" end="673" lemma="7752" pos="5575"/>
+    <type6:Token xmi:id="1507" sofa="6" begin="674" end="677" lemma="7757" pos="5581"/>
+    <type6:Token xmi:id="1519" sofa="6" begin="678" end="682" lemma="7762" pos="5587"/>
+    <type6:Token xmi:id="1531" sofa="6" begin="683" end="685" lemma="7767" pos="5593"/>
+    <type6:Token xmi:id="1543" sofa="6" begin="686" end="693" lemma="7772" pos="5599"/>
+    <type6:Token xmi:id="1555" sofa="6" begin="694" end="701" lemma="7777" pos="5605"/>
+    <type6:Token xmi:id="1567" sofa="6" begin="702" end="706" lemma="7782" pos="5611"/>
+    <type6:Token xmi:id="1579" sofa="6" begin="707" end="710" lemma="7787" pos="5617"/>
+    <type6:Token xmi:id="1591" sofa="6" begin="711" end="715" lemma="7792" pos="5623"/>
+    <type6:Token xmi:id="1603" sofa="6" begin="716" end="723" lemma="7797" pos="5629"/>
+    <type6:Token xmi:id="1615" sofa="6" begin="724" end="728" lemma="7802" pos="5635"/>
+    <type6:Token xmi:id="1627" sofa="6" begin="729" end="734" lemma="7807" pos="5641"/>
+    <type6:Token xmi:id="1639" sofa="6" begin="735" end="742" lemma="7812" pos="5647"/>
+    <type6:Token xmi:id="1651" sofa="6" begin="743" end="745" lemma="7817" pos="5653"/>
+    <type6:Token xmi:id="1663" sofa="6" begin="746" end="751" lemma="7822" pos="5659"/>
+    <type6:Token xmi:id="1675" sofa="6" begin="752" end="757" lemma="7827" pos="5665"/>
+    <type6:Token xmi:id="1687" sofa="6" begin="758" end="769" lemma="7832" pos="5671"/>
+    <type6:Token xmi:id="1699" sofa="6" begin="770" end="775" lemma="7837" pos="5677"/>
+    <type6:Token xmi:id="1711" sofa="6" begin="776" end="778" lemma="7842" pos="5683"/>
+    <type6:Token xmi:id="1723" sofa="6" begin="779" end="783" lemma="7847" pos="5689"/>
+    <type6:Token xmi:id="1735" sofa="6" begin="784" end="793" lemma="7852" pos="5695"/>
+    <type6:Token xmi:id="1747" sofa="6" begin="793" end="794" lemma="7857" pos="5701"/>
+    <type6:Token xmi:id="1759" sofa="6" begin="795" end="797" lemma="7862" pos="5707"/>
+    <type6:Token xmi:id="1771" sofa="6" begin="798" end="801" lemma="7867" pos="5713"/>
+    <type6:Token xmi:id="1783" sofa="6" begin="802" end="807" lemma="7872" pos="5719"/>
+    <type6:Token xmi:id="1795" sofa="6" begin="808" end="812" lemma="7877" pos="5725"/>
+    <type6:Token xmi:id="1807" sofa="6" begin="812" end="813" lemma="7882" pos="5731"/>
+    <type6:Token xmi:id="1819" sofa="6" begin="814" end="824" lemma="7887" pos="5737"/>
+    <type6:Token xmi:id="1831" sofa="6" begin="825" end="836" lemma="7892" pos="5743"/>
+    <type6:Token xmi:id="1843" sofa="6" begin="837" end="845" lemma="7897" pos="5749"/>
+    <type6:Token xmi:id="1855" sofa="6" begin="846" end="852" lemma="7902" pos="5755"/>
+    <type6:Token xmi:id="1867" sofa="6" begin="853" end="858" lemma="7907" pos="5761"/>
+    <type6:Token xmi:id="1879" sofa="6" begin="859" end="867" lemma="7912" pos="5767"/>
+    <type6:Token xmi:id="1891" sofa="6" begin="868" end="874" lemma="7917" pos="5773"/>
+    <type6:Token xmi:id="1903" sofa="6" begin="875" end="877" lemma="7922" pos="5779"/>
+    <type6:Token xmi:id="1915" sofa="6" begin="878" end="885" lemma="7927" pos="5785"/>
+    <type6:Token xmi:id="1927" sofa="6" begin="886" end="893" lemma="7932" pos="5791"/>
+    <type6:Token xmi:id="1939" sofa="6" begin="894" end="897" lemma="7937" pos="5797"/>
+    <type6:Token xmi:id="1951" sofa="6" begin="898" end="902" lemma="7942" pos="5803"/>
+    <type6:Token xmi:id="1963" sofa="6" begin="903" end="914" lemma="7947" pos="5809"/>
+    <type6:Token xmi:id="1975" sofa="6" begin="915" end="918" lemma="7952" pos="5815"/>
+    <type6:Token xmi:id="1987" sofa="6" begin="919" end="923" lemma="7957" pos="5821"/>
+    <type6:Token xmi:id="1999" sofa="6" begin="924" end="931" lemma="7962" pos="5827"/>
+    <type6:Token xmi:id="2011" sofa="6" begin="932" end="936" lemma="7967" pos="5833"/>
+    <type6:Token xmi:id="2023" sofa="6" begin="937" end="940" lemma="7972" pos="5839"/>
+    <type6:Token xmi:id="2035" sofa="6" begin="941" end="946" lemma="7977" pos="5845"/>
+    <type6:Token xmi:id="2047" sofa="6" begin="947" end="956" lemma="7982" pos="5851"/>
+    <type6:Token xmi:id="2059" sofa="6" begin="956" end="957" lemma="7987" pos="5857"/>
+    <type6:Token xmi:id="2071" sofa="6" begin="958" end="961" lemma="7992" pos="5863"/>
+    <type6:Token xmi:id="2083" sofa="6" begin="962" end="970" lemma="7997" pos="5869"/>
+    <type6:Token xmi:id="2095" sofa="6" begin="970" end="971" lemma="8002" pos="5875"/>
+    <type6:Token xmi:id="2107" sofa="6" begin="972" end="977" lemma="8007" pos="5881"/>
+    <type6:Token xmi:id="2119" sofa="6" begin="978" end="981" lemma="8012" pos="5887"/>
+    <type6:Token xmi:id="2131" sofa="6" begin="982" end="986" lemma="8017" pos="5893"/>
+    <type6:Token xmi:id="2143" sofa="6" begin="987" end="992" lemma="8022" pos="5899"/>
+    <type6:Token xmi:id="2155" sofa="6" begin="993" end="995" lemma="8027" pos="5905"/>
+    <type6:Token xmi:id="2167" sofa="6" begin="996" end="999" lemma="8032" pos="5911"/>
+    <type6:Token xmi:id="2179" sofa="6" begin="1000" end="1002" lemma="8037" pos="5917"/>
+    <type6:Token xmi:id="2191" sofa="6" begin="1003" end="1007" lemma="8042" pos="5923"/>
+    <type6:Token xmi:id="2203" sofa="6" begin="1008" end="1011" lemma="8047" pos="5929"/>
+    <type6:Token xmi:id="2215" sofa="6" begin="1012" end="1022" lemma="8052" pos="5935"/>
+    <type6:Token xmi:id="2227" sofa="6" begin="1023" end="1026" lemma="8057" pos="5941"/>
+    <type6:Token xmi:id="2239" sofa="6" begin="1027" end="1031" lemma="8062" pos="5947"/>
+    <type6:Token xmi:id="2251" sofa="6" begin="1032" end="1037" lemma="8067" pos="5953"/>
+    <type6:Token xmi:id="2263" sofa="6" begin="1038" end="1046" lemma="8072" pos="5959"/>
+    <type6:Token xmi:id="2275" sofa="6" begin="1047" end="1050" lemma="8077" pos="5965"/>
+    <type6:Token xmi:id="2287" sofa="6" begin="1051" end="1055" lemma="8082" pos="5971"/>
+    <type6:Token xmi:id="2299" sofa="6" begin="1056" end="1059" lemma="8087" pos="5977"/>
+    <type6:Token xmi:id="2311" sofa="6" begin="1060" end="1062" lemma="8092" pos="5983"/>
+    <type6:Token xmi:id="2323" sofa="6" begin="1063" end="1068" lemma="8097" pos="5989"/>
+    <type6:Token xmi:id="2335" sofa="6" begin="1069" end="1073" lemma="8102" pos="5995"/>
+    <type6:Token xmi:id="2347" sofa="6" begin="1074" end="1083" lemma="8107" pos="6001"/>
+    <type6:Token xmi:id="2359" sofa="6" begin="1084" end="1086" lemma="8112" pos="6007"/>
+    <type6:Token xmi:id="2371" sofa="6" begin="1087" end="1093" lemma="8117" pos="6013"/>
+    <type6:Token xmi:id="2383" sofa="6" begin="1094" end="1097" lemma="8122" pos="6019"/>
+    <type6:Token xmi:id="2395" sofa="6" begin="1098" end="1103" lemma="8127" pos="6025"/>
+    <type6:Token xmi:id="2407" sofa="6" begin="1104" end="1107" lemma="8132" pos="6031"/>
+    <type6:Token xmi:id="2419" sofa="6" begin="1108" end="1110" lemma="8137" pos="6037"/>
+    <type6:Token xmi:id="2431" sofa="6" begin="1111" end="1115" lemma="8142" pos="6043"/>
+    <type6:Token xmi:id="2443" sofa="6" begin="1116" end="1125" lemma="8147" pos="6049"/>
+    <type6:Token xmi:id="2455" sofa="6" begin="1125" end="1126" lemma="8152" pos="6055"/>
+    <type6:Token xmi:id="2467" sofa="6" begin="1128" end="1130" lemma="8157" pos="6061"/>
+    <type6:Token xmi:id="2479" sofa="6" begin="1131" end="1133" lemma="8162" pos="6067"/>
+    <type6:Token xmi:id="2491" sofa="6" begin="1134" end="1141" lemma="8167" pos="6073"/>
+    <type6:Token xmi:id="2503" sofa="6" begin="1141" end="1142" lemma="8172" pos="6079"/>
+    <type6:Token xmi:id="2515" sofa="6" begin="1143" end="1153" lemma="8177" pos="6085"/>
+    <type6:Token xmi:id="2527" sofa="6" begin="1154" end="1165" lemma="8182" pos="6091"/>
+    <type6:Token xmi:id="2539" sofa="6" begin="1166" end="1174" lemma="8187" pos="6097"/>
+    <type6:Token xmi:id="2551" sofa="6" begin="1175" end="1181" lemma="8192" pos="6103"/>
+    <type6:Token xmi:id="2563" sofa="6" begin="1182" end="1187" lemma="8197" pos="6109"/>
+    <type6:Token xmi:id="2575" sofa="6" begin="1188" end="1196" lemma="8202" pos="6115"/>
+    <type6:Token xmi:id="2587" sofa="6" begin="1197" end="1203" lemma="8207" pos="6121"/>
+    <type6:Token xmi:id="2599" sofa="6" begin="1204" end="1206" lemma="8212" pos="6127"/>
+    <type6:Token xmi:id="2611" sofa="6" begin="1207" end="1214" lemma="8217" pos="6133"/>
+    <type6:Token xmi:id="2623" sofa="6" begin="1215" end="1218" lemma="8222" pos="6139"/>
+    <type6:Token xmi:id="2635" sofa="6" begin="1219" end="1222" lemma="8227" pos="6145"/>
+    <type6:Token xmi:id="2647" sofa="6" begin="1223" end="1230" lemma="8232" pos="6151"/>
+    <type6:Token xmi:id="2659" sofa="6" begin="1231" end="1239" lemma="8237" pos="6157"/>
+    <type6:Token xmi:id="2671" sofa="6" begin="1240" end="1243" lemma="8242" pos="6163"/>
+    <type6:Token xmi:id="2683" sofa="6" begin="1244" end="1249" lemma="8247" pos="6169"/>
+    <type6:Token xmi:id="2695" sofa="6" begin="1250" end="1258" lemma="8252" pos="6175"/>
+    <type6:Token xmi:id="2707" sofa="6" begin="1259" end="1265" lemma="8257" pos="6181"/>
+    <type6:Token xmi:id="2719" sofa="6" begin="1266" end="1268" lemma="8262" pos="6187"/>
+    <type6:Token xmi:id="2731" sofa="6" begin="1269" end="1272" lemma="8267" pos="6193"/>
+    <type6:Token xmi:id="2743" sofa="6" begin="1273" end="1278" lemma="8272" pos="6199"/>
+    <type6:Token xmi:id="2755" sofa="6" begin="1279" end="1286" lemma="8277" pos="6205"/>
+    <type6:Token xmi:id="2767" sofa="6" begin="1287" end="1290" lemma="8282" pos="6211"/>
+    <type6:Token xmi:id="2779" sofa="6" begin="1291" end="1295" lemma="8287" pos="6217"/>
+    <type6:Token xmi:id="2791" sofa="6" begin="1296" end="1305" lemma="8292" pos="6223"/>
+    <type6:Token xmi:id="2803" sofa="6" begin="1306" end="1309" lemma="8297" pos="6229"/>
+    <type6:Token xmi:id="2815" sofa="6" begin="1310" end="1315" lemma="8302" pos="6235"/>
+    <type6:Token xmi:id="2827" sofa="6" begin="1316" end="1322" lemma="8307" pos="6241"/>
+    <type6:Token xmi:id="2839" sofa="6" begin="1323" end="1326" lemma="8312" pos="6247"/>
+    <type6:Token xmi:id="2851" sofa="6" begin="1327" end="1333" lemma="8317" pos="6253"/>
+    <type6:Token xmi:id="2863" sofa="6" begin="1334" end="1338" lemma="8322" pos="6259"/>
+    <type6:Token xmi:id="2875" sofa="6" begin="1339" end="1343" lemma="8327" pos="6265"/>
+    <type6:Token xmi:id="2887" sofa="6" begin="1344" end="1348" lemma="8332" pos="6271"/>
+    <type6:Token xmi:id="2899" sofa="6" begin="1349" end="1353" lemma="8337" pos="6277"/>
+    <type6:Token xmi:id="2911" sofa="6" begin="1354" end="1356" lemma="8342" pos="6283"/>
+    <type6:Token xmi:id="2923" sofa="6" begin="1357" end="1362" lemma="8347" pos="6289"/>
+    <type6:Token xmi:id="2935" sofa="6" begin="1363" end="1369" lemma="8352" pos="6295"/>
+    <type6:Token xmi:id="2947" sofa="6" begin="1369" end="1370" lemma="8357" pos="6301"/>
+    <type6:Token xmi:id="2959" sofa="6" begin="1371" end="1374" lemma="8362" pos="6307"/>
+    <type6:Token xmi:id="2971" sofa="6" begin="1375" end="1382" lemma="8367" pos="6313"/>
+    <type6:Token xmi:id="2983" sofa="6" begin="1383" end="1387" lemma="8372" pos="6319"/>
+    <type6:Token xmi:id="2995" sofa="6" begin="1388" end="1392" lemma="8377" pos="6325"/>
+    <type6:Token xmi:id="3007" sofa="6" begin="1393" end="1398" lemma="8382" pos="6331"/>
+    <type6:Token xmi:id="3019" sofa="6" begin="1399" end="1406" lemma="8387" pos="6337"/>
+    <type6:Token xmi:id="3031" sofa="6" begin="1406" end="1407" lemma="8392" pos="6343"/>
+    <type6:Token xmi:id="3043" sofa="6" begin="1408" end="1409" lemma="8397" pos="6349"/>
+    <type6:Token xmi:id="3055" sofa="6" begin="1410" end="1415" lemma="8402" pos="6355"/>
+    <type6:Token xmi:id="3067" sofa="6" begin="1416" end="1420" lemma="8407" pos="6361"/>
+    <type6:Token xmi:id="3079" sofa="6" begin="1421" end="1424" lemma="8412" pos="6367"/>
+    <type6:Token xmi:id="3091" sofa="6" begin="1425" end="1432" lemma="8417" pos="6373"/>
+    <type6:Token xmi:id="3103" sofa="6" begin="1433" end="1439" lemma="8422" pos="6379"/>
+    <type6:Token xmi:id="3115" sofa="6" begin="1440" end="1444" lemma="8427" pos="6385"/>
+    <type6:Token xmi:id="3127" sofa="6" begin="1445" end="1446" lemma="8432" pos="6391"/>
+    <type6:Token xmi:id="3139" sofa="6" begin="1447" end="1451" lemma="8437" pos="6397"/>
+    <type6:Token xmi:id="3151" sofa="6" begin="1452" end="1456" lemma="8442" pos="6403"/>
+    <type6:Token xmi:id="3163" sofa="6" begin="1457" end="1461" lemma="8447" pos="6409"/>
+    <type6:Token xmi:id="3175" sofa="6" begin="1462" end="1465" lemma="8452" pos="6415"/>
+    <type6:Token xmi:id="3187" sofa="6" begin="1466" end="1470" lemma="8457" pos="6421"/>
+    <type6:Token xmi:id="3199" sofa="6" begin="1471" end="1476" lemma="8462" pos="6427"/>
+    <type6:Token xmi:id="3211" sofa="6" begin="1477" end="1485" lemma="8467" pos="6433"/>
+    <type6:Token xmi:id="3223" sofa="6" begin="1486" end="1489" lemma="8472" pos="6439"/>
+    <type6:Token xmi:id="3235" sofa="6" begin="1490" end="1497" lemma="8477" pos="6445"/>
+    <type6:Token xmi:id="3247" sofa="6" begin="1498" end="1500" lemma="8482" pos="6451"/>
+    <type6:Token xmi:id="3259" sofa="6" begin="1501" end="1507" lemma="8487" pos="6457"/>
+    <type6:Token xmi:id="3271" sofa="6" begin="1508" end="1510" lemma="8492" pos="6463"/>
+    <type6:Token xmi:id="3283" sofa="6" begin="1511" end="1514" lemma="8497" pos="6469"/>
+    <type6:Token xmi:id="3295" sofa="6" begin="1515" end="1519" lemma="8502" pos="6475"/>
+    <type6:Token xmi:id="3307" sofa="6" begin="1520" end="1524" lemma="8507" pos="6481"/>
+    <type6:Token xmi:id="3319" sofa="6" begin="1525" end="1528" lemma="8512" pos="6487"/>
+    <type6:Token xmi:id="3331" sofa="6" begin="1529" end="1536" lemma="8517" pos="6493"/>
+    <type6:Token xmi:id="3343" sofa="6" begin="1537" end="1539" lemma="8522" pos="6499"/>
+    <type6:Token xmi:id="3355" sofa="6" begin="1540" end="1546" lemma="8527" pos="6505"/>
+    <type6:Token xmi:id="3367" sofa="6" begin="1546" end="1547" lemma="8532" pos="6511"/>
+    <type6:Token xmi:id="3379" sofa="6" begin="1548" end="1551" lemma="8537" pos="6517"/>
+    <type6:Token xmi:id="3391" sofa="6" begin="1552" end="1560" lemma="8542" pos="6523"/>
+    <type6:Token xmi:id="3403" sofa="6" begin="1561" end="1565" lemma="8547" pos="6529"/>
+    <type6:Token xmi:id="3415" sofa="6" begin="1566" end="1568" lemma="8552" pos="6535"/>
+    <type6:Token xmi:id="3427" sofa="6" begin="1569" end="1573" lemma="8557" pos="6541"/>
+    <type6:Token xmi:id="3439" sofa="6" begin="1574" end="1575" lemma="8562" pos="6547"/>
+    <type6:Token xmi:id="3451" sofa="6" begin="1576" end="1579" lemma="8567" pos="6553"/>
+    <type6:Token xmi:id="3463" sofa="6" begin="1580" end="1583" lemma="8572" pos="6559"/>
+    <type6:Token xmi:id="3475" sofa="6" begin="1584" end="1588" lemma="8577" pos="6565"/>
+    <type6:Token xmi:id="3487" sofa="6" begin="1589" end="1592" lemma="8582" pos="6571"/>
+    <type6:Token xmi:id="3499" sofa="6" begin="1593" end="1601" lemma="8587" pos="6577"/>
+    <type6:Token xmi:id="3511" sofa="6" begin="1602" end="1607" lemma="8592" pos="6583"/>
+    <type6:Token xmi:id="3523" sofa="6" begin="1608" end="1618" lemma="8597" pos="6589"/>
+    <type6:Token xmi:id="3535" sofa="6" begin="1619" end="1622" lemma="8602" pos="6595"/>
+    <type6:Token xmi:id="3547" sofa="6" begin="1623" end="1631" lemma="8607" pos="6601"/>
+    <type6:Token xmi:id="3559" sofa="6" begin="1632" end="1634" lemma="8612" pos="6607"/>
+    <type6:Token xmi:id="3571" sofa="6" begin="1635" end="1639" lemma="8617" pos="6613"/>
+    <type6:Token xmi:id="3583" sofa="6" begin="1640" end="1642" lemma="8622" pos="6619"/>
+    <type6:Token xmi:id="3595" sofa="6" begin="1643" end="1647" lemma="8627" pos="6625"/>
+    <type6:Token xmi:id="3607" sofa="6" begin="1648" end="1654" lemma="8632" pos="6631"/>
+    <type6:Token xmi:id="3619" sofa="6" begin="1655" end="1659" lemma="8637" pos="6637"/>
+    <type6:Token xmi:id="3631" sofa="6" begin="1660" end="1663" lemma="8642" pos="6643"/>
+    <type6:Token xmi:id="3643" sofa="6" begin="1664" end="1671" lemma="8647" pos="6649"/>
+    <type6:Token xmi:id="3655" sofa="6" begin="1672" end="1675" lemma="8652" pos="6655"/>
+    <type6:Token xmi:id="3667" sofa="6" begin="1676" end="1681" lemma="8657" pos="6661"/>
+    <type6:Token xmi:id="3679" sofa="6" begin="1682" end="1690" lemma="8662" pos="6667"/>
+    <type6:Token xmi:id="3691" sofa="6" begin="1691" end="1693" lemma="8667" pos="6673"/>
+    <type6:Token xmi:id="3703" sofa="6" begin="1694" end="1699" lemma="8672" pos="6679"/>
+    <type6:Token xmi:id="3715" sofa="6" begin="1700" end="1702" lemma="8677" pos="6685"/>
+    <type6:Token xmi:id="3727" sofa="6" begin="1703" end="1706" lemma="8682" pos="6691"/>
+    <type6:Token xmi:id="3739" sofa="6" begin="1707" end="1709" lemma="8687" pos="6697"/>
+    <type6:Token xmi:id="3751" sofa="6" begin="1710" end="1712" lemma="8692" pos="6703"/>
+    <type6:Token xmi:id="3763" sofa="6" begin="1713" end="1717" lemma="8697" pos="6709"/>
+    <type6:Token xmi:id="3775" sofa="6" begin="1718" end="1722" lemma="8702" pos="6715"/>
+    <type6:Token xmi:id="3787" sofa="6" begin="1723" end="1727" lemma="8707" pos="6721"/>
+    <type6:Token xmi:id="3799" sofa="6" begin="1728" end="1732" lemma="8712" pos="6727"/>
+    <type6:Token xmi:id="3811" sofa="6" begin="1733" end="1735" lemma="8717" pos="6733"/>
+    <type6:Token xmi:id="3823" sofa="6" begin="1736" end="1740" lemma="8722" pos="6739"/>
+    <type6:Token xmi:id="3835" sofa="6" begin="1741" end="1746" lemma="8727" pos="6745"/>
+    <type6:Token xmi:id="3847" sofa="6" begin="1747" end="1751" lemma="8732" pos="6751"/>
+    <type6:Token xmi:id="3859" sofa="6" begin="1751" end="1752" lemma="8737" pos="6757"/>
+    <type6:Token xmi:id="3871" sofa="6" begin="1753" end="1756" lemma="8742" pos="6763"/>
+    <type6:Token xmi:id="3883" sofa="6" begin="1757" end="1761" lemma="8747" pos="6769"/>
+    <type6:Token xmi:id="3895" sofa="6" begin="1762" end="1771" lemma="8752" pos="6775"/>
+    <type6:Token xmi:id="3907" sofa="6" begin="1772" end="1776" lemma="8757" pos="6781"/>
+    <type6:Token xmi:id="3919" sofa="6" begin="1777" end="1781" lemma="8762" pos="6787"/>
+    <type6:Token xmi:id="3931" sofa="6" begin="1782" end="1791" lemma="8767" pos="6793"/>
+    <type6:Token xmi:id="3943" sofa="6" begin="1792" end="1801" lemma="8772" pos="6799"/>
+    <type6:Token xmi:id="3955" sofa="6" begin="1802" end="1806" lemma="8777" pos="6805"/>
+    <type6:Token xmi:id="3967" sofa="6" begin="1807" end="1812" lemma="8782" pos="6811"/>
+    <type6:Token xmi:id="3979" sofa="6" begin="1813" end="1821" lemma="8787" pos="6817"/>
+    <type6:Token xmi:id="3991" sofa="6" begin="1821" end="1822" lemma="8792" pos="6823"/>
+    <type6:Token xmi:id="4003" sofa="6" begin="1823" end="1826" lemma="8797" pos="6829"/>
+    <type6:Token xmi:id="4015" sofa="6" begin="1827" end="1834" lemma="8802" pos="6835"/>
+    <type6:Token xmi:id="4027" sofa="6" begin="1835" end="1839" lemma="8807" pos="6841"/>
+    <type6:Token xmi:id="4039" sofa="6" begin="1840" end="1845" lemma="8812" pos="6847"/>
+    <type6:Token xmi:id="4051" sofa="6" begin="1846" end="1848" lemma="8817" pos="6853"/>
+    <type6:Token xmi:id="4063" sofa="6" begin="1849" end="1851" lemma="8822" pos="6859"/>
+    <type6:Token xmi:id="4075" sofa="6" begin="1852" end="1855" lemma="8827" pos="6865"/>
+    <type6:Token xmi:id="4087" sofa="6" begin="1856" end="1866" lemma="8832" pos="6871"/>
+    <type6:Token xmi:id="4099" sofa="6" begin="1866" end="1867" lemma="8837" pos="6877"/>
+    <type6:Token xmi:id="4111" sofa="6" begin="1868" end="1870" lemma="8842" pos="6883"/>
+    <type6:Token xmi:id="4123" sofa="6" begin="1871" end="1874" lemma="8847" pos="6889"/>
+    <type6:Token xmi:id="4135" sofa="6" begin="1875" end="1878" lemma="8852" pos="6895"/>
+    <type6:Token xmi:id="4147" sofa="6" begin="1878" end="1879" lemma="8857" pos="6901"/>
+    <type6:Token xmi:id="4159" sofa="6" begin="1880" end="1882" lemma="8862" pos="6907"/>
+    <type6:Token xmi:id="4171" sofa="6" begin="1883" end="1887" lemma="8867" pos="6913"/>
+    <type6:Token xmi:id="4183" sofa="6" begin="1888" end="1890" lemma="8872" pos="6919"/>
+    <type6:Token xmi:id="4195" sofa="6" begin="1891" end="1894" lemma="8877" pos="6925"/>
+    <type6:Token xmi:id="4207" sofa="6" begin="1895" end="1899" lemma="8882" pos="6931"/>
+    <type6:Token xmi:id="4219" sofa="6" begin="1900" end="1905" lemma="8887" pos="6937"/>
+    <type6:Token xmi:id="4231" sofa="6" begin="1906" end="1914" lemma="8892" pos="6943"/>
+    <type6:Token xmi:id="4243" sofa="6" begin="1915" end="1921" lemma="8897" pos="6949"/>
+    <type6:Token xmi:id="4255" sofa="6" begin="1922" end="1924" lemma="8902" pos="6955"/>
+    <type6:Token xmi:id="4267" sofa="6" begin="1925" end="1932" lemma="8907" pos="6961"/>
+    <type6:Token xmi:id="4279" sofa="6" begin="1933" end="1935" lemma="8912" pos="6967"/>
+    <type6:Token xmi:id="4291" sofa="6" begin="1936" end="1942" lemma="8917" pos="6973"/>
+    <type6:Token xmi:id="4303" sofa="6" begin="1943" end="1945" lemma="8922" pos="6979"/>
+    <type6:Token xmi:id="4315" sofa="6" begin="1946" end="1953" lemma="8927" pos="6985"/>
+    <type6:Token xmi:id="4327" sofa="6" begin="1954" end="1956" lemma="8932" pos="6991"/>
+    <type6:Token xmi:id="4339" sofa="6" begin="1957" end="1960" lemma="8937" pos="6997"/>
+    <type6:Token xmi:id="4351" sofa="6" begin="1961" end="1963" lemma="8942" pos="7003"/>
+    <type6:Token xmi:id="4363" sofa="6" begin="1964" end="1975" lemma="8947" pos="7009"/>
+    <type6:Token xmi:id="4375" sofa="6" begin="1976" end="1979" lemma="8952" pos="7015"/>
+    <type6:Token xmi:id="4387" sofa="6" begin="1980" end="1984" lemma="8957" pos="7021"/>
+    <type6:Token xmi:id="4399" sofa="6" begin="1985" end="1988" lemma="8962" pos="7027"/>
+    <type6:Token xmi:id="4411" sofa="6" begin="1989" end="1993" lemma="8967" pos="7033"/>
+    <type6:Token xmi:id="4423" sofa="6" begin="1994" end="1997" lemma="8972" pos="7039"/>
+    <type6:Token xmi:id="4435" sofa="6" begin="1998" end="2003" lemma="8977" pos="7045"/>
+    <type6:Token xmi:id="4447" sofa="6" begin="2004" end="2013" lemma="8982" pos="7051"/>
+    <type6:Token xmi:id="4459" sofa="6" begin="2013" end="2014" lemma="8987" pos="7057"/>
+    <type6:Token xmi:id="4471" sofa="6" begin="2015" end="2018" lemma="8992" pos="7063"/>
+    <type6:Token xmi:id="4483" sofa="6" begin="2019" end="2024" lemma="8997" pos="7069"/>
+    <type6:Token xmi:id="4495" sofa="6" begin="2025" end="2032" lemma="9002" pos="7075"/>
+    <type6:Token xmi:id="4507" sofa="6" begin="2033" end="2037" lemma="9007" pos="7081"/>
+    <type6:Token xmi:id="4519" sofa="6" begin="2038" end="2040" lemma="9012" pos="7087"/>
+    <type6:Token xmi:id="4531" sofa="6" begin="2041" end="2047" lemma="9017" pos="7093"/>
+    <type6:Token xmi:id="4543" sofa="6" begin="2048" end="2052" lemma="9022" pos="7099"/>
+    <type6:Token xmi:id="4555" sofa="6" begin="2053" end="2057" lemma="9027" pos="7105"/>
+    <type6:Token xmi:id="4567" sofa="6" begin="2058" end="2062" lemma="9032" pos="7111"/>
+    <type6:Token xmi:id="4579" sofa="6" begin="2063" end="2065" lemma="9037" pos="7117"/>
+    <type6:Token xmi:id="4591" sofa="6" begin="2066" end="2068" lemma="9042" pos="7123"/>
+    <type6:Token xmi:id="4603" sofa="6" begin="2069" end="2072" lemma="9047" pos="7129"/>
+    <type6:Token xmi:id="4615" sofa="6" begin="2073" end="2077" lemma="9052" pos="7135"/>
+    <type6:Token xmi:id="4627" sofa="6" begin="2077" end="2078" lemma="9057" pos="7141"/>
+    <type6:Sentence xmi:id="4639" sofa="6" begin="0" end="205"/>
+    <type6:Sentence xmi:id="4644" sofa="6" begin="206" end="307"/>
+    <type6:Sentence xmi:id="4649" sofa="6" begin="308" end="414"/>
+    <type6:Sentence xmi:id="4654" sofa="6" begin="415" end="633"/>
+    <type6:Sentence xmi:id="4659" sofa="6" begin="634" end="794"/>
+    <type6:Sentence xmi:id="4664" sofa="6" begin="795" end="957"/>
+    <type6:Sentence xmi:id="4669" sofa="6" begin="958" end="1126"/>
+    <type6:Sentence xmi:id="4674" sofa="6" begin="1128" end="1407"/>
+    <type6:Sentence xmi:id="4679" sofa="6" begin="1408" end="1752"/>
+    <type6:Sentence xmi:id="4684" sofa="6" begin="1753" end="1867"/>
+    <type6:Sentence xmi:id="4689" sofa="6" begin="1868" end="2014"/>
+    <type6:Sentence xmi:id="4694" sofa="6" begin="2015" end="2078"/>
+    <type4:TagsetDescription xmi:id="4699" sofa="6" begin="0" end="2078" layer="de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS" name="ptb" tags="4712 4714 4716 4718 4720 4722 4724 4726 4728 4730 4732 4734 4736 4738 4740 4742 4744 4746 4748 4750 4752 4754 4756 4758 4760 4762 4764 4766 4768 4770 4772 4774 4776 4778 4780 4782 4784 4786 4788 4790 4792 4794 4796 4798 4800" componentName="de.tudarmstadt.ukp.dkpro.core.corenlp.CoreNlpPosTagger" modelLocation="classpath:/de/tudarmstadt/ukp/dkpro/core/stanfordnlp/lib/tagger-en-bidirectional-distsim.properties" modelVariant="bidirectional-distsim" modelLanguage="en" modelVersion="20140616.1" input="false"/>
+    <pos:POS_ADP xmi:id="4849" sofa="6" begin="0" end="2" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="4897" sofa="6" begin="49" end="55" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="4939" sofa="6" begin="93" end="100" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="4957" sofa="6" begin="115" end="118" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="4969" sofa="6" begin="124" end="126" PosValue="TO" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="4999" sofa="6" begin="155" end="160" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5023" sofa="6" begin="178" end="182" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5071" sofa="6" begin="220" end="224" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5113" sofa="6" begin="262" end="264" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5125" sofa="6" begin="273" end="275" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5137" sofa="6" begin="282" end="284" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5215" sofa="6" begin="338" end="340" PosValue="TO" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5269" sofa="6" begin="386" end="388" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5323" sofa="6" begin="425" end="427" PosValue="TO" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5371" sofa="6" begin="472" end="474" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5407" sofa="6" begin="502" end="509" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5467" sofa="6" begin="559" end="566" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5491" sofa="6" begin="599" end="605" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5545" sofa="6" begin="647" end="649" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5605" sofa="6" begin="694" end="701" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5635" sofa="6" begin="724" end="728" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5653" sofa="6" begin="743" end="745" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5707" sofa="6" begin="795" end="797" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5755" sofa="6" begin="846" end="852" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5791" sofa="6" begin="886" end="893" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5815" sofa="6" begin="915" end="918" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5827" sofa="6" begin="924" end="931" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5863" sofa="6" begin="958" end="961" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5905" sofa="6" begin="993" end="995" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5941" sofa="6" begin="1023" end="1026" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="5983" sofa="6" begin="1060" end="1062" PosValue="TO" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6007" sofa="6" begin="1084" end="1086" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6061" sofa="6" begin="1128" end="1130" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6103" sofa="6" begin="1175" end="1181" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6205" sofa="6" begin="1279" end="1286" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6229" sofa="6" begin="1306" end="1309" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6265" sofa="6" begin="1339" end="1343" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6307" sofa="6" begin="1371" end="1374" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6325" sofa="6" begin="1388" end="1392" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6361" sofa="6" begin="1416" end="1420" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6451" sofa="6" begin="1498" end="1500" PosValue="TO" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6499" sofa="6" begin="1537" end="1539" PosValue="TO" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6517" sofa="6" begin="1548" end="1551" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6595" sofa="6" begin="1619" end="1622" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6607" sofa="6" begin="1632" end="1634" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6613" sofa="6" begin="1635" end="1639" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6637" sofa="6" begin="1655" end="1659" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6673" sofa="6" begin="1691" end="1693" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6685" sofa="6" begin="1700" end="1702" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6703" sofa="6" begin="1710" end="1712" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6709" sofa="6" begin="1713" end="1717" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6733" sofa="6" begin="1733" end="1735" PosValue="TO" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6745" sofa="6" begin="1741" end="1746" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6781" sofa="6" begin="1772" end="1776" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6805" sofa="6" begin="1802" end="1806" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6829" sofa="6" begin="1823" end="1826" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6859" sofa="6" begin="1849" end="1851" PosValue="TO" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6883" sofa="6" begin="1868" end="1870" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6913" sofa="6" begin="1883" end="1887" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6919" sofa="6" begin="1888" end="1890" PosValue="TO" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6931" sofa="6" begin="1895" end="1899" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6967" sofa="6" begin="1933" end="1935" PosValue="TO" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="6985" sofa="6" begin="1946" end="1953" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="7015" sofa="6" begin="1976" end="1979" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="7087" sofa="6" begin="2038" end="2040" PosValue="TO" coarseValue="ADP"/>
+    <pos:POS_ADP xmi:id="7099" sofa="6" begin="2048" end="2052" PosValue="IN" coarseValue="ADP"/>
+    <pos:POS_DET xmi:id="4855" sofa="6" begin="3" end="6" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="5005" sofa="6" begin="161" end="165" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="5143" sofa="6" begin="285" end="288" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="5155" sofa="6" begin="292" end="295" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="5275" sofa="6" begin="389" end="393" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="5563" sofa="6" begin="661" end="664" PosValue="PDT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="5569" sofa="6" begin="665" end="668" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="5677" sofa="6" begin="770" end="775" PosValue="WDT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="5713" sofa="6" begin="798" end="801" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="5881" sofa="6" begin="972" end="977" PosValue="EX" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="5911" sofa="6" begin="996" end="999" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="5923" sofa="6" begin="1003" end="1007" PosValue="WDT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="5971" sofa="6" begin="1051" end="1055" PosValue="WDT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="6025" sofa="6" begin="1098" end="1103" PosValue="WDT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="6145" sofa="6" begin="1219" end="1222" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="6367" sofa="6" begin="1421" end="1424" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="6391" sofa="6" begin="1445" end="1446" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="6403" sofa="6" begin="1452" end="1456" PosValue="WDT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="6529" sofa="6" begin="1561" end="1565" PosValue="PDT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="6535" sofa="6" begin="1566" end="1568" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="6547" sofa="6" begin="1574" end="1575" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="6571" sofa="6" begin="1589" end="1592" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="6643" sofa="6" begin="1660" end="1663" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="6691" sofa="6" begin="1703" end="1706" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="6865" sofa="6" begin="1852" end="1855" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_DET xmi:id="6889" sofa="6" begin="1871" end="1874" PosValue="DT" coarseValue="DET"/>
+    <pos:POS_NUM xmi:id="4861" sofa="6" begin="7" end="10" PosValue="CD" coarseValue="NUM"/>
+    <pos:POS_NOUN xmi:id="4867" sofa="6" begin="11" end="15" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="4879" sofa="6" begin="17" end="27" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="4885" sofa="6" begin="28" end="39" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="4909" sofa="6" begin="62" end="70" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="4981" sofa="6" begin="134" end="144" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5077" sofa="6" begin="225" end="233" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5131" sofa="6" begin="276" end="281" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5149" sofa="6" begin="289" end="291" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5167" sofa="6" begin="302" end="306" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5263" sofa="6" begin="383" end="385" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5287" sofa="6" begin="400" end="403" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5335" sofa="6" begin="432" end="441" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5347" sofa="6" begin="443" end="454" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5359" sofa="6" begin="459" end="466" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5365" sofa="6" begin="467" end="471" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5389" sofa="6" begin="488" end="491" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5449" sofa="6" begin="541" end="550" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5473" sofa="6" begin="567" end="577" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5479" sofa="6" begin="578" end="589" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5503" sofa="6" begin="612" end="620" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5557" sofa="6" begin="656" end="660" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5575" sofa="6" begin="669" end="673" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5587" sofa="6" begin="678" end="682" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5629" sofa="6" begin="716" end="723" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5647" sofa="6" begin="735" end="742" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5671" sofa="6" begin="758" end="769" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5725" sofa="6" begin="808" end="812" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5737" sofa="6" begin="814" end="824" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5743" sofa="6" begin="825" end="836" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5767" sofa="6" begin="859" end="867" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5851" sofa="6" begin="947" end="956" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5869" sofa="6" begin="962" end="970" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5899" sofa="6" begin="987" end="992" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5917" sofa="6" begin="1000" end="1002" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="5959" sofa="6" begin="1038" end="1046" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6001" sofa="6" begin="1074" end="1083" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6019" sofa="6" begin="1094" end="1097" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6073" sofa="6" begin="1134" end="1141" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6085" sofa="6" begin="1143" end="1153" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6091" sofa="6" begin="1154" end="1165" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6115" sofa="6" begin="1188" end="1196" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6151" sofa="6" begin="1223" end="1230" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6175" sofa="6" begin="1250" end="1258" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6187" sofa="6" begin="1266" end="1268" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6241" sofa="6" begin="1316" end="1322" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6259" sofa="6" begin="1334" end="1338" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6295" sofa="6" begin="1363" end="1369" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6313" sofa="6" begin="1375" end="1382" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6319" sofa="6" begin="1383" end="1387" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6337" sofa="6" begin="1399" end="1406" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6373" sofa="6" begin="1425" end="1432" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6397" sofa="6" begin="1447" end="1451" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6433" sofa="6" begin="1477" end="1485" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6463" sofa="6" begin="1508" end="1510" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6523" sofa="6" begin="1552" end="1560" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6541" sofa="6" begin="1569" end="1573" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6553" sofa="6" begin="1576" end="1579" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6577" sofa="6" begin="1593" end="1601" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6601" sofa="6" begin="1623" end="1631" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6649" sofa="6" begin="1664" end="1671" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6667" sofa="6" begin="1682" end="1690" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6679" sofa="6" begin="1694" end="1699" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6697" sofa="6" begin="1707" end="1709" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6799" sofa="6" begin="1792" end="1801" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6817" sofa="6" begin="1813" end="1821" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6835" sofa="6" begin="1827" end="1834" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6871" sofa="6" begin="1856" end="1866" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6895" sofa="6" begin="1875" end="1878" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6907" sofa="6" begin="1880" end="1882" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6943" sofa="6" begin="1906" end="1914" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="6979" sofa="6" begin="1943" end="1945" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="7051" sofa="6" begin="2004" end="2013" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS_NOUN xmi:id="7075" sofa="6" begin="2025" end="2032" PosValue="NNS" coarseValue="NOUN"/>
+    <pos:POS_PUNCT xmi:id="4873" sofa="6" begin="15" end="16" PosValue="," coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="5053" sofa="6" begin="204" end="205" PosValue="." coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="5173" sofa="6" begin="306" end="307" PosValue="." coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="5185" sofa="6" begin="316" end="317" PosValue="," coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="5305" sofa="6" begin="413" end="414" PosValue="." coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="5341" sofa="6" begin="441" end="442" PosValue="," coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="5521" sofa="6" begin="632" end="633" PosValue="." coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="5701" sofa="6" begin="793" end="794" PosValue="." coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="5731" sofa="6" begin="812" end="813" PosValue="," coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="5857" sofa="6" begin="956" end="957" PosValue="." coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="5875" sofa="6" begin="970" end="971" PosValue="," coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="6055" sofa="6" begin="1125" end="1126" PosValue="." coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="6079" sofa="6" begin="1141" end="1142" PosValue="," coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="6301" sofa="6" begin="1369" end="1370" PosValue="," coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="6343" sofa="6" begin="1406" end="1407" PosValue="." coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="6511" sofa="6" begin="1546" end="1547" PosValue="," coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="6757" sofa="6" begin="1751" end="1752" PosValue="." coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="6823" sofa="6" begin="1821" end="1822" PosValue="," coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="6877" sofa="6" begin="1866" end="1867" PosValue="." coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="6901" sofa="6" begin="1878" end="1879" PosValue="," coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="7057" sofa="6" begin="2013" end="2014" PosValue="." coarseValue="PUNCT"/>
+    <pos:POS_PUNCT xmi:id="7141" sofa="6" begin="2077" end="2078" PosValue="." coarseValue="PUNCT"/>
+    <pos:POS_VERB xmi:id="4891" sofa="6" begin="40" end="48" PosValue="VBN" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="4915" sofa="6" begin="71" end="77" PosValue="MD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="4927" sofa="6" begin="82" end="84" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="4933" sofa="6" begin="85" end="92" PosValue="VBN" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="4975" sofa="6" begin="127" end="133" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5011" sofa="6" begin="166" end="171" PosValue="MD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5017" sofa="6" begin="172" end="177" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5035" sofa="6" begin="188" end="192" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5041" sofa="6" begin="193" end="197" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5083" sofa="6" begin="234" end="236" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5101" sofa="6" begin="249" end="253" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5119" sofa="6" begin="265" end="272" PosValue="VBG" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5197" sofa="6" begin="323" end="328" PosValue="MD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5203" sofa="6" begin="329" end="332" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5209" sofa="6" begin="333" end="337" PosValue="VBN" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5221" sofa="6" begin="341" end="348" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5257" sofa="6" begin="376" end="382" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5317" sofa="6" begin="420" end="424" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5329" sofa="6" begin="428" end="431" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5419" sofa="6" begin="515" end="520" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5455" sofa="6" begin="551" end="555" PosValue="VBZ" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5485" sofa="6" begin="590" end="598" PosValue="VBN" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5509" sofa="6" begin="621" end="624" PosValue="VBD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5515" sofa="6" begin="625" end="632" PosValue="VBN" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5539" sofa="6" begin="642" end="646" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5593" sofa="6" begin="683" end="685" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5617" sofa="6" begin="707" end="710" PosValue="MD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5623" sofa="6" begin="711" end="715" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5659" sofa="6" begin="746" end="751" PosValue="VBG" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5683" sofa="6" begin="776" end="778" PosValue="VBZ" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5749" sofa="6" begin="837" end="845" PosValue="VBN" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5773" sofa="6" begin="868" end="874" PosValue="MD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5779" sofa="6" begin="875" end="877" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5785" sofa="6" begin="878" end="885" PosValue="VBN" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5839" sofa="6" begin="937" end="940" PosValue="MD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5845" sofa="6" begin="941" end="946" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5887" sofa="6" begin="978" end="981" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5929" sofa="6" begin="1008" end="1011" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5977" sofa="6" begin="1056" end="1059" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="5989" sofa="6" begin="1063" end="1068" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6013" sofa="6" begin="1087" end="1093" PosValue="VBG" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6031" sofa="6" begin="1104" end="1107" PosValue="MD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6037" sofa="6" begin="1108" end="1110" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6097" sofa="6" begin="1166" end="1174" PosValue="VBN" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6121" sofa="6" begin="1197" end="1203" PosValue="MD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6127" sofa="6" begin="1204" end="1206" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6133" sofa="6" begin="1207" end="1214" PosValue="VBN" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6157" sofa="6" begin="1231" end="1239" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6163" sofa="6" begin="1240" end="1243" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6181" sofa="6" begin="1259" end="1265" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6283" sofa="6" begin="1354" end="1356" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6355" sofa="6" begin="1410" end="1415" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6379" sofa="6" begin="1433" end="1439" PosValue="MD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6385" sofa="6" begin="1440" end="1444" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6409" sofa="6" begin="1457" end="1461" PosValue="VBZ" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6439" sofa="6" begin="1486" end="1489" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6445" sofa="6" begin="1490" end="1497" PosValue="VBN" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6457" sofa="6" begin="1501" end="1507" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6487" sofa="6" begin="1525" end="1528" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6493" sofa="6" begin="1529" end="1536" PosValue="VBN" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6505" sofa="6" begin="1540" end="1546" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6583" sofa="6" begin="1602" end="1607" PosValue="VBZ" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6625" sofa="6" begin="1643" end="1647" PosValue="VBD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6631" sofa="6" begin="1648" end="1654" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6655" sofa="6" begin="1672" end="1675" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6721" sofa="6" begin="1723" end="1727" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6727" sofa="6" begin="1728" end="1732" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6739" sofa="6" begin="1736" end="1740" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6793" sofa="6" begin="1782" end="1791" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6847" sofa="6" begin="1840" end="1845" PosValue="MD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6853" sofa="6" begin="1846" end="1848" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6925" sofa="6" begin="1891" end="1894" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6949" sofa="6" begin="1915" end="1921" PosValue="MD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6955" sofa="6" begin="1922" end="1924" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6961" sofa="6" begin="1925" end="1932" PosValue="VBN" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6973" sofa="6" begin="1936" end="1942" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="6997" sofa="6" begin="1957" end="1960" PosValue="MD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="7003" sofa="6" begin="1961" end="1963" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="7039" sofa="6" begin="1994" end="1997" PosValue="MD" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="7045" sofa="6" begin="1998" end="2003" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="7081" sofa="6" begin="2033" end="2037" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="7093" sofa="6" begin="2041" end="2047" PosValue="VB" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="7111" sofa="6" begin="2058" end="2062" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_VERB xmi:id="7117" sofa="6" begin="2063" end="2065" PosValue="VBP" coarseValue="VERB"/>
+    <pos:POS_ADJ xmi:id="4903" sofa="6" begin="56" end="61" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="4951" sofa="6" begin="105" end="114" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5065" sofa="6" begin="210" end="219" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5089" sofa="6" begin="237" end="244" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5161" sofa="6" begin="296" end="301" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5281" sofa="6" begin="394" end="399" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5383" sofa="6" begin="481" end="487" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5437" sofa="6" begin="530" end="536" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5497" sofa="6" begin="606" end="611" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5599" sofa="6" begin="686" end="693" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5695" sofa="6" begin="784" end="793" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5719" sofa="6" begin="802" end="807" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5761" sofa="6" begin="853" end="858" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5809" sofa="6" begin="903" end="914" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5893" sofa="6" begin="982" end="986" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="5953" sofa="6" begin="1032" end="1037" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="6049" sofa="6" begin="1116" end="1125" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="6109" sofa="6" begin="1182" end="1187" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="6223" sofa="6" begin="1296" end="1305" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="6253" sofa="6" begin="1327" end="1333" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="6289" sofa="6" begin="1357" end="1362" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="6775" sofa="6" begin="1762" end="1771" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="6937" sofa="6" begin="1900" end="1905" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADJ xmi:id="7009" sofa="6" begin="1964" end="1975" PosValue="JJ" coarseValue="ADJ"/>
+    <pos:POS_ADV xmi:id="4921" sofa="6" begin="78" end="81" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="4987" sofa="6" begin="145" end="148" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="4993" sofa="6" begin="149" end="154" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5047" sofa="6" begin="198" end="204" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5107" sofa="6" begin="254" end="261" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5179" sofa="6" begin="308" end="316" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5227" sofa="6" begin="349" end="352" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5233" sofa="6" begin="353" end="357" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5239" sofa="6" begin="358" end="362" PosValue="WRB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5251" sofa="6" begin="368" end="375" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5293" sofa="6" begin="404" end="407" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5299" sofa="6" begin="408" end="413" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5395" sofa="6" begin="492" end="495" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5401" sofa="6" begin="496" end="501" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5431" sofa="6" begin="525" end="529" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5527" sofa="6" begin="634" end="636" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5689" sofa="6" begin="779" end="783" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5803" sofa="6" begin="898" end="902" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5935" sofa="6" begin="1012" end="1022" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="5947" sofa="6" begin="1027" end="1031" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="6043" sofa="6" begin="1111" end="1115" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="6193" sofa="6" begin="1269" end="1272" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="6199" sofa="6" begin="1273" end="1278" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="6217" sofa="6" begin="1291" end="1295" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="6277" sofa="6" begin="1349" end="1353" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="6415" sofa="6" begin="1462" end="1465" PosValue="WRB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="6421" sofa="6" begin="1466" end="1470" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="6565" sofa="6" begin="1584" end="1588" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="6589" sofa="6" begin="1608" end="1618" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="6769" sofa="6" begin="1757" end="1761" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="7129" sofa="6" begin="2069" end="2072" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_ADV xmi:id="7135" sofa="6" begin="2073" end="2077" PosValue="RB" coarseValue="ADV"/>
+    <pos:POS_PRON xmi:id="4945" sofa="6" begin="101" end="104" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="4963" sofa="6" begin="119" end="123" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5029" sofa="6" begin="183" end="187" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5059" sofa="6" begin="206" end="209" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5191" sofa="6" begin="318" end="322" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5245" sofa="6" begin="363" end="367" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5311" sofa="6" begin="415" end="419" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5377" sofa="6" begin="475" end="480" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5413" sofa="6" begin="510" end="514" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5425" sofa="6" begin="521" end="524" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5461" sofa="6" begin="556" end="558" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5533" sofa="6" begin="637" end="641" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5551" sofa="6" begin="650" end="655" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5611" sofa="6" begin="702" end="706" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5641" sofa="6" begin="729" end="734" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5665" sofa="6" begin="752" end="757" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5797" sofa="6" begin="894" end="897" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5821" sofa="6" begin="919" end="923" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5833" sofa="6" begin="932" end="936" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="5995" sofa="6" begin="1069" end="1073" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6067" sofa="6" begin="1131" end="1133" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6169" sofa="6" begin="1244" end="1249" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6211" sofa="6" begin="1287" end="1290" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6235" sofa="6" begin="1310" end="1315" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6271" sofa="6" begin="1344" end="1348" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6331" sofa="6" begin="1393" end="1398" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6349" sofa="6" begin="1408" end="1409" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6427" sofa="6" begin="1471" end="1476" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6475" sofa="6" begin="1515" end="1519" PosValue="WP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6481" sofa="6" begin="1520" end="1524" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6619" sofa="6" begin="1640" end="1642" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6661" sofa="6" begin="1676" end="1681" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6715" sofa="6" begin="1718" end="1722" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6751" sofa="6" begin="1747" end="1751" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6763" sofa="6" begin="1753" end="1756" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6787" sofa="6" begin="1777" end="1781" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6811" sofa="6" begin="1807" end="1812" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6841" sofa="6" begin="1835" end="1839" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="6991" sofa="6" begin="1954" end="1956" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="7021" sofa="6" begin="1980" end="1984" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="7033" sofa="6" begin="1989" end="1993" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="7069" sofa="6" begin="2019" end="2024" PosValue="PRP$" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="7105" sofa="6" begin="2053" end="2057" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_PRON xmi:id="7123" sofa="6" begin="2066" end="2068" PosValue="PRP" coarseValue="PRON"/>
+    <pos:POS_CONJ xmi:id="5095" sofa="6" begin="245" end="248" PosValue="CC" coarseValue="CONJ"/>
+    <pos:POS_CONJ xmi:id="5353" sofa="6" begin="455" end="458" PosValue="CC" coarseValue="CONJ"/>
+    <pos:POS_CONJ xmi:id="5443" sofa="6" begin="537" end="540" PosValue="CC" coarseValue="CONJ"/>
+    <pos:POS_CONJ xmi:id="5581" sofa="6" begin="674" end="677" PosValue="CC" coarseValue="CONJ"/>
+    <pos:POS_CONJ xmi:id="5965" sofa="6" begin="1047" end="1050" PosValue="CC" coarseValue="CONJ"/>
+    <pos:POS_CONJ xmi:id="6139" sofa="6" begin="1215" end="1218" PosValue="CC" coarseValue="CONJ"/>
+    <pos:POS_CONJ xmi:id="6247" sofa="6" begin="1323" end="1326" PosValue="CC" coarseValue="CONJ"/>
+    <pos:POS_CONJ xmi:id="6469" sofa="6" begin="1511" end="1514" PosValue="CC" coarseValue="CONJ"/>
+    <pos:POS_CONJ xmi:id="6559" sofa="6" begin="1580" end="1583" PosValue="CC" coarseValue="CONJ"/>
+    <pos:POS_CONJ xmi:id="7027" sofa="6" begin="1985" end="1988" PosValue="CC" coarseValue="CONJ"/>
+    <pos:POS_CONJ xmi:id="7063" sofa="6" begin="2015" end="2018" PosValue="CC" coarseValue="CONJ"/>
+    <type6:Lemma xmi:id="7147" sofa="6" begin="0" end="2" value="on"/>
+    <type6:Lemma xmi:id="7152" sofa="6" begin="3" end="6" value="the"/>
+    <type6:Lemma xmi:id="7157" sofa="6" begin="7" end="10" value="one"/>
+    <type6:Lemma xmi:id="7162" sofa="6" begin="11" end="15" value="hand"/>
+    <type6:Lemma xmi:id="7167" sofa="6" begin="15" end="16" value=","/>
+    <type6:Lemma xmi:id="7172" sofa="6" begin="17" end="27" value="television"/>
+    <type6:Lemma xmi:id="7177" sofa="6" begin="28" end="39" value="advertising"/>
+    <type6:Lemma xmi:id="7182" sofa="6" begin="40" end="48" value="direct"/>
+    <type6:Lemma xmi:id="7187" sofa="6" begin="49" end="55" value="toward"/>
+    <type6:Lemma xmi:id="7192" sofa="6" begin="56" end="61" value="young"/>
+    <type6:Lemma xmi:id="7197" sofa="6" begin="62" end="70" value="child"/>
+    <type6:Lemma xmi:id="7202" sofa="6" begin="71" end="77" value="should"/>
+    <type6:Lemma xmi:id="7207" sofa="6" begin="78" end="81" value="not"/>
+    <type6:Lemma xmi:id="7212" sofa="6" begin="82" end="84" value="be"/>
+    <type6:Lemma xmi:id="7217" sofa="6" begin="85" end="92" value="allow"/>
+    <type6:Lemma xmi:id="7222" sofa="6" begin="93" end="100" value="because"/>
+    <type6:Lemma xmi:id="7227" sofa="6" begin="101" end="104" value="its"/>
+    <type6:Lemma xmi:id="7232" sofa="6" begin="105" end="114" value="unhealthy"/>
+    <type6:Lemma xmi:id="7237" sofa="6" begin="115" end="118" value="for"/>
+    <type6:Lemma xmi:id="7242" sofa="6" begin="119" end="123" value="they"/>
+    <type6:Lemma xmi:id="7247" sofa="6" begin="124" end="126" value="to"/>
+    <type6:Lemma xmi:id="7252" sofa="6" begin="127" end="133" value="whatch"/>
+    <type6:Lemma xmi:id="7257" sofa="6" begin="134" end="144" value="television"/>
+    <type6:Lemma xmi:id="7262" sofa="6" begin="145" end="148" value="too"/>
+    <type6:Lemma xmi:id="7267" sofa="6" begin="149" end="154" value="often"/>
+    <type6:Lemma xmi:id="7272" sofa="6" begin="155" end="160" value="since"/>
+    <type6:Lemma xmi:id="7277" sofa="6" begin="161" end="165" value="that"/>
+    <type6:Lemma xmi:id="7282" sofa="6" begin="166" end="171" value="could"/>
+    <type6:Lemma xmi:id="7287" sofa="6" begin="172" end="177" value="cause"/>
+    <type6:Lemma xmi:id="7292" sofa="6" begin="178" end="182" value="that"/>
+    <type6:Lemma xmi:id="7297" sofa="6" begin="183" end="187" value="they"/>
+    <type6:Lemma xmi:id="7302" sofa="6" begin="188" end="192" value="dont"/>
+    <type6:Lemma xmi:id="7307" sofa="6" begin="193" end="197" value="move"/>
+    <type6:Lemma xmi:id="7312" sofa="6" begin="198" end="204" value="enough"/>
+    <type6:Lemma xmi:id="7317" sofa="6" begin="204" end="205" value="."/>
+    <type6:Lemma xmi:id="7322" sofa="6" begin="206" end="209" value="its"/>
+    <type6:Lemma xmi:id="7327" sofa="6" begin="210" end="219" value="important"/>
+    <type6:Lemma xmi:id="7332" sofa="6" begin="220" end="224" value="that"/>
+    <type6:Lemma xmi:id="7337" sofa="6" begin="225" end="233" value="child"/>
+    <type6:Lemma xmi:id="7342" sofa="6" begin="234" end="236" value="go"/>
+    <type6:Lemma xmi:id="7347" sofa="6" begin="237" end="244" value="outside"/>
+    <type6:Lemma xmi:id="7352" sofa="6" begin="245" end="248" value="and"/>
+    <type6:Lemma xmi:id="7357" sofa="6" begin="249" end="253" value="move"/>
+    <type6:Lemma xmi:id="7362" sofa="6" begin="254" end="261" value="instead"/>
+    <type6:Lemma xmi:id="7367" sofa="6" begin="262" end="264" value="of"/>
+    <type6:Lemma xmi:id="7372" sofa="6" begin="265" end="272" value="sit"/>
+    <type6:Lemma xmi:id="7377" sofa="6" begin="273" end="275" value="in"/>
+    <type6:Lemma xmi:id="7382" sofa="6" begin="276" end="281" value="front"/>
+    <type6:Lemma xmi:id="7387" sofa="6" begin="282" end="284" value="of"/>
+    <type6:Lemma xmi:id="7392" sofa="6" begin="285" end="288" value="the"/>
+    <type6:Lemma xmi:id="7397" sofa="6" begin="289" end="291" value="tv"/>
+    <type6:Lemma xmi:id="7402" sofa="6" begin="292" end="295" value="the"/>
+    <type6:Lemma xmi:id="7407" sofa="6" begin="296" end="301" value="whole"/>
+    <type6:Lemma xmi:id="7412" sofa="6" begin="302" end="306" value="time"/>
+    <type6:Lemma xmi:id="7417" sofa="6" begin="306" end="307" value="."/>
+    <type6:Lemma xmi:id="7422" sofa="6" begin="308" end="316" value="moreover"/>
+    <type6:Lemma xmi:id="7427" sofa="6" begin="316" end="317" value=","/>
+    <type6:Lemma xmi:id="7432" sofa="6" begin="318" end="322" value="they"/>
+    <type6:Lemma xmi:id="7437" sofa="6" begin="323" end="328" value="could"/>
+    <type6:Lemma xmi:id="7442" sofa="6" begin="329" end="332" value="get"/>
+    <type6:Lemma xmi:id="7447" sofa="6" begin="333" end="337" value="use"/>
+    <type6:Lemma xmi:id="7452" sofa="6" begin="338" end="340" value="to"/>
+    <type6:Lemma xmi:id="7457" sofa="6" begin="341" end="348" value="technic"/>
+    <type6:Lemma xmi:id="7462" sofa="6" begin="349" end="352" value="too"/>
+    <type6:Lemma xmi:id="7467" sofa="6" begin="353" end="357" value="much"/>
+    <type6:Lemma xmi:id="7472" sofa="6" begin="358" end="362" value="when"/>
+    <type6:Lemma xmi:id="7477" sofa="6" begin="363" end="367" value="they"/>
+    <type6:Lemma xmi:id="7482" sofa="6" begin="368" end="375" value="already"/>
+    <type6:Lemma xmi:id="7487" sofa="6" begin="376" end="382" value="whatch"/>
+    <type6:Lemma xmi:id="7492" sofa="6" begin="383" end="385" value="tv"/>
+    <type6:Lemma xmi:id="7497" sofa="6" begin="386" end="388" value="in"/>
+    <type6:Lemma xmi:id="7502" sofa="6" begin="389" end="393" value="that"/>
+    <type6:Lemma xmi:id="7507" sofa="6" begin="394" end="399" value="young"/>
+    <type6:Lemma xmi:id="7512" sofa="6" begin="400" end="403" value="age"/>
+    <type6:Lemma xmi:id="7517" sofa="6" begin="404" end="407" value="too"/>
+    <type6:Lemma xmi:id="7522" sofa="6" begin="408" end="413" value="often"/>
+    <type6:Lemma xmi:id="7527" sofa="6" begin="413" end="414" value="."/>
+    <type6:Lemma xmi:id="7532" sofa="6" begin="415" end="419" value="they"/>
+    <type6:Lemma xmi:id="7537" sofa="6" begin="420" end="424" value="want"/>
+    <type6:Lemma xmi:id="7542" sofa="6" begin="425" end="427" value="to"/>
+    <type6:Lemma xmi:id="7547" sofa="6" begin="428" end="431" value="use"/>
+    <type6:Lemma xmi:id="7552" sofa="6" begin="432" end="441" value="computer"/>
+    <type6:Lemma xmi:id="7557" sofa="6" begin="441" end="442" value=","/>
+    <type6:Lemma xmi:id="7562" sofa="6" begin="443" end="454" value="smartphone"/>
+    <type6:Lemma xmi:id="7567" sofa="6" begin="455" end="458" value="and"/>
+    <type6:Lemma xmi:id="7572" sofa="6" begin="459" end="466" value="tablet"/>
+    <type6:Lemma xmi:id="7577" sofa="6" begin="467" end="471" value="etc."/>
+    <type6:Lemma xmi:id="7582" sofa="6" begin="472" end="474" value="in"/>
+    <type6:Lemma xmi:id="7587" sofa="6" begin="475" end="480" value="they"/>
+    <type6:Lemma xmi:id="7592" sofa="6" begin="481" end="487" value="future"/>
+    <type6:Lemma xmi:id="7597" sofa="6" begin="488" end="491" value="way"/>
+    <type6:Lemma xmi:id="7602" sofa="6" begin="492" end="495" value="too"/>
+    <type6:Lemma xmi:id="7607" sofa="6" begin="496" end="501" value="often"/>
+    <type6:Lemma xmi:id="7612" sofa="6" begin="502" end="509" value="because"/>
+    <type6:Lemma xmi:id="7617" sofa="6" begin="510" end="514" value="they"/>
+    <type6:Lemma xmi:id="7622" sofa="6" begin="515" end="520" value="think"/>
+    <type6:Lemma xmi:id="7627" sofa="6" begin="521" end="524" value="its"/>
+    <type6:Lemma xmi:id="7632" sofa="6" begin="525" end="529" value="just"/>
+    <type6:Lemma xmi:id="7637" sofa="6" begin="530" end="536" value="normal"/>
+    <type6:Lemma xmi:id="7642" sofa="6" begin="537" end="540" value="and"/>
+    <type6:Lemma xmi:id="7647" sofa="6" begin="541" end="550" value="everybody"/>
+    <type6:Lemma xmi:id="7652" sofa="6" begin="551" end="555" value="do"/>
+    <type6:Lemma xmi:id="7657" sofa="6" begin="556" end="558" value="it"/>
+    <type6:Lemma xmi:id="7662" sofa="6" begin="559" end="566" value="because"/>
+    <type6:Lemma xmi:id="7667" sofa="6" begin="567" end="577" value="television"/>
+    <type6:Lemma xmi:id="7672" sofa="6" begin="578" end="589" value="advertising"/>
+    <type6:Lemma xmi:id="7677" sofa="6" begin="590" end="598" value="direct"/>
+    <type6:Lemma xmi:id="7682" sofa="6" begin="599" end="605" value="toward"/>
+    <type6:Lemma xmi:id="7687" sofa="6" begin="606" end="611" value="young"/>
+    <type6:Lemma xmi:id="7692" sofa="6" begin="612" end="620" value="child"/>
+    <type6:Lemma xmi:id="7697" sofa="6" begin="621" end="624" value="be"/>
+    <type6:Lemma xmi:id="7702" sofa="6" begin="625" end="632" value="allow"/>
+    <type6:Lemma xmi:id="7707" sofa="6" begin="632" end="633" value="."/>
+    <type6:Lemma xmi:id="7712" sofa="6" begin="634" end="636" value="so"/>
+    <type6:Lemma xmi:id="7717" sofa="6" begin="637" end="641" value="they"/>
+    <type6:Lemma xmi:id="7722" sofa="6" begin="642" end="646" value="stay"/>
+    <type6:Lemma xmi:id="7727" sofa="6" begin="647" end="649" value="in"/>
+    <type6:Lemma xmi:id="7732" sofa="6" begin="650" end="655" value="they"/>
+    <type6:Lemma xmi:id="7737" sofa="6" begin="656" end="660" value="room"/>
+    <type6:Lemma xmi:id="7742" sofa="6" begin="661" end="664" value="all"/>
+    <type6:Lemma xmi:id="7747" sofa="6" begin="665" end="668" value="the"/>
+    <type6:Lemma xmi:id="7752" sofa="6" begin="669" end="673" value="time"/>
+    <type6:Lemma xmi:id="7757" sofa="6" begin="674" end="677" value="and"/>
+    <type6:Lemma xmi:id="7762" sofa="6" begin="678" end="682" value="dont"/>
+    <type6:Lemma xmi:id="7767" sofa="6" begin="683" end="685" value="go"/>
+    <type6:Lemma xmi:id="7772" sofa="6" begin="686" end="693" value="outside"/>
+    <type6:Lemma xmi:id="7777" sofa="6" begin="694" end="701" value="because"/>
+    <type6:Lemma xmi:id="7782" sofa="6" begin="702" end="706" value="they"/>
+    <type6:Lemma xmi:id="7787" sofa="6" begin="707" end="710" value="can"/>
+    <type6:Lemma xmi:id="7792" sofa="6" begin="711" end="715" value="have"/>
+    <type6:Lemma xmi:id="7797" sofa="6" begin="716" end="723" value="contact"/>
+    <type6:Lemma xmi:id="7802" sofa="6" begin="724" end="728" value="with"/>
+    <type6:Lemma xmi:id="7807" sofa="6" begin="729" end="734" value="they"/>
+    <type6:Lemma xmi:id="7812" sofa="6" begin="735" end="742" value="friend"/>
+    <type6:Lemma xmi:id="7817" sofa="6" begin="743" end="745" value="by"/>
+    <type6:Lemma xmi:id="7822" sofa="6" begin="746" end="751" value="use"/>
+    <type6:Lemma xmi:id="7827" sofa="6" begin="752" end="757" value="they"/>
+    <type6:Lemma xmi:id="7832" sofa="6" begin="758" end="769" value="smartphone"/>
+    <type6:Lemma xmi:id="7837" sofa="6" begin="770" end="775" value="which"/>
+    <type6:Lemma xmi:id="7842" sofa="6" begin="776" end="778" value="be"/>
+    <type6:Lemma xmi:id="7847" sofa="6" begin="779" end="783" value="very"/>
+    <type6:Lemma xmi:id="7852" sofa="6" begin="784" end="793" value="unhealthy"/>
+    <type6:Lemma xmi:id="7857" sofa="6" begin="793" end="794" value="."/>
+    <type6:Lemma xmi:id="7862" sofa="6" begin="795" end="797" value="on"/>
+    <type6:Lemma xmi:id="7867" sofa="6" begin="798" end="801" value="the"/>
+    <type6:Lemma xmi:id="7872" sofa="6" begin="802" end="807" value="other"/>
+    <type6:Lemma xmi:id="7877" sofa="6" begin="808" end="812" value="hand"/>
+    <type6:Lemma xmi:id="7882" sofa="6" begin="812" end="813" value=","/>
+    <type6:Lemma xmi:id="7887" sofa="6" begin="814" end="824" value="television"/>
+    <type6:Lemma xmi:id="7892" sofa="6" begin="825" end="836" value="advertising"/>
+    <type6:Lemma xmi:id="7897" sofa="6" begin="837" end="845" value="direct"/>
+    <type6:Lemma xmi:id="7902" sofa="6" begin="846" end="852" value="toward"/>
+    <type6:Lemma xmi:id="7907" sofa="6" begin="853" end="858" value="young"/>
+    <type6:Lemma xmi:id="7912" sofa="6" begin="859" end="867" value="child"/>
+    <type6:Lemma xmi:id="7917" sofa="6" begin="868" end="874" value="should"/>
+    <type6:Lemma xmi:id="7922" sofa="6" begin="875" end="877" value="be"/>
+    <type6:Lemma xmi:id="7927" sofa="6" begin="878" end="885" value="allow"/>
+    <type6:Lemma xmi:id="7932" sofa="6" begin="886" end="893" value="because"/>
+    <type6:Lemma xmi:id="7937" sofa="6" begin="894" end="897" value="its"/>
+    <type6:Lemma xmi:id="7942" sofa="6" begin="898" end="902" value="very"/>
+    <type6:Lemma xmi:id="7947" sofa="6" begin="903" end="914" value="interesting"/>
+    <type6:Lemma xmi:id="7952" sofa="6" begin="915" end="918" value="for"/>
+    <type6:Lemma xmi:id="7957" sofa="6" begin="919" end="923" value="they"/>
+    <type6:Lemma xmi:id="7962" sofa="6" begin="924" end="931" value="because"/>
+    <type6:Lemma xmi:id="7967" sofa="6" begin="932" end="936" value="they"/>
+    <type6:Lemma xmi:id="7972" sofa="6" begin="937" end="940" value="can"/>
+    <type6:Lemma xmi:id="7977" sofa="6" begin="941" end="946" value="learn"/>
+    <type6:Lemma xmi:id="7982" sofa="6" begin="947" end="956" value="something"/>
+    <type6:Lemma xmi:id="7987" sofa="6" begin="956" end="957" value="."/>
+    <type6:Lemma xmi:id="7992" sofa="6" begin="958" end="961" value="for"/>
+    <type6:Lemma xmi:id="7997" sofa="6" begin="962" end="970" value="instance"/>
+    <type6:Lemma xmi:id="8002" sofa="6" begin="970" end="971" value=","/>
+    <type6:Lemma xmi:id="8007" sofa="6" begin="972" end="977" value="there"/>
+    <type6:Lemma xmi:id="8012" sofa="6" begin="978" end="981" value="be"/>
+    <type6:Lemma xmi:id="8017" sofa="6" begin="982" end="986" value="many"/>
+    <type6:Lemma xmi:id="8022" sofa="6" begin="987" end="992" value="show"/>
+    <type6:Lemma xmi:id="8027" sofa="6" begin="993" end="995" value="on"/>
+    <type6:Lemma xmi:id="8032" sofa="6" begin="996" end="999" value="the"/>
+    <type6:Lemma xmi:id="8037" sofa="6" begin="1000" end="1002" value="tv"/>
+    <type6:Lemma xmi:id="8042" sofa="6" begin="1003" end="1007" value="that"/>
+    <type6:Lemma xmi:id="8047" sofa="6" begin="1008" end="1011" value="be"/>
+    <type6:Lemma xmi:id="8052" sofa="6" begin="1012" end="1022" value="especially"/>
+    <type6:Lemma xmi:id="8057" sofa="6" begin="1023" end="1026" value="for"/>
+    <type6:Lemma xmi:id="8062" sofa="6" begin="1027" end="1031" value="very"/>
+    <type6:Lemma xmi:id="8067" sofa="6" begin="1032" end="1037" value="young"/>
+    <type6:Lemma xmi:id="8072" sofa="6" begin="1038" end="1046" value="child"/>
+    <type6:Lemma xmi:id="8077" sofa="6" begin="1047" end="1050" value="and"/>
+    <type6:Lemma xmi:id="8082" sofa="6" begin="1051" end="1055" value="that"/>
+    <type6:Lemma xmi:id="8087" sofa="6" begin="1056" end="1059" value="try"/>
+    <type6:Lemma xmi:id="8092" sofa="6" begin="1060" end="1062" value="to"/>
+    <type6:Lemma xmi:id="8097" sofa="6" begin="1063" end="1068" value="teach"/>
+    <type6:Lemma xmi:id="8102" sofa="6" begin="1069" end="1073" value="they"/>
+    <type6:Lemma xmi:id="8107" sofa="6" begin="1074" end="1083" value="something"/>
+    <type6:Lemma xmi:id="8112" sofa="6" begin="1084" end="1086" value="by"/>
+    <type6:Lemma xmi:id="8117" sofa="6" begin="1087" end="1093" value="have"/>
+    <type6:Lemma xmi:id="8122" sofa="6" begin="1094" end="1097" value="fun"/>
+    <type6:Lemma xmi:id="8127" sofa="6" begin="1098" end="1103" value="which"/>
+    <type6:Lemma xmi:id="8132" sofa="6" begin="1104" end="1107" value="can"/>
+    <type6:Lemma xmi:id="8137" sofa="6" begin="1108" end="1110" value="be"/>
+    <type6:Lemma xmi:id="8142" sofa="6" begin="1111" end="1115" value="very"/>
+    <type6:Lemma xmi:id="8147" sofa="6" begin="1116" end="1125" value="effective"/>
+    <type6:Lemma xmi:id="8152" sofa="6" begin="1125" end="1126" value="."/>
+    <type6:Lemma xmi:id="8157" sofa="6" begin="1128" end="1130" value="in"/>
+    <type6:Lemma xmi:id="8162" sofa="6" begin="1131" end="1133" value="my"/>
+    <type6:Lemma xmi:id="8167" sofa="6" begin="1134" end="1141" value="opinion"/>
+    <type6:Lemma xmi:id="8172" sofa="6" begin="1141" end="1142" value=","/>
+    <type6:Lemma xmi:id="8177" sofa="6" begin="1143" end="1153" value="television"/>
+    <type6:Lemma xmi:id="8182" sofa="6" begin="1154" end="1165" value="advertising"/>
+    <type6:Lemma xmi:id="8187" sofa="6" begin="1166" end="1174" value="direct"/>
+    <type6:Lemma xmi:id="8192" sofa="6" begin="1175" end="1181" value="toward"/>
+    <type6:Lemma xmi:id="8197" sofa="6" begin="1182" end="1187" value="young"/>
+    <type6:Lemma xmi:id="8202" sofa="6" begin="1188" end="1196" value="child"/>
+    <type6:Lemma xmi:id="8207" sofa="6" begin="1197" end="1203" value="should"/>
+    <type6:Lemma xmi:id="8212" sofa="6" begin="1204" end="1206" value="be"/>
+    <type6:Lemma xmi:id="8217" sofa="6" begin="1207" end="1214" value="allow"/>
+    <type6:Lemma xmi:id="8222" sofa="6" begin="1215" end="1218" value="but"/>
+    <type6:Lemma xmi:id="8227" sofa="6" begin="1219" end="1222" value="the"/>
+    <type6:Lemma xmi:id="8232" sofa="6" begin="1223" end="1230" value="parent"/>
+    <type6:Lemma xmi:id="8237" sofa="6" begin="1231" end="1239" value="shouldnt"/>
+    <type6:Lemma xmi:id="8242" sofa="6" begin="1240" end="1243" value="let"/>
+    <type6:Lemma xmi:id="8247" sofa="6" begin="1244" end="1249" value="they"/>
+    <type6:Lemma xmi:id="8252" sofa="6" begin="1250" end="1258" value="child"/>
+    <type6:Lemma xmi:id="8257" sofa="6" begin="1259" end="1265" value="whatch"/>
+    <type6:Lemma xmi:id="8262" sofa="6" begin="1266" end="1268" value="tv"/>
+    <type6:Lemma xmi:id="8267" sofa="6" begin="1269" end="1272" value="too"/>
+    <type6:Lemma xmi:id="8272" sofa="6" begin="1273" end="1278" value="often"/>
+    <type6:Lemma xmi:id="8277" sofa="6" begin="1279" end="1286" value="because"/>
+    <type6:Lemma xmi:id="8282" sofa="6" begin="1287" end="1290" value="its"/>
+    <type6:Lemma xmi:id="8287" sofa="6" begin="1291" end="1295" value="very"/>
+    <type6:Lemma xmi:id="8292" sofa="6" begin="1296" end="1305" value="important"/>
+    <type6:Lemma xmi:id="8297" sofa="6" begin="1306" end="1309" value="for"/>
+    <type6:Lemma xmi:id="8302" sofa="6" begin="1310" end="1315" value="they"/>
+    <type6:Lemma xmi:id="8307" sofa="6" begin="1316" end="1322" value="health"/>
+    <type6:Lemma xmi:id="8312" sofa="6" begin="1323" end="1326" value="and"/>
+    <type6:Lemma xmi:id="8317" sofa="6" begin="1327" end="1333" value="social"/>
+    <type6:Lemma xmi:id="8322" sofa="6" begin="1334" end="1338" value="life"/>
+    <type6:Lemma xmi:id="8327" sofa="6" begin="1339" end="1343" value="that"/>
+    <type6:Lemma xmi:id="8332" sofa="6" begin="1344" end="1348" value="they"/>
+    <type6:Lemma xmi:id="8337" sofa="6" begin="1349" end="1353" value="also"/>
+    <type6:Lemma xmi:id="8342" sofa="6" begin="1354" end="1356" value="do"/>
+    <type6:Lemma xmi:id="8347" sofa="6" begin="1357" end="1362" value="other"/>
+    <type6:Lemma xmi:id="8352" sofa="6" begin="1363" end="1369" value="thing"/>
+    <type6:Lemma xmi:id="8357" sofa="6" begin="1369" end="1370" value=","/>
+    <type6:Lemma xmi:id="8362" sofa="6" begin="1371" end="1374" value="for"/>
+    <type6:Lemma xmi:id="8367" sofa="6" begin="1375" end="1382" value="example"/>
+    <type6:Lemma xmi:id="8372" sofa="6" begin="1383" end="1387" value="play"/>
+    <type6:Lemma xmi:id="8377" sofa="6" begin="1388" end="1392" value="with"/>
+    <type6:Lemma xmi:id="8382" sofa="6" begin="1393" end="1398" value="they"/>
+    <type6:Lemma xmi:id="8387" sofa="6" begin="1399" end="1406" value="friend"/>
+    <type6:Lemma xmi:id="8392" sofa="6" begin="1406" end="1407" value="."/>
+    <type6:Lemma xmi:id="8397" sofa="6" begin="1408" end="1409" value="I"/>
+    <type6:Lemma xmi:id="8402" sofa="6" begin="1410" end="1415" value="think"/>
+    <type6:Lemma xmi:id="8407" sofa="6" begin="1416" end="1420" value="that"/>
+    <type6:Lemma xmi:id="8412" sofa="6" begin="1421" end="1424" value="the"/>
+    <type6:Lemma xmi:id="8417" sofa="6" begin="1425" end="1432" value="parent"/>
+    <type6:Lemma xmi:id="8422" sofa="6" begin="1433" end="1439" value="should"/>
+    <type6:Lemma xmi:id="8427" sofa="6" begin="1440" end="1444" value="make"/>
+    <type6:Lemma xmi:id="8432" sofa="6" begin="1445" end="1446" value="a"/>
+    <type6:Lemma xmi:id="8437" sofa="6" begin="1447" end="1451" value="rule"/>
+    <type6:Lemma xmi:id="8442" sofa="6" begin="1452" end="1456" value="that"/>
+    <type6:Lemma xmi:id="8447" sofa="6" begin="1457" end="1461" value="say"/>
+    <type6:Lemma xmi:id="8452" sofa="6" begin="1462" end="1465" value="how"/>
+    <type6:Lemma xmi:id="8457" sofa="6" begin="1466" end="1470" value="long"/>
+    <type6:Lemma xmi:id="8462" sofa="6" begin="1471" end="1476" value="they"/>
+    <type6:Lemma xmi:id="8467" sofa="6" begin="1477" end="1485" value="child"/>
+    <type6:Lemma xmi:id="8472" sofa="6" begin="1486" end="1489" value="be"/>
+    <type6:Lemma xmi:id="8477" sofa="6" begin="1490" end="1497" value="allow"/>
+    <type6:Lemma xmi:id="8482" sofa="6" begin="1498" end="1500" value="to"/>
+    <type6:Lemma xmi:id="8487" sofa="6" begin="1501" end="1507" value="whatch"/>
+    <type6:Lemma xmi:id="8492" sofa="6" begin="1508" end="1510" value="tv"/>
+    <type6:Lemma xmi:id="8497" sofa="6" begin="1511" end="1514" value="and"/>
+    <type6:Lemma xmi:id="8502" sofa="6" begin="1515" end="1519" value="what"/>
+    <type6:Lemma xmi:id="8507" sofa="6" begin="1520" end="1524" value="they"/>
+    <type6:Lemma xmi:id="8512" sofa="6" begin="1525" end="1528" value="be"/>
+    <type6:Lemma xmi:id="8517" sofa="6" begin="1529" end="1536" value="allow"/>
+    <type6:Lemma xmi:id="8522" sofa="6" begin="1537" end="1539" value="to"/>
+    <type6:Lemma xmi:id="8527" sofa="6" begin="1540" end="1546" value="whatch"/>
+    <type6:Lemma xmi:id="8532" sofa="6" begin="1546" end="1547" value=","/>
+    <type6:Lemma xmi:id="8537" sofa="6" begin="1548" end="1551" value="for"/>
+    <type6:Lemma xmi:id="8542" sofa="6" begin="1552" end="1560" value="instance"/>
+    <type6:Lemma xmi:id="8547" sofa="6" begin="1561" end="1565" value="half"/>
+    <type6:Lemma xmi:id="8552" sofa="6" begin="1566" end="1568" value="a"/>
+    <type6:Lemma xmi:id="8557" sofa="6" begin="1569" end="1573" value="hour"/>
+    <type6:Lemma xmi:id="8562" sofa="6" begin="1574" end="1575" value="a"/>
+    <type6:Lemma xmi:id="8567" sofa="6" begin="1576" end="1579" value="day"/>
+    <type6:Lemma xmi:id="8572" sofa="6" begin="1580" end="1583" value="and"/>
+    <type6:Lemma xmi:id="8577" sofa="6" begin="1584" end="1588" value="just"/>
+    <type6:Lemma xmi:id="8582" sofa="6" begin="1589" end="1592" value="the"/>
+    <type6:Lemma xmi:id="8587" sofa="6" begin="1593" end="1601" value="programm"/>
+    <type6:Lemma xmi:id="8592" sofa="6" begin="1602" end="1607" value="that"/>
+    <type6:Lemma xmi:id="8597" sofa="6" begin="1608" end="1618" value="especially"/>
+    <type6:Lemma xmi:id="8602" sofa="6" begin="1619" end="1622" value="for"/>
+    <type6:Lemma xmi:id="8607" sofa="6" begin="1623" end="1631" value="childrem"/>
+    <type6:Lemma xmi:id="8612" sofa="6" begin="1632" end="1634" value="so"/>
+    <type6:Lemma xmi:id="8617" sofa="6" begin="1635" end="1639" value="that"/>
+    <type6:Lemma xmi:id="8622" sofa="6" begin="1640" end="1642" value="it"/>
+    <type6:Lemma xmi:id="8627" sofa="6" begin="1643" end="1647" value="cant"/>
+    <type6:Lemma xmi:id="8632" sofa="6" begin="1648" end="1654" value="happen"/>
+    <type6:Lemma xmi:id="8637" sofa="6" begin="1655" end="1659" value="that"/>
+    <type6:Lemma xmi:id="8642" sofa="6" begin="1660" end="1663" value="the"/>
+    <type6:Lemma xmi:id="8647" sofa="6" begin="1664" end="1671" value="parent"/>
+    <type6:Lemma xmi:id="8652" sofa="6" begin="1672" end="1675" value="sit"/>
+    <type6:Lemma xmi:id="8657" sofa="6" begin="1676" end="1681" value="they"/>
+    <type6:Lemma xmi:id="8662" sofa="6" begin="1682" end="1690" value="child"/>
+    <type6:Lemma xmi:id="8667" sofa="6" begin="1691" end="1693" value="in"/>
+    <type6:Lemma xmi:id="8672" sofa="6" begin="1694" end="1699" value="front"/>
+    <type6:Lemma xmi:id="8677" sofa="6" begin="1700" end="1702" value="of"/>
+    <type6:Lemma xmi:id="8682" sofa="6" begin="1703" end="1706" value="the"/>
+    <type6:Lemma xmi:id="8687" sofa="6" begin="1707" end="1709" value="tv"/>
+    <type6:Lemma xmi:id="8692" sofa="6" begin="1710" end="1712" value="so"/>
+    <type6:Lemma xmi:id="8697" sofa="6" begin="1713" end="1717" value="that"/>
+    <type6:Lemma xmi:id="8702" sofa="6" begin="1718" end="1722" value="they"/>
+    <type6:Lemma xmi:id="8707" sofa="6" begin="1723" end="1727" value="dont"/>
+    <type6:Lemma xmi:id="8712" sofa="6" begin="1728" end="1732" value="have"/>
+    <type6:Lemma xmi:id="8717" sofa="6" begin="1733" end="1735" value="to"/>
+    <type6:Lemma xmi:id="8722" sofa="6" begin="1736" end="1740" value="care"/>
+    <type6:Lemma xmi:id="8727" sofa="6" begin="1741" end="1746" value="about"/>
+    <type6:Lemma xmi:id="8732" sofa="6" begin="1747" end="1751" value="they"/>
+    <type6:Lemma xmi:id="8737" sofa="6" begin="1751" end="1752" value="."/>
+    <type6:Lemma xmi:id="8742" sofa="6" begin="1753" end="1756" value="its"/>
+    <type6:Lemma xmi:id="8747" sofa="6" begin="1757" end="1761" value="very"/>
+    <type6:Lemma xmi:id="8752" sofa="6" begin="1762" end="1771" value="important"/>
+    <type6:Lemma xmi:id="8757" sofa="6" begin="1772" end="1776" value="that"/>
+    <type6:Lemma xmi:id="8762" sofa="6" begin="1777" end="1781" value="they"/>
+    <type6:Lemma xmi:id="8767" sofa="6" begin="1782" end="1791" value="undertake"/>
+    <type6:Lemma xmi:id="8772" sofa="6" begin="1792" end="1801" value="something"/>
+    <type6:Lemma xmi:id="8777" sofa="6" begin="1802" end="1806" value="with"/>
+    <type6:Lemma xmi:id="8782" sofa="6" begin="1807" end="1812" value="they"/>
+    <type6:Lemma xmi:id="8787" sofa="6" begin="1813" end="1821" value="child"/>
+    <type6:Lemma xmi:id="8792" sofa="6" begin="1821" end="1822" value=","/>
+    <type6:Lemma xmi:id="8797" sofa="6" begin="1823" end="1826" value="for"/>
+    <type6:Lemma xmi:id="8802" sofa="6" begin="1827" end="1834" value="example"/>
+    <type6:Lemma xmi:id="8807" sofa="6" begin="1835" end="1839" value="they"/>
+    <type6:Lemma xmi:id="8812" sofa="6" begin="1840" end="1845" value="could"/>
+    <type6:Lemma xmi:id="8817" sofa="6" begin="1846" end="1848" value="go"/>
+    <type6:Lemma xmi:id="8822" sofa="6" begin="1849" end="1851" value="to"/>
+    <type6:Lemma xmi:id="8827" sofa="6" begin="1852" end="1855" value="the"/>
+    <type6:Lemma xmi:id="8832" sofa="6" begin="1856" end="1866" value="playgroung"/>
+    <type6:Lemma xmi:id="8837" sofa="6" begin="1866" end="1867" value="."/>
+    <type6:Lemma xmi:id="8842" sofa="6" begin="1868" end="1870" value="in"/>
+    <type6:Lemma xmi:id="8847" sofa="6" begin="1871" end="1874" value="the"/>
+    <type6:Lemma xmi:id="8852" sofa="6" begin="1875" end="1878" value="end"/>
+    <type6:Lemma xmi:id="8857" sofa="6" begin="1878" end="1879" value=","/>
+    <type6:Lemma xmi:id="8862" sofa="6" begin="1880" end="1882" value="id"/>
+    <type6:Lemma xmi:id="8867" sofa="6" begin="1883" end="1887" value="like"/>
+    <type6:Lemma xmi:id="8872" sofa="6" begin="1888" end="1890" value="to"/>
+    <type6:Lemma xmi:id="8877" sofa="6" begin="1891" end="1894" value="say"/>
+    <type6:Lemma xmi:id="8882" sofa="6" begin="1895" end="1899" value="that"/>
+    <type6:Lemma xmi:id="8887" sofa="6" begin="1900" end="1905" value="young"/>
+    <type6:Lemma xmi:id="8892" sofa="6" begin="1906" end="1914" value="child"/>
+    <type6:Lemma xmi:id="8897" sofa="6" begin="1915" end="1921" value="should"/>
+    <type6:Lemma xmi:id="8902" sofa="6" begin="1922" end="1924" value="be"/>
+    <type6:Lemma xmi:id="8907" sofa="6" begin="1925" end="1932" value="allow"/>
+    <type6:Lemma xmi:id="8912" sofa="6" begin="1933" end="1935" value="to"/>
+    <type6:Lemma xmi:id="8917" sofa="6" begin="1936" end="1942" value="whatch"/>
+    <type6:Lemma xmi:id="8922" sofa="6" begin="1943" end="1945" value="tv"/>
+    <type6:Lemma xmi:id="8927" sofa="6" begin="1946" end="1953" value="because"/>
+    <type6:Lemma xmi:id="8932" sofa="6" begin="1954" end="1956" value="it"/>
+    <type6:Lemma xmi:id="8937" sofa="6" begin="1957" end="1960" value="can"/>
+    <type6:Lemma xmi:id="8942" sofa="6" begin="1961" end="1963" value="be"/>
+    <type6:Lemma xmi:id="8947" sofa="6" begin="1964" end="1975" value="interesting"/>
+    <type6:Lemma xmi:id="8952" sofa="6" begin="1976" end="1979" value="for"/>
+    <type6:Lemma xmi:id="8957" sofa="6" begin="1980" end="1984" value="they"/>
+    <type6:Lemma xmi:id="8962" sofa="6" begin="1985" end="1988" value="and"/>
+    <type6:Lemma xmi:id="8967" sofa="6" begin="1989" end="1993" value="they"/>
+    <type6:Lemma xmi:id="8972" sofa="6" begin="1994" end="1997" value="can"/>
+    <type6:Lemma xmi:id="8977" sofa="6" begin="1998" end="2003" value="learn"/>
+    <type6:Lemma xmi:id="8982" sofa="6" begin="2004" end="2013" value="something"/>
+    <type6:Lemma xmi:id="8987" sofa="6" begin="2013" end="2014" value="."/>
+    <type6:Lemma xmi:id="8992" sofa="6" begin="2015" end="2018" value="but"/>
+    <type6:Lemma xmi:id="8997" sofa="6" begin="2019" end="2024" value="they"/>
+    <type6:Lemma xmi:id="9002" sofa="6" begin="2025" end="2032" value="parent"/>
+    <type6:Lemma xmi:id="9007" sofa="6" begin="2033" end="2037" value="have"/>
+    <type6:Lemma xmi:id="9012" sofa="6" begin="2038" end="2040" value="to"/>
+    <type6:Lemma xmi:id="9017" sofa="6" begin="2041" end="2047" value="whatch"/>
+    <type6:Lemma xmi:id="9022" sofa="6" begin="2048" end="2052" value="that"/>
+    <type6:Lemma xmi:id="9027" sofa="6" begin="2053" end="2057" value="they"/>
+    <type6:Lemma xmi:id="9032" sofa="6" begin="2058" end="2062" value="dont"/>
+    <type6:Lemma xmi:id="9037" sofa="6" begin="2063" end="2065" value="do"/>
+    <type6:Lemma xmi:id="9042" sofa="6" begin="2066" end="2068" value="it"/>
+    <type6:Lemma xmi:id="9047" sofa="6" begin="2069" end="2072" value="too"/>
+    <type6:Lemma xmi:id="9052" sofa="6" begin="2073" end="2077" value="long"/>
+    <type6:Lemma xmi:id="9057" sofa="6" begin="2077" end="2078" value="."/>
+    <types:VocabularyProfile xmi:id="9062" sofa="6" begin="0" end="2" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9068" sofa="6" begin="3" end="6" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="9074" sofa="6" begin="7" end="10" name="NUM" level="A1"/>
+    <types:VocabularyProfile xmi:id="9080" sofa="6" begin="11" end="15" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9086" sofa="6" begin="17" end="27" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9092" sofa="6" begin="28" end="39" name="NOUN" level="B2"/>
+    <types:VocabularyProfile xmi:id="9098" sofa="6" begin="40" end="48" name="VERB" level="B1"/>
+    <types:VocabularyProfile xmi:id="9104" sofa="6" begin="49" end="55" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="9110" sofa="6" begin="56" end="61" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="9116" sofa="6" begin="62" end="70" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9122" sofa="6" begin="71" end="77" name="VERB" level="A2"/>
+    <types:VocabularyProfile xmi:id="9128" sofa="6" begin="78" end="81" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="9134" sofa="6" begin="82" end="84" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9140" sofa="6" begin="85" end="92" name="VERB" level="B1"/>
+    <types:VocabularyProfile xmi:id="9146" sofa="6" begin="93" end="100" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9152" sofa="6" begin="101" end="104" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9158" sofa="6" begin="105" end="114" name="ADJ" level="B1"/>
+    <types:VocabularyProfile xmi:id="9164" sofa="6" begin="115" end="118" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9170" sofa="6" begin="119" end="123" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9176" sofa="6" begin="124" end="126" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9182" sofa="6" begin="127" end="133" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="9188" sofa="6" begin="134" end="144" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9194" sofa="6" begin="145" end="148" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="9200" sofa="6" begin="149" end="154" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="9206" sofa="6" begin="155" end="160" name="ADP" level="A2"/>
+    <types:VocabularyProfile xmi:id="9212" sofa="6" begin="161" end="165" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="9218" sofa="6" begin="166" end="171" name="VERB" level="A2"/>
+    <types:VocabularyProfile xmi:id="9224" sofa="6" begin="172" end="177" name="VERB" level="B2"/>
+    <types:VocabularyProfile xmi:id="9230" sofa="6" begin="178" end="182" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="9236" sofa="6" begin="183" end="187" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9242" sofa="6" begin="188" end="192" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="9248" sofa="6" begin="193" end="197" name="VERB" level="A2"/>
+    <types:VocabularyProfile xmi:id="9254" sofa="6" begin="198" end="204" name="ADV" level="A2"/>
+    <types:VocabularyProfile xmi:id="9260" sofa="6" begin="206" end="209" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9266" sofa="6" begin="210" end="219" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="9272" sofa="6" begin="220" end="224" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="9278" sofa="6" begin="225" end="233" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9284" sofa="6" begin="234" end="236" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9290" sofa="6" begin="237" end="244" name="ADJ" level="B2"/>
+    <types:VocabularyProfile xmi:id="9296" sofa="6" begin="245" end="248" name="CONJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="9302" sofa="6" begin="249" end="253" name="VERB" level="A2"/>
+    <types:VocabularyProfile xmi:id="9308" sofa="6" begin="254" end="261" name="ADV" level="A2"/>
+    <types:VocabularyProfile xmi:id="9314" sofa="6" begin="262" end="264" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9320" sofa="6" begin="265" end="272" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9326" sofa="6" begin="273" end="275" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9332" sofa="6" begin="276" end="281" name="NOUN" level="A2"/>
+    <types:VocabularyProfile xmi:id="9338" sofa="6" begin="282" end="284" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9344" sofa="6" begin="285" end="288" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="9350" sofa="6" begin="289" end="291" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9356" sofa="6" begin="292" end="295" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="9362" sofa="6" begin="296" end="301" name="ADJ" level="A2"/>
+    <types:VocabularyProfile xmi:id="9368" sofa="6" begin="302" end="306" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9374" sofa="6" begin="308" end="316" name="ADV" level="B2"/>
+    <types:VocabularyProfile xmi:id="9380" sofa="6" begin="318" end="322" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9386" sofa="6" begin="323" end="328" name="VERB" level="A2"/>
+    <types:VocabularyProfile xmi:id="9392" sofa="6" begin="329" end="332" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9398" sofa="6" begin="333" end="337" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9404" sofa="6" begin="338" end="340" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9410" sofa="6" begin="341" end="348" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="9416" sofa="6" begin="349" end="352" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="9422" sofa="6" begin="353" end="357" name="ADV" level="B1"/>
+    <types:VocabularyProfile xmi:id="9428" sofa="6" begin="358" end="362" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="9434" sofa="6" begin="363" end="367" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9440" sofa="6" begin="368" end="375" name="ADV" level="A2"/>
+    <types:VocabularyProfile xmi:id="9446" sofa="6" begin="376" end="382" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="9452" sofa="6" begin="383" end="385" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9458" sofa="6" begin="386" end="388" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9464" sofa="6" begin="389" end="393" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="9470" sofa="6" begin="394" end="399" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="9476" sofa="6" begin="400" end="403" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9482" sofa="6" begin="404" end="407" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="9488" sofa="6" begin="408" end="413" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="9494" sofa="6" begin="415" end="419" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9500" sofa="6" begin="420" end="424" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9506" sofa="6" begin="425" end="427" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9512" sofa="6" begin="428" end="431" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9518" sofa="6" begin="432" end="441" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9524" sofa="6" begin="443" end="454" name="NOUN" level="No"/>
+    <types:VocabularyProfile xmi:id="9530" sofa="6" begin="455" end="458" name="CONJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="9536" sofa="6" begin="459" end="466" name="NOUN" level="B1"/>
+    <types:VocabularyProfile xmi:id="9542" sofa="6" begin="467" end="471" name="NOUN" level="No"/>
+    <types:VocabularyProfile xmi:id="9548" sofa="6" begin="472" end="474" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9554" sofa="6" begin="475" end="480" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9560" sofa="6" begin="481" end="487" name="ADJ" level="B1"/>
+    <types:VocabularyProfile xmi:id="9566" sofa="6" begin="488" end="491" name="NOUN" level="A2"/>
+    <types:VocabularyProfile xmi:id="9572" sofa="6" begin="492" end="495" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="9578" sofa="6" begin="496" end="501" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="9584" sofa="6" begin="502" end="509" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9590" sofa="6" begin="510" end="514" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9596" sofa="6" begin="515" end="520" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9602" sofa="6" begin="521" end="524" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9608" sofa="6" begin="525" end="529" name="ADV" level="A2"/>
+    <types:VocabularyProfile xmi:id="9614" sofa="6" begin="530" end="536" name="ADJ" level="A2"/>
+    <types:VocabularyProfile xmi:id="9620" sofa="6" begin="537" end="540" name="CONJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="9626" sofa="6" begin="541" end="550" name="NOUN" level="A2"/>
+    <types:VocabularyProfile xmi:id="9632" sofa="6" begin="551" end="555" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9638" sofa="6" begin="556" end="558" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9644" sofa="6" begin="559" end="566" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9650" sofa="6" begin="567" end="577" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9656" sofa="6" begin="578" end="589" name="NOUN" level="B2"/>
+    <types:VocabularyProfile xmi:id="9662" sofa="6" begin="590" end="598" name="VERB" level="B1"/>
+    <types:VocabularyProfile xmi:id="9668" sofa="6" begin="599" end="605" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="9674" sofa="6" begin="606" end="611" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="9680" sofa="6" begin="612" end="620" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9686" sofa="6" begin="621" end="624" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9692" sofa="6" begin="625" end="632" name="VERB" level="B1"/>
+    <types:VocabularyProfile xmi:id="9698" sofa="6" begin="634" end="636" name="ADV" level="A2"/>
+    <types:VocabularyProfile xmi:id="9704" sofa="6" begin="637" end="641" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9710" sofa="6" begin="642" end="646" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9716" sofa="6" begin="647" end="649" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9722" sofa="6" begin="650" end="655" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9728" sofa="6" begin="656" end="660" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9734" sofa="6" begin="661" end="664" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="9740" sofa="6" begin="665" end="668" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="9746" sofa="6" begin="669" end="673" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9752" sofa="6" begin="674" end="677" name="CONJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="9758" sofa="6" begin="678" end="682" name="NOUN" level="No"/>
+    <types:VocabularyProfile xmi:id="9764" sofa="6" begin="683" end="685" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9770" sofa="6" begin="686" end="693" name="ADJ" level="B2"/>
+    <types:VocabularyProfile xmi:id="9776" sofa="6" begin="694" end="701" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9782" sofa="6" begin="702" end="706" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9788" sofa="6" begin="707" end="710" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9794" sofa="6" begin="711" end="715" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9800" sofa="6" begin="716" end="723" name="NOUN" level="A2"/>
+    <types:VocabularyProfile xmi:id="9806" sofa="6" begin="724" end="728" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9812" sofa="6" begin="729" end="734" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9818" sofa="6" begin="735" end="742" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9824" sofa="6" begin="743" end="745" name="ADP" level="A2"/>
+    <types:VocabularyProfile xmi:id="9830" sofa="6" begin="746" end="751" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9836" sofa="6" begin="752" end="757" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9842" sofa="6" begin="758" end="769" name="NOUN" level="No"/>
+    <types:VocabularyProfile xmi:id="9848" sofa="6" begin="770" end="775" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="9854" sofa="6" begin="776" end="778" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9860" sofa="6" begin="779" end="783" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="9866" sofa="6" begin="784" end="793" name="ADJ" level="B1"/>
+    <types:VocabularyProfile xmi:id="9872" sofa="6" begin="795" end="797" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9878" sofa="6" begin="798" end="801" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="9884" sofa="6" begin="802" end="807" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="9890" sofa="6" begin="808" end="812" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9896" sofa="6" begin="814" end="824" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9902" sofa="6" begin="825" end="836" name="NOUN" level="B2"/>
+    <types:VocabularyProfile xmi:id="9908" sofa="6" begin="837" end="845" name="VERB" level="B1"/>
+    <types:VocabularyProfile xmi:id="9914" sofa="6" begin="846" end="852" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="9920" sofa="6" begin="853" end="858" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="9926" sofa="6" begin="859" end="867" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="9932" sofa="6" begin="868" end="874" name="VERB" level="A2"/>
+    <types:VocabularyProfile xmi:id="9938" sofa="6" begin="875" end="877" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="9944" sofa="6" begin="878" end="885" name="VERB" level="B1"/>
+    <types:VocabularyProfile xmi:id="9950" sofa="6" begin="886" end="893" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9956" sofa="6" begin="894" end="897" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9962" sofa="6" begin="898" end="902" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="9968" sofa="6" begin="903" end="914" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="9974" sofa="6" begin="915" end="918" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9980" sofa="6" begin="919" end="923" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9986" sofa="6" begin="924" end="931" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="9992" sofa="6" begin="932" end="936" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="9998" sofa="6" begin="937" end="940" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10004" sofa="6" begin="941" end="946" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10010" sofa="6" begin="947" end="956" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10016" sofa="6" begin="958" end="961" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10022" sofa="6" begin="962" end="970" name="NOUN" level="C1"/>
+    <types:VocabularyProfile xmi:id="10028" sofa="6" begin="972" end="977" name="DET" level="No"/>
+    <types:VocabularyProfile xmi:id="10034" sofa="6" begin="978" end="981" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10040" sofa="6" begin="982" end="986" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="10046" sofa="6" begin="987" end="992" name="NOUN" level="A2"/>
+    <types:VocabularyProfile xmi:id="10052" sofa="6" begin="993" end="995" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10058" sofa="6" begin="996" end="999" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10064" sofa="6" begin="1000" end="1002" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10070" sofa="6" begin="1003" end="1007" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10076" sofa="6" begin="1008" end="1011" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10082" sofa="6" begin="1012" end="1022" name="ADV" level="A2"/>
+    <types:VocabularyProfile xmi:id="10088" sofa="6" begin="1023" end="1026" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10094" sofa="6" begin="1027" end="1031" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="10100" sofa="6" begin="1032" end="1037" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="10106" sofa="6" begin="1038" end="1046" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10112" sofa="6" begin="1047" end="1050" name="CONJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="10118" sofa="6" begin="1051" end="1055" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10124" sofa="6" begin="1056" end="1059" name="VERB" level="A2"/>
+    <types:VocabularyProfile xmi:id="10130" sofa="6" begin="1060" end="1062" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10136" sofa="6" begin="1063" end="1068" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10142" sofa="6" begin="1069" end="1073" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10148" sofa="6" begin="1074" end="1083" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10154" sofa="6" begin="1084" end="1086" name="ADP" level="A2"/>
+    <types:VocabularyProfile xmi:id="10160" sofa="6" begin="1087" end="1093" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10166" sofa="6" begin="1094" end="1097" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10172" sofa="6" begin="1098" end="1103" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10178" sofa="6" begin="1104" end="1107" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10184" sofa="6" begin="1108" end="1110" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10190" sofa="6" begin="1111" end="1115" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="10196" sofa="6" begin="1116" end="1125" name="ADJ" level="B2"/>
+    <types:VocabularyProfile xmi:id="10202" sofa="6" begin="1128" end="1130" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10208" sofa="6" begin="1131" end="1133" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10214" sofa="6" begin="1134" end="1141" name="NOUN" level="B1"/>
+    <types:VocabularyProfile xmi:id="10220" sofa="6" begin="1143" end="1153" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10226" sofa="6" begin="1154" end="1165" name="NOUN" level="B2"/>
+    <types:VocabularyProfile xmi:id="10232" sofa="6" begin="1166" end="1174" name="VERB" level="B1"/>
+    <types:VocabularyProfile xmi:id="10238" sofa="6" begin="1175" end="1181" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="10244" sofa="6" begin="1182" end="1187" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="10250" sofa="6" begin="1188" end="1196" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10256" sofa="6" begin="1197" end="1203" name="VERB" level="A2"/>
+    <types:VocabularyProfile xmi:id="10262" sofa="6" begin="1204" end="1206" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10268" sofa="6" begin="1207" end="1214" name="VERB" level="B1"/>
+    <types:VocabularyProfile xmi:id="10274" sofa="6" begin="1215" end="1218" name="CONJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="10280" sofa="6" begin="1219" end="1222" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10286" sofa="6" begin="1223" end="1230" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10292" sofa="6" begin="1231" end="1239" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="10298" sofa="6" begin="1240" end="1243" name="VERB" level="B1"/>
+    <types:VocabularyProfile xmi:id="10304" sofa="6" begin="1244" end="1249" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10310" sofa="6" begin="1250" end="1258" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10316" sofa="6" begin="1259" end="1265" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="10322" sofa="6" begin="1266" end="1268" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10328" sofa="6" begin="1269" end="1272" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="10334" sofa="6" begin="1273" end="1278" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="10340" sofa="6" begin="1279" end="1286" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10346" sofa="6" begin="1287" end="1290" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10352" sofa="6" begin="1291" end="1295" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="10358" sofa="6" begin="1296" end="1305" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="10364" sofa="6" begin="1306" end="1309" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10370" sofa="6" begin="1310" end="1315" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10376" sofa="6" begin="1316" end="1322" name="NOUN" level="A2"/>
+    <types:VocabularyProfile xmi:id="10382" sofa="6" begin="1323" end="1326" name="CONJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="10388" sofa="6" begin="1327" end="1333" name="ADJ" level="B1"/>
+    <types:VocabularyProfile xmi:id="10394" sofa="6" begin="1334" end="1338" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10400" sofa="6" begin="1339" end="1343" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="10406" sofa="6" begin="1344" end="1348" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10412" sofa="6" begin="1349" end="1353" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="10418" sofa="6" begin="1354" end="1356" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10424" sofa="6" begin="1357" end="1362" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="10430" sofa="6" begin="1363" end="1369" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10436" sofa="6" begin="1371" end="1374" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10442" sofa="6" begin="1375" end="1382" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10448" sofa="6" begin="1383" end="1387" name="NOUN" level="A2"/>
+    <types:VocabularyProfile xmi:id="10454" sofa="6" begin="1388" end="1392" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10460" sofa="6" begin="1393" end="1398" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10466" sofa="6" begin="1399" end="1406" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10472" sofa="6" begin="1408" end="1409" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10478" sofa="6" begin="1410" end="1415" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10484" sofa="6" begin="1416" end="1420" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="10490" sofa="6" begin="1421" end="1424" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10496" sofa="6" begin="1425" end="1432" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10502" sofa="6" begin="1433" end="1439" name="VERB" level="A2"/>
+    <types:VocabularyProfile xmi:id="10508" sofa="6" begin="1440" end="1444" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10514" sofa="6" begin="1445" end="1446" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10520" sofa="6" begin="1447" end="1451" name="NOUN" level="B1"/>
+    <types:VocabularyProfile xmi:id="10526" sofa="6" begin="1452" end="1456" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10532" sofa="6" begin="1457" end="1461" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10538" sofa="6" begin="1462" end="1465" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="10544" sofa="6" begin="1466" end="1470" name="ADV" level="A2"/>
+    <types:VocabularyProfile xmi:id="10550" sofa="6" begin="1471" end="1476" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10556" sofa="6" begin="1477" end="1485" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10562" sofa="6" begin="1486" end="1489" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10568" sofa="6" begin="1490" end="1497" name="VERB" level="B1"/>
+    <types:VocabularyProfile xmi:id="10574" sofa="6" begin="1498" end="1500" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10580" sofa="6" begin="1501" end="1507" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="10586" sofa="6" begin="1508" end="1510" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10592" sofa="6" begin="1511" end="1514" name="CONJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="10598" sofa="6" begin="1515" end="1519" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10604" sofa="6" begin="1520" end="1524" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10610" sofa="6" begin="1525" end="1528" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10616" sofa="6" begin="1529" end="1536" name="VERB" level="B1"/>
+    <types:VocabularyProfile xmi:id="10622" sofa="6" begin="1537" end="1539" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10628" sofa="6" begin="1540" end="1546" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="10634" sofa="6" begin="1548" end="1551" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10640" sofa="6" begin="1552" end="1560" name="NOUN" level="C1"/>
+    <types:VocabularyProfile xmi:id="10646" sofa="6" begin="1561" end="1565" name="DET" level="No"/>
+    <types:VocabularyProfile xmi:id="10652" sofa="6" begin="1566" end="1568" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10658" sofa="6" begin="1569" end="1573" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10664" sofa="6" begin="1574" end="1575" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10670" sofa="6" begin="1576" end="1579" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10676" sofa="6" begin="1580" end="1583" name="CONJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="10682" sofa="6" begin="1584" end="1588" name="ADV" level="A2"/>
+    <types:VocabularyProfile xmi:id="10688" sofa="6" begin="1589" end="1592" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10694" sofa="6" begin="1593" end="1601" name="NOUN" level="No"/>
+    <types:VocabularyProfile xmi:id="10700" sofa="6" begin="1602" end="1607" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="10706" sofa="6" begin="1608" end="1618" name="ADV" level="A2"/>
+    <types:VocabularyProfile xmi:id="10712" sofa="6" begin="1619" end="1622" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10718" sofa="6" begin="1623" end="1631" name="NOUN" level="No"/>
+    <types:VocabularyProfile xmi:id="10724" sofa="6" begin="1632" end="1634" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10730" sofa="6" begin="1635" end="1639" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="10736" sofa="6" begin="1640" end="1642" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10742" sofa="6" begin="1643" end="1647" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="10748" sofa="6" begin="1648" end="1654" name="VERB" level="A2"/>
+    <types:VocabularyProfile xmi:id="10754" sofa="6" begin="1655" end="1659" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="10760" sofa="6" begin="1660" end="1663" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10766" sofa="6" begin="1664" end="1671" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10772" sofa="6" begin="1672" end="1675" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10778" sofa="6" begin="1676" end="1681" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10784" sofa="6" begin="1682" end="1690" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10790" sofa="6" begin="1691" end="1693" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10796" sofa="6" begin="1694" end="1699" name="NOUN" level="A2"/>
+    <types:VocabularyProfile xmi:id="10802" sofa="6" begin="1700" end="1702" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10808" sofa="6" begin="1703" end="1706" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10814" sofa="6" begin="1707" end="1709" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10820" sofa="6" begin="1710" end="1712" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10826" sofa="6" begin="1713" end="1717" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="10832" sofa="6" begin="1718" end="1722" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10838" sofa="6" begin="1723" end="1727" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="10844" sofa="6" begin="1728" end="1732" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10850" sofa="6" begin="1733" end="1735" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10856" sofa="6" begin="1736" end="1740" name="VERB" level="B1"/>
+    <types:VocabularyProfile xmi:id="10862" sofa="6" begin="1741" end="1746" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10868" sofa="6" begin="1747" end="1751" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10874" sofa="6" begin="1753" end="1756" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10880" sofa="6" begin="1757" end="1761" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="10886" sofa="6" begin="1762" end="1771" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="10892" sofa="6" begin="1772" end="1776" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="10898" sofa="6" begin="1777" end="1781" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10904" sofa="6" begin="1782" end="1791" name="VERB" level="C1"/>
+    <types:VocabularyProfile xmi:id="10910" sofa="6" begin="1792" end="1801" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10916" sofa="6" begin="1802" end="1806" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10922" sofa="6" begin="1807" end="1812" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10928" sofa="6" begin="1813" end="1821" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10934" sofa="6" begin="1823" end="1826" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10940" sofa="6" begin="1827" end="1834" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="10946" sofa="6" begin="1835" end="1839" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="10952" sofa="6" begin="1840" end="1845" name="VERB" level="A2"/>
+    <types:VocabularyProfile xmi:id="10958" sofa="6" begin="1846" end="1848" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="10964" sofa="6" begin="1849" end="1851" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10970" sofa="6" begin="1852" end="1855" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10976" sofa="6" begin="1856" end="1866" name="NOUN" level="No"/>
+    <types:VocabularyProfile xmi:id="10982" sofa="6" begin="1868" end="1870" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="10988" sofa="6" begin="1871" end="1874" name="DET" level="A1"/>
+    <types:VocabularyProfile xmi:id="10994" sofa="6" begin="1875" end="1878" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="11000" sofa="6" begin="1880" end="1882" name="NOUN" level="A2"/>
+    <types:VocabularyProfile xmi:id="11006" sofa="6" begin="1883" end="1887" name="ADP" level="A2"/>
+    <types:VocabularyProfile xmi:id="11012" sofa="6" begin="1888" end="1890" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="11018" sofa="6" begin="1891" end="1894" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="11024" sofa="6" begin="1895" end="1899" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="11030" sofa="6" begin="1900" end="1905" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="11036" sofa="6" begin="1906" end="1914" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="11042" sofa="6" begin="1915" end="1921" name="VERB" level="A2"/>
+    <types:VocabularyProfile xmi:id="11048" sofa="6" begin="1922" end="1924" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="11054" sofa="6" begin="1925" end="1932" name="VERB" level="B1"/>
+    <types:VocabularyProfile xmi:id="11060" sofa="6" begin="1933" end="1935" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="11066" sofa="6" begin="1936" end="1942" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="11072" sofa="6" begin="1943" end="1945" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="11078" sofa="6" begin="1946" end="1953" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="11084" sofa="6" begin="1954" end="1956" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="11090" sofa="6" begin="1957" end="1960" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="11096" sofa="6" begin="1961" end="1963" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="11102" sofa="6" begin="1964" end="1975" name="ADJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="11108" sofa="6" begin="1976" end="1979" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="11114" sofa="6" begin="1980" end="1984" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="11120" sofa="6" begin="1985" end="1988" name="CONJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="11126" sofa="6" begin="1989" end="1993" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="11132" sofa="6" begin="1994" end="1997" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="11138" sofa="6" begin="1998" end="2003" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="11144" sofa="6" begin="2004" end="2013" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="11150" sofa="6" begin="2015" end="2018" name="CONJ" level="A1"/>
+    <types:VocabularyProfile xmi:id="11156" sofa="6" begin="2019" end="2024" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="11162" sofa="6" begin="2025" end="2032" name="NOUN" level="A1"/>
+    <types:VocabularyProfile xmi:id="11168" sofa="6" begin="2033" end="2037" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="11174" sofa="6" begin="2038" end="2040" name="ADP" level="A1"/>
+    <types:VocabularyProfile xmi:id="11180" sofa="6" begin="2041" end="2047" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="11186" sofa="6" begin="2048" end="2052" name="ADP" level="No"/>
+    <types:VocabularyProfile xmi:id="11192" sofa="6" begin="2053" end="2057" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="11198" sofa="6" begin="2058" end="2062" name="VERB" level="No"/>
+    <types:VocabularyProfile xmi:id="11204" sofa="6" begin="2063" end="2065" name="VERB" level="A1"/>
+    <types:VocabularyProfile xmi:id="11210" sofa="6" begin="2066" end="2068" name="PRON" level="A1"/>
+    <types:VocabularyProfile xmi:id="11216" sofa="6" begin="2069" end="2072" name="ADV" level="A1"/>
+    <types:VocabularyProfile xmi:id="11222" sofa="6" begin="2073" end="2077" name="ADV" level="A2"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="On the one hand, television advertising directed toward young children should not be allowed because its unhealthy for them to whatch television too often since that could cause that they dont move enough. Its important that children go outside and move instead of sitting in front of the TV the whole time. Moreover, they could get used to technic too much when they already whatch TV in that young age too often. They want to use computers, smartphones and tablets etc. in their future way too often because they think its just normal and everybody does it because television advertising directed toward young children was allowed. So they stay in their room all the time and dont go outside because they can have contact with their friends by using their smartphones which is very unhealthy. On the other hand, television advertising directed toward young children should be allowed because its very interesting for them because they can learn something. For instance, there are many shows on the TV that are especially for very young children and that try to teach them something by having fun which can be very effective.  In my opinion, television advertising directed toward young children should be allowed but the parents shouldnt let their children whatch TV too often because its very important for their health and social life that they also do other things, for example play with their friends. I think that the parents should make a rule that says how long their children are allowed to whatch TV and what they are allowed to whatch, for instance half an hour a day and just the programm thats especially for childrem so that it cant happen that the parents sit their children in front of the TV so that they dont have to care about them. Its very important that they undertake something with their children, for example they could go to the playgroung. In the end, Id like to say that young children should be allowed to whatch TV because it can be interesting for them and they can learn something. But their parents have to whatch that they dont do it too long."/>
+    <type4:TagDescription xmi:id="4712" name="#"/>
+    <type4:TagDescription xmi:id="4714" name="$"/>
+    <type4:TagDescription xmi:id="4716" name="''"/>
+    <type4:TagDescription xmi:id="4718" name=","/>
+    <type4:TagDescription xmi:id="4720" name="-LRB-"/>
+    <type4:TagDescription xmi:id="4722" name="-RRB-"/>
+    <type4:TagDescription xmi:id="4724" name="."/>
+    <type4:TagDescription xmi:id="4726" name=":"/>
+    <type4:TagDescription xmi:id="4728" name="CC"/>
+    <type4:TagDescription xmi:id="4730" name="CD"/>
+    <type4:TagDescription xmi:id="4732" name="DT"/>
+    <type4:TagDescription xmi:id="4734" name="EX"/>
+    <type4:TagDescription xmi:id="4736" name="FW"/>
+    <type4:TagDescription xmi:id="4738" name="IN"/>
+    <type4:TagDescription xmi:id="4740" name="JJ"/>
+    <type4:TagDescription xmi:id="4742" name="JJR"/>
+    <type4:TagDescription xmi:id="4744" name="JJS"/>
+    <type4:TagDescription xmi:id="4746" name="LS"/>
+    <type4:TagDescription xmi:id="4748" name="MD"/>
+    <type4:TagDescription xmi:id="4750" name="NN"/>
+    <type4:TagDescription xmi:id="4752" name="NNP"/>
+    <type4:TagDescription xmi:id="4754" name="NNPS"/>
+    <type4:TagDescription xmi:id="4756" name="NNS"/>
+    <type4:TagDescription xmi:id="4758" name="PDT"/>
+    <type4:TagDescription xmi:id="4760" name="POS"/>
+    <type4:TagDescription xmi:id="4762" name="PRP"/>
+    <type4:TagDescription xmi:id="4764" name="PRP$"/>
+    <type4:TagDescription xmi:id="4766" name="RB"/>
+    <type4:TagDescription xmi:id="4768" name="RBR"/>
+    <type4:TagDescription xmi:id="4770" name="RBS"/>
+    <type4:TagDescription xmi:id="4772" name="RP"/>
+    <type4:TagDescription xmi:id="4774" name="SYM"/>
+    <type4:TagDescription xmi:id="4776" name="TO"/>
+    <type4:TagDescription xmi:id="4778" name="UH"/>
+    <type4:TagDescription xmi:id="4780" name="VB"/>
+    <type4:TagDescription xmi:id="4782" name="VBD"/>
+    <type4:TagDescription xmi:id="4784" name="VBG"/>
+    <type4:TagDescription xmi:id="4786" name="VBN"/>
+    <type4:TagDescription xmi:id="4788" name="VBP"/>
+    <type4:TagDescription xmi:id="4790" name="VBZ"/>
+    <type4:TagDescription xmi:id="4792" name="WDT"/>
+    <type4:TagDescription xmi:id="4794" name="WP"/>
+    <type4:TagDescription xmi:id="4796" name="WP$"/>
+    <type4:TagDescription xmi:id="4798" name="WRB"/>
+    <type4:TagDescription xmi:id="4800" name="``"/>
+    <cas:View sofa="6" members="13 24 29 35 43 55 67 79 91 103 115 127 139 151 163 175 187 199 211 223 235 247 259 271 283 295 307 319 331 343 355 367 379 391 403 415 427 439 451 463 475 487 499 511 523 535 547 559 571 583 595 607 619 631 643 655 667 679 691 703 715 727 739 751 763 775 787 799 811 823 835 847 859 871 883 895 907 919 931 943 955 967 979 991 1003 1015 1027 1039 1051 1063 1075 1087 1099 1111 1123 1135 1147 1159 1171 1183 1195 1207 1219 1231 1243 1255 1267 1279 1291 1303 1315 1327 1339 1351 1363 1375 1387 1399 1411 1423 1435 1447 1459 1471 1483 1495 1507 1519 1531 1543 1555 1567 1579 1591 1603 1615 1627 1639 1651 1663 1675 1687 1699 1711 1723 1735 1747 1759 1771 1783 1795 1807 1819 1831 1843 1855 1867 1879 1891 1903 1915 1927 1939 1951 1963 1975 1987 1999 2011 2023 2035 2047 2059 2071 2083 2095 2107 2119 2131 2143 2155 2167 2179 2191 2203 2215 2227 2239 2251 2263 2275 2287 2299 2311 2323 2335 2347 2359 2371 2383 2395 2407 2419 2431 2443 2455 2467 2479 2491 2503 2515 2527 2539 2551 2563 2575 2587 2599 2611 2623 2635 2647 2659 2671 2683 2695 2707 2719 2731 2743 2755 2767 2779 2791 2803 2815 2827 2839 2851 2863 2875 2887 2899 2911 2923 2935 2947 2959 2971 2983 2995 3007 3019 3031 3043 3055 3067 3079 3091 3103 3115 3127 3139 3151 3163 3175 3187 3199 3211 3223 3235 3247 3259 3271 3283 3295 3307 3319 3331 3343 3355 3367 3379 3391 3403 3415 3427 3439 3451 3463 3475 3487 3499 3511 3523 3535 3547 3559 3571 3583 3595 3607 3619 3631 3643 3655 3667 3679 3691 3703 3715 3727 3739 3751 3763 3775 3787 3799 3811 3823 3835 3847 3859 3871 3883 3895 3907 3919 3931 3943 3955 3967 3979 3991 4003 4015 4027 4039 4051 4063 4075 4087 4099 4111 4123 4135 4147 4159 4171 4183 4195 4207 4219 4231 4243 4255 4267 4279 4291 4303 4315 4327 4339 4351 4363 4375 4387 4399 4411 4423 4435 4447 4459 4471 4483 4495 4507 4519 4531 4543 4555 4567 4579 4591 4603 4615 4627 4639 4644 4649 4654 4659 4664 4669 4674 4679 4684 4689 4694 4699 4849 4897 4939 4957 4969 4999 5023 5071 5113 5125 5137 5215 5269 5323 5371 5407 5467 5491 5545 5605 5635 5653 5707 5755 5791 5815 5827 5863 5905 5941 5983 6007 6061 6103 6205 6229 6265 6307 6325 6361 6451 6499 6517 6595 6607 6613 6637 6673 6685 6703 6709 6733 6745 6781 6805 6829 6859 6883 6913 6919 6931 6967 6985 7015 7087 7099 4855 5005 5143 5155 5275 5563 5569 5677 5713 5881 5911 5923 5971 6025 6145 6367 6391 6403 6529 6535 6547 6571 6643 6691 6865 6889 4861 4867 4879 4885 4909 4981 5077 5131 5149 5167 5263 5287 5335 5347 5359 5365 5389 5449 5473 5479 5503 5557 5575 5587 5629 5647 5671 5725 5737 5743 5767 5851 5869 5899 5917 5959 6001 6019 6073 6085 6091 6115 6151 6175 6187 6241 6259 6295 6313 6319 6337 6373 6397 6433 6463 6523 6541 6553 6577 6601 6649 6667 6679 6697 6799 6817 6835 6871 6895 6907 6943 6979 7051 7075 4873 5053 5173 5185 5305 5341 5521 5701 5731 5857 5875 6055 6079 6301 6343 6511 6757 6823 6877 6901 7057 7141 4891 4915 4927 4933 4975 5011 5017 5035 5041 5083 5101 5119 5197 5203 5209 5221 5257 5317 5329 5419 5455 5485 5509 5515 5539 5593 5617 5623 5659 5683 5749 5773 5779 5785 5839 5845 5887 5929 5977 5989 6013 6031 6037 6097 6121 6127 6133 6157 6163 6181 6283 6355 6379 6385 6409 6439 6445 6457 6487 6493 6505 6583 6625 6631 6655 6721 6727 6739 6793 6847 6853 6925 6949 6955 6961 6973 6997 7003 7039 7045 7081 7093 7111 7117 4903 4951 5065 5089 5161 5281 5383 5437 5497 5599 5695 5719 5761 5809 5893 5953 6049 6109 6223 6253 6289 6775 6937 7009 4921 4987 4993 5047 5107 5179 5227 5233 5239 5251 5293 5299 5395 5401 5431 5527 5689 5803 5935 5947 6043 6193 6199 6217 6277 6415 6421 6565 6589 6769 7129 7135 4945 4963 5029 5059 5191 5245 5311 5377 5413 5425 5461 5533 5551 5611 5641 5665 5797 5821 5833 5995 6067 6169 6211 6235 6271 6331 6349 6427 6475 6481 6619 6661 6715 6751 6763 6787 6811 6841 6991 7021 7033 7069 7105 7123 5095 5353 5443 5581 5965 6139 6247 6469 6559 7027 7063 7147 7152 7157 7162 7167 7172 7177 7182 7187 7192 7197 7202 7207 7212 7217 7222 7227 7232 7237 7242 7247 7252 7257 7262 7267 7272 7277 7282 7287 7292 7297 7302 7307 7312 7317 7322 7327 7332 7337 7342 7347 7352 7357 7362 7367 7372 7377 7382 7387 7392 7397 7402 7407 7412 7417 7422 7427 7432 7437 7442 7447 7452 7457 7462 7467 7472 7477 7482 7487 7492 7497 7502 7507 7512 7517 7522 7527 7532 7537 7542 7547 7552 7557 7562 7567 7572 7577 7582 7587 7592 7597 7602 7607 7612 7617 7622 7627 7632 7637 7642 7647 7652 7657 7662 7667 7672 7677 7682 7687 7692 7697 7702 7707 7712 7717 7722 7727 7732 7737 7742 7747 7752 7757 7762 7767 7772 7777 7782 7787 7792 7797 7802 7807 7812 7817 7822 7827 7832 7837 7842 7847 7852 7857 7862 7867 7872 7877 7882 7887 7892 7897 7902 7907 7912 7917 7922 7927 7932 7937 7942 7947 7952 7957 7962 7967 7972 7977 7982 7987 7992 7997 8002 8007 8012 8017 8022 8027 8032 8037 8042 8047 8052 8057 8062 8067 8072 8077 8082 8087 8092 8097 8102 8107 8112 8117 8122 8127 8132 8137 8142 8147 8152 8157 8162 8167 8172 8177 8182 8187 8192 8197 8202 8207 8212 8217 8222 8227 8232 8237 8242 8247 8252 8257 8262 8267 8272 8277 8282 8287 8292 8297 8302 8307 8312 8317 8322 8327 8332 8337 8342 8347 8352 8357 8362 8367 8372 8377 8382 8387 8392 8397 8402 8407 8412 8417 8422 8427 8432 8437 8442 8447 8452 8457 8462 8467 8472 8477 8482 8487 8492 8497 8502 8507 8512 8517 8522 8527 8532 8537 8542 8547 8552 8557 8562 8567 8572 8577 8582 8587 8592 8597 8602 8607 8612 8617 8622 8627 8632 8637 8642 8647 8652 8657 8662 8667 8672 8677 8682 8687 8692 8697 8702 8707 8712 8717 8722 8727 8732 8737 8742 8747 8752 8757 8762 8767 8772 8777 8782 8787 8792 8797 8802 8807 8812 8817 8822 8827 8832 8837 8842 8847 8852 8857 8862 8867 8872 8877 8882 8887 8892 8897 8902 8907 8912 8917 8922 8927 8932 8937 8942 8947 8952 8957 8962 8967 8972 8977 8982 8987 8992 8997 9002 9007 9012 9017 9022 9027 9032 9037 9042 9047 9052 9057 9062 9068 9074 9080 9086 9092 9098 9104 9110 9116 9122 9128 9134 9140 9146 9152 9158 9164 9170 9176 9182 9188 9194 9200 9206 9212 9218 9224 9230 9236 9242 9248 9254 9260 9266 9272 9278 9284 9290 9296 9302 9308 9314 9320 9326 9332 9338 9344 9350 9356 9362 9368 9374 9380 9386 9392 9398 9404 9410 9416 9422 9428 9434 9440 9446 9452 9458 9464 9470 9476 9482 9488 9494 9500 9506 9512 9518 9524 9530 9536 9542 9548 9554 9560 9566 9572 9578 9584 9590 9596 9602 9608 9614 9620 9626 9632 9638 9644 9650 9656 9662 9668 9674 9680 9686 9692 9698 9704 9710 9716 9722 9728 9734 9740 9746 9752 9758 9764 9770 9776 9782 9788 9794 9800 9806 9812 9818 9824 9830 9836 9842 9848 9854 9860 9866 9872 9878 9884 9890 9896 9902 9908 9914 9920 9926 9932 9938 9944 9950 9956 9962 9968 9974 9980 9986 9992 9998 10004 10010 10016 10022 10028 10034 10040 10046 10052 10058 10064 10070 10076 10082 10088 10094 10100 10106 10112 10118 10124 10130 10136 10142 10148 10154 10160 10166 10172 10178 10184 10190 10196 10202 10208 10214 10220 10226 10232 10238 10244 10250 10256 10262 10268 10274 10280 10286 10292 10298 10304 10310 10316 10322 10328 10334 10340 10346 10352 10358 10364 10370 10376 10382 10388 10394 10400 10406 10412 10418 10424 10430 10436 10442 10448 10454 10460 10466 10472 10478 10484 10490 10496 10502 10508 10514 10520 10526 10532 10538 10544 10550 10556 10562 10568 10574 10580 10586 10592 10598 10604 10610 10616 10622 10628 10634 10640 10646 10652 10658 10664 10670 10676 10682 10688 10694 10700 10706 10712 10718 10724 10730 10736 10742 10748 10754 10760 10766 10772 10778 10784 10790 10796 10802 10808 10814 10820 10826 10832 10838 10844 10850 10856 10862 10868 10874 10880 10886 10892 10898 10904 10910 10916 10922 10928 10934 10940 10946 10952 10958 10964 10970 10976 10982 10988 10994 11000 11006 11012 11018 11024 11030 11036 11042 11048 11054 11060 11066 11072 11078 11084 11090 11096 11102 11108 11114 11120 11126 11132 11138 11144 11150 11156 11162 11168 11174 11180 11186 11192 11198 11204 11210 11216 11222"/>
+</xmi:XMI>

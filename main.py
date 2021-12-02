@@ -6,7 +6,6 @@ import string
 import os
 from xml.etree import ElementTree as ET
 
-#st.set_page_config(layout="wide")
 
 if 'currentFile' not in st.session_state:
     st.session_state.currentFile = 0
@@ -23,8 +22,16 @@ if 'essay' not in st.session_state:
 if 'group' not in st.session_state:
     st.session_state.group = ""
 
+
 #Hier den richtigen Pfad einfügen
 pfad = r"C:\Users\jan-niklas\OneDrive - Universität Duisburg-Essen\Bachelorarbeit\Streamlit"
+
+promtAD = "**Do you agree or disagree with the following statement?**\n\n**Television advertising directed toward young " \
+          "children (aged two to five) should not be allowed.**\n\n**Use specific reasons and examples to support your answer.**"
+
+promtTE ="**Do you agree or disagree with the following statement?**\n\n**A teacher’s ability to relate well with students is " \
+         "more important than excellent knowledge of the subject being taught.**\n\n**Use specific reasons and examples to " \
+         "support your answer.**"
 
 
 def openFile(fileName, inhalt):
@@ -32,37 +39,46 @@ def openFile(fileName, inhalt):
     infos.write(inhalt+"\n")
     infos.close()
 
+#Liste mit allen Essays der richtigen Gruppe
+def anzahlEssays():
+    if st.session_state.essay == "a":
+        list = os.listdir(pfad+"/"+"Testgruppe1")
+    elif st.session_state.essay == "b":
+        list = os.listdir(pfad+"/"+"Testgruppe2")
+    elif st.session_state.essay == "c":
+        list = os.listdir(pfad+"/"+"Testgruppe3")
+    elif st.session_state.essay == "d":
+        list = os.listdir(pfad+"/"+"Testgruppe4")
+    elif st.session_state.essay == "e":
+        list = os.listdir(pfad+"/"+"Testgruppe5")
+    return list
+
+    # Klauseln zur Einlesung des richtigen Essaysets
+def einlesen(files):
+    if st.session_state.essay == "a":
+        f = open(pfad+"/"+"Testgruppe1"+"/"+files[st.session_state.currentFile])
+    elif st.session_state.essay == "b":
+        f = open(pfad+"/"+"Testgruppe2"+"/"+files[st.session_state.currentFile])
+    elif st.session_state.essay == "c":
+        f = open(pfad+"/"+"Testgruppe3"+"/"+files[st.session_state.currentFile])
+    elif st.session_state.essay == "d":
+        f = open(pfad+"/"+"Testgruppe4"+"/"+files[st.session_state.currentFile])
+    elif st.session_state.essay == "e":
+        f = open(pfad+"/"+"Testgruppe5"+"/"+files[st.session_state.currentFile])
+    return f
+
 
 if st.session_state.start == 1:
-    #Klauseln zur Einlesung des richtigen Essaysets
-    def einlesen():
-        if st.session_state.essay == "a":
-            files = os.listdir(pfad+"/"+"Testgruppe1")
-            f = open(pfad+"/"+"Testgruppe1"+"/"+files[st.session_state.currentFile])
-        elif st.session_state.essay == "b":
-            files = os.listdir(pfad+"/"+"Testgruppe2")
-            f = open(pfad+"/"+"Testgruppe2"+"/"+files[st.session_state.currentFile])
-        elif st.session_state.essay == "c":
-            files = os.listdir(pfad+"/"+"Testgruppe3")
-            f = open(pfad+"/"+"Testgruppe3"+"/"+files[st.session_state.currentFile])
-        elif st.session_state.essay == "d":
-            files = os.listdir(pfad+"/"+"Testgruppe4")
-            f = open(pfad+"/"+"Testgruppe4"+"/"+files[st.session_state.currentFile])
-        elif st.session_state.essay == "e":
-            files = os.listdir(pfad+"/"+"Testgruppe5")
-            f = open(pfad+"/"+"Testgruppe5"+"/"+files[st.session_state.currentFile])
-        return f
-
-
     # TODO: hier noch anpasen wegen Anzahl der Dateien!
-    numberOfFiles = 2
+    numberOfFiles = len(anzahlEssays())
     #st.write(file)
     if st.session_state.group == "G1":
         if numberOfFiles > st.session_state.currentFile:
             st.title("Essay " + str(st.session_state.currentFile + 1))
             st.caption("Bitte lesen Sie sich das Essay durch und bewerten Sie es, wie Sie es gewohnt sind. Danach tragen Sie eine Bewertung hinsichtlich der Kompetenz für den Text und  für den Wortschatz ein (Sehr hohe - stark ungenügende Kompetenz). Wenn Sie fertig sind, drücken Sie auf den Button 'Weiter'. Nutzen Sie alle zur Verfügung gestellten Features nach eigenem Belieben.")
-            #st.write(st.session_state.currentFile)
-            file = einlesen()
+            files = anzahlEssays()
+            #st.write(files[st.session_state.currentFile])
+            file = einlesen(files)
             myf = ET.parse(file)
             root = myf.getroot()
             name = file.name
@@ -81,7 +97,6 @@ if st.session_state.start == 1:
             for child in root:
                 if child.attrib.get('sofaString') is not None:
                     sofaString = child.attrib.get('sofaString')
-                    #st.write(sofaString)
                 if child.attrib.get('pos') is not None and child.attrib.get('begin') is not None:
                     posArray.append(int(child.attrib.get('pos')))
                     beginArray.append(int(child.attrib.get('begin')))
@@ -119,6 +134,9 @@ if st.session_state.start == 1:
                         if x[0].upper() == "NO":
                             finalArray.append("KEIN LEVEL")
                         else:
+                            finalArray.append(x[0].upper())
+                    elif x[0].upper() not in finalArray and "KEIN LEVEL" in finalArray:
+                        if x[0].upper() != "NO":
                             finalArray.append(x[0].upper())
                 finalArray.remove(finalArray[0])
                 return finalArray
@@ -177,8 +195,13 @@ if st.session_state.start == 1:
                         actualIndexLevel += 1
                         i += 1
                 else:
-                    wordIndexListLevel.append(["KEIN LEVEL", str(finalXmiListRep[actualIndexLevel][0])])
-                    actualIndexLevel += 1
+                    if int(finalLevel[i][1]) > int(finalXmiListRep[actualIndexLevel][1]):
+
+                        actualIndexLevel += 1
+                    elif int(finalLevel[i][1]) < int(finalXmiListRep[actualIndexLevel][1]):
+                        i += 1
+                    else:
+                        wordIndexListLevel.append(["KEIN LEVEL", str(finalXmiListRep[actualIndexLevel][0])])
             #st.write("LevelWort: ", wordIndexListLevel)
 
             alreadySeenLevel = noRep(level)
@@ -208,6 +231,11 @@ if st.session_state.start == 1:
             st.subheader("Anzahl der Verwendeten Wörter nach ihrem Sprachniveau")
             st.plotly_chart(fig)
 
+            st.subheader("Aufgabenstellung:")
+            if "AD" in files[st.session_state.currentFile]:
+                st.write(promtAD)
+            if "TE" in files[st.session_state.currentFile]:
+                st.write(promtTE)
             color = st.radio("Sprachlevel farbig markiert sehen?", ('Ja', 'Nein'), index=1)
 
             if color == 'Nein':
@@ -268,11 +296,18 @@ if st.session_state.start == 1:
         if numberOfFiles > st.session_state.currentFile:
             st.title("Essay " + str(st.session_state.currentFile + 1))
             st.caption("Bitte lesen Sie sich das Essay durch und bewerten Sie es, wie Sie es gewohnt sind. Danach tragen Sie eine Bewertung hinsichtlich der Kompetenz für den Text und  für den Wortschatz ein (Sehr hohe - stark ungenügende Kompetenz). Wenn Sie fertig sind, drücken Sie auf den Button 'Weiter'. Nutzen Sie alle zur Verfügung gestellten Features nach eigenem Belieben.")
-            file = einlesen()
+            files = anzahlEssays()
+            file = einlesen(files)
             myf = ET.parse(file)
             root = myf.getroot()
             name = file.name
             #type = file.type
+
+            st.subheader("Aufgabenstellung:")
+            if "AD" in files[st.session_state.currentFile]:
+                st.markdown(promtAD)
+            if "TE" in files[st.session_state.currentFile]:
+                st.markdown(promtTE)
 
             for child in root:
                 if child.attrib.get('sofaString') is not None:
@@ -308,7 +343,7 @@ if st.session_state.start == 1:
             openFile(st.session_state.random, text)
 
 else:
-    st.write("Sehr geehrte Proband*innen,\n"+"\n"+"im Folgenden sehen Sie 8 Essays auf Englisch. Diese unterscheiden sich sowohl in ihrem Sprachniveau, als auch in ihrer Thematik. Die Essays wurden von Schülerinnen und Schüler der Oberstufe verfasst.\n"+"\n"+
+    st.write("Sehr geehrte Proband*innen,\n"+"\n"+"im Folgenden sehen Sie 8 Essays auf Englisch. Diese unterscheiden sich sowohl in ihrem Sprachniveau, als auch in ihrer Thematik. Die Essays wurden von Schülerinnen und Schülern der Oberstufe verfasst.\n"+"\n"+
              "Zudem besteht die Möglichkeit, dass Sie Zusatzinformationen über den Wortschatz des jeweiligen Essays erhalten. Diese können in Form von Diagrammen und farblichen Markierungen gegeben sein. Ob und wie Sie diese Informationen nutzen, ist Ihnen überlassen.\n"+"\n"+
              "Bitte bewerten Sie alle Essays, so wie Sie es gewohnt sind und geben Sie am Ende eine Gesamtnote ab. Für diese Bewertung benutzen Sie bitte die am Ende der Webseite gekennzeichnete Skala von 'Sehr hohe Kompetenzen' bis 'Stark ungenügende Kompetenzen'. Anschließend finden Sie noch eine weitere Skala zur spezifischen Bewertung des Wortschatzes.\n"+"\n"+
              "Wenn Sie die Bewertung für das erste Essay abgeschlossen haben, drücken Sie auf den Button „Weiter“, welcher unten auf der Webseite zu finden ist, um zum nächsten Essay zu gelangen und dieses auf die gleiche Weise zu bearbeiten. Bitte beachte Sie, dass es keine Möglichkeit gibt, zu einem vorherigen Essay zurückzukehren. Schließen Sie daher die Bewertung erst vollständig ab, bevor Sie den Button drücken.\n"+"\n"+
