@@ -74,7 +74,7 @@ def einlesen(files):
 
 
 if st.session_state.start == 1:
-    st.header("Test für push")
+    #st.header("Test für push")
     # TODO: hier noch anpasen wegen Anzahl der Dateien!
     numberOfFiles = len(anzahlEssays())
     #st.write(file)
