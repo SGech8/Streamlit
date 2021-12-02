@@ -274,7 +274,7 @@ if st.session_state.start == 1:
                     if wordTypePair[0].upper() in alreadySeenLevel:
                         typePosition = alreadySeenLevel.index(str(wordTypePair[0].upper()))
                         #st.write(typePosition)
-                        wordTypePair[1] = "<span style=\"background-color: " + availableColors[typePosition] + "\">" + wordTypePair[1] + "</span>"
+                        wordTypePair[1] = "<span style=\"background-color: " + pieColors[typePosition] + "\">" + wordTypePair[1] + "</span>"
                         #st.write(wordTypePair)
 
                     stringWithColors = stringWithColors + " " + wordTypePair[1]
