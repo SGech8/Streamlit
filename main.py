@@ -117,7 +117,7 @@ if st.session_state.start == 1:
             #st.write("beginArray: ", beginArray)
             #st.write("level: ", level)
 
-            #pos und tatsächlicher typ sind da drin, mit pos kann man bessser mit den worten matchen, so mein gedanke
+            #pos und tatsächliche Info sind da drin, mit pos kann man bessser mit den worten matchen, so mein gedanke
             def infoPos(array):
                 indexNow = None
                 finalArray = []
@@ -285,17 +285,14 @@ if st.session_state.start == 1:
 
             grade = st.selectbox("Kompetenzen beim Schreiben:", ("Sehr Hohe", "Hohe", "Mittlere", "Genügende",
                                                                  "Ungenügende", "Stark Ungenügende"))
-            if grade:
-                openFile(st.session_state.random, "Grade: " + grade)
 
             score = st.selectbox("Kompetenzen im Wortschatz:", ("Sehr Hohe", "Hohe", "Mittlere", "Genügende",
                                                                  "Ungenügende", "Stark Ungenügende"))
-            if score:
-                openFile(st.session_state.random, "Score: " + score)
-            #openFile(st.session_state.random, str(score))
 
             next = st.button("Weiter")
             if next:
+                openFile(st.session_state.random, "Grade: " + grade)
+                openFile(st.session_state.random, "Score: " + score)
                 st.session_state.currentFile += 1
                 st.session_state.endZeit = time.time()
                 zeit = st.session_state.endZeit - st.session_state.startZeit
@@ -335,18 +332,18 @@ if st.session_state.start == 1:
                     sofaString = child.attrib.get('sofaString')
             st.write(sofaString)
 
-            grade2 = st.selectbox("Kompetenzen beim Schreiben:", ("Sehr Hohe", "Hohe", "Mittlere", "Genügende",
+            grade = st.selectbox("Kompetenzen beim Schreiben:", ("Sehr Hohe", "Hohe", "Mittlere", "Genügende",
                                                                  "Ungenügende", "Stark Ungenügende"))
-            if grade2:
-                openFile(st.session_state.random, "Grade: " + grade2)
 
-            score2 = st.selectbox("Kompetenzen im Wortschatz:", ("Sehr Hohe", "Hohe", "Mittlere", "Genügende",
+
+            score = st.selectbox("Kompetenzen im Wortschatz:", ("Sehr Hohe", "Hohe", "Mittlere", "Genügende",
                                                                 "Ungenügende", "Stark Ungenügende"))
-            if score2:
-                openFile(st.session_state.random, "Score: " + score2)
+
 
             next = st.button("Weiter")
             if next:
+                openFile(st.session_state.random, "Grade: " + grade)
+                openFile(st.session_state.random, "Score: " + score)
                 st.session_state.currentFile += 1
                 st.session_state.endZeit = time.time()
                 zeit = st.session_state.endZeit - st.session_state.startZeit
